@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>Bracket Viewer</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<style>html,body{margin:0;padding:0;background:transparent;}#host{width:100%;}</style>
+</head>
+<body>
+<div id="host"></div>
+<script>
+// ── CONSTANTS ────────────────────────────────────────────
+const SHEET_ID  = '1ezXGO77z4h8npTlPAAMiV_nCRTQ7wunlTPKrkXEhsM0';
+const SHEET_GID = '969872772';
+
+// Card/layout dimensions (px) — must match mockup
+const ROW_H   = 46;   // team row height
+const CARD_H  = 95;   // card (1+46+1+46+1)
+const GHOST_H = 48;   // empty slot above OR card in funnel unit
+const UNIT_H  = 143;  // GHOST_H + CARD_H
+const GAP     = 10;   // gap between units
+const STRIDE  = 153;  // UNIT_H + GAP
+const CONN_W  = 65;   // connector SVG width
+const FADE_W  = 90;   // right-fade SVG width
+const SR_TOP  = 12;   // SR card top-offset inside unit
+const OR_CTR  = GHOST_H + CARD_H / 2;   // 95.5 — OR card center within unit
+const SR_CTR  = SR_TOP  + CARD_H / 2;   // 59.5 — SR card center within unit
+const JX      = 32;   // junction x inside connector SVG
+const CARD_W  = 260;  // matchup card width
+
+// Std layout slot (subsequent rounds)
+const SLOT    = CARD_H + GAP;   // 105
+
+// ── STATE ────────────────────────────────────────────────
+let view = 0;
+let bd   = null;   // bracket data JSON
+let recs = {};     // { teamName: 'W-L' }
+let mob  = window.innerWidth < 600;
+let shad = null;
+
+// ── INIT ─────────────────────────────────────────────────
+async function init() {
+  const host = document.getElementById('host');
+  shad = host.attachShadow({ mode: 'open' });
+  shad.innerHTML = css() + '<div class="wrap"><p class="msg">Loading&hellip;</p></div>';
+
+  const params = new URLSearchParams(location.search);
+  const url    = params.get('data');
+  if (!url) { shad.innerHTML = css() + '<div class="wrap"><p class="msg">No bracket specified.</p></div>'; return; }
+
+  try {
+    [bd, recs] = await Promise.all([
+      fetch(url).then(r => r.json()),
+      loadRecords()
+    ]);
+  } catch(e) {
+    shad.innerHTML = css() + '<div class="wrap"><p class="msg">Error loading bracket.</p></div>';
+    return;
+  }
+  paint();
+}
+
+// ── GOOGLE SHEETS (gviz — live data, no API key needed) ──
+async function loadRecords() {
+  const url = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:json&gid=${SHEET_GID}&range=A:B`;
+  try {
+    const t = await fetch(url).then(r => r.text());
+    const j = JSON.parse(t.substring(t.indexOf('(') + 1, t.lastIndexOf(')')));
+    const out = {};
+    (j.table.rows || []).forEach(row => {
+      if (row.c && row.c[0]?.v && row.c[1]?.v)
+        out[String(row.c[0].v).trim()] = String(row.c[1].v).trim();
+    });
+    return out;
+  } catch(e) { return {}; }
+}
+
+// ── PAINT ─────────────────────────────────────────────────
+function paint() {
+  shad.innerHTML = css() + html();
+  wire();
+}
+
+function html() {
+  return `<div class="wrap">
+    ${header()}
+    <div class="outer" id="outer">${content()}</div>
+  </div>`;
+}
+
+function header() {
+  return `<div class="hdr">
+    <div class="hdr-text">
+      <div class="hdr-sub">${subTitle()}</div>
+      <div class="hdr-main">${bd.title}</div>
+    </div>
+    <div class="hdr-nav">
+      <button id="prev" class="nbtn" ${view===0?'disabled':''}>&lsaquo;</button>
+      <div class="nlabel" id="nlabel">${navLabel()}</div>
+      <button id="next" class="nbtn" ${view>=maxView()?'disabled':''}>&rsaquo;</button>
+    </div>
+  </div>`;
+}
+
+function subTitle() {
+  const t = bd.bracketType;
+  if (t==='48split')  return '1A&ndash;6A &bull; North/South';
+  if (t==='48single') return '7A/8A &bull; Single Bracket';
+  return '';
+}
+
+function navLabel() {
+  const n = bd.roundNames;
+  if (mob) return n[view] || `Round ${view+1}`;
+  const l = n[view]   || `Round ${view+1}`;
+  const r = n[view+1] || `Round ${view+2}`;
+  return `${l} <span class="na">&rarr;</span> ${r}`;
+}
+
+function maxView() {
+  return mob ? bd.roundNames.length - 1 : bd.roundNames.length - 2;
+}
+
+// ── CONTENT DISPATCH ──────────────────────────────────────
+function content() {
+  const t = bd.bracketType;
+  if (t === '48split')  return split48();
+  if (t === '48single') return single48();
+  return standard();
+}
+
+// ── 48 SPLIT ─────────────────────────────────────────────
+function split48() {
+  const {matchups} = bd;
+  const funnel  = view === 0;
+  const viewR   = mob ? 0 : 1;
+
+  const nL = mFor('N', view);
+  const nR = mob ? [] : mFor('N', view + viewR);
+  const sL = mFor('S', view);
+  const sR = mob ? [] : mFor('S', view + viewR);
+
+  const champ = matchups.find(m => m.id === 'CHAMPIONSHIP');
+  const showChamp = !mob && view >= bd.roundNames.length - 2 && champ;
+
+  let out = '';
+  if (mob) {
+    out += mobSection('N', nL);
+    out += `<div class="divider-row"><span>&#9660; South</span></div>`;
+    out += mobSection('S', sL);
+  } else {
+    out += `<div class="sec-lbl north">&#9650; North</div>`;
+    out += funnel ? funnelSec(nL, nR) : stdSec(nL, nR);
+    out += `<div class="divider-row south-div"><span>&#9660; South</span></div>`;
+    out += funnel ? funnelSec(sL, sR) : stdSec(sL, sR);
+  }
+  if (showChamp) {
+    out += `<div class="champ-wrap">
+      <div class="champ-lbl">&#127942; State Championship</div>
+      ${card(champ)}
+    </div>`;
+  }
+  return out;
+}
+
+function mFor(side, r) {
+  return bd.matchups.filter(m => m.side === side && m.round === r)
+    .sort((a, b) => a.position - b.position);
+}
+
+// ── 48 SINGLE ─────────────────────────────────────────────
+function single48() {
+  const left  = bd.matchups.filter(m => m.side === null && m.round === view).sort((a,b)=>a.position-b.position);
+  const right = mob ? [] : bd.matchups.filter(m => m.side === null && m.round === view+1).sort((a,b)=>a.position-b.position);
+  if (mob)              return mobSection(null, left);
+  if (view === 0)       return funnelSec(left, right);
+  return stdSec(left, right);
+}
+
+// ── STANDARD ─────────────────────────────────────────────
+function standard() {
+  const left  = bd.matchups.filter(m => m.round === view).sort((a,b)=>a.position-b.position);
+  const right = mob ? [] : bd.matchups.filter(m => m.round === view+1).sort((a,b)=>a.position-b.position);
+  if (mob) return mobSection(null, left);
+  return stdSec(left, right);
+}
+
+// ── FUNNEL SECTION ────────────────────────────────────────
+// OR games pushed to bottom of each UNIT_H unit.
+// SR cards sit at SR_TOP inside the same unit.
+// Connector arm: horiz from OR center → up to SR center → horiz to SR card.
+function funnelSec(leftMUs, rightMUs) {
+  const n = leftMUs.length;
+  if (!n) return '';
+  const svgH = n * UNIT_H + (n - 1) * GAP;
+
+  // Left column
+  const leftHTML = leftMUs.map((mu, i) =>
+    `<div class="unit-box" style="height:${UNIT_H}px;display:flex;flex-direction:column;justify-content:flex-end;">${card(mu)}</div>` +
+    (i < n-1 ? `<div style="height:${GAP}px"></div>` : '')
+  ).join('');
+
+  // Connector SVG
+  const clines = leftMUs.map((_, i) => {
+    const U = i * STRIDE;
+    return `<line x1="0" y1="${U+OR_CTR}" x2="${JX}" y2="${U+OR_CTR}"/>` +
+           `<line x1="${JX}" y1="${U+OR_CTR}" x2="${JX}" y2="${U+SR_CTR}"/>` +
+           `<line x1="${JX}" y1="${U+SR_CTR}" x2="${CONN_W}" y2="${U+SR_CTR}"/>`;
+  }).join('');
+
+  const connSVG = `<svg width="${CONN_W}" height="${svgH}" style="flex-shrink:0;overflow:visible"><g stroke="#ccc" stroke-width="1.5" fill="none">${clines}</g></svg>`;
+
+  // Right column
+  const rightHTML = rightMUs.map((mu, i) =>
+    `<div class="unit-box" style="height:${UNIT_H}px;padding-top:${SR_TOP}px;box-sizing:border-box;">${card(mu)}</div>` +
+    (i < n-1 ? `<div style="height:${GAP}px"></div>` : '')
+  ).join('');
+
+  // Right fade arms (pairs of SR cards → QF)
+  const flines = [];
+  for (let p = 0; p < Math.floor(n/2); p++) {
+    const y0 = p*2*STRIDE + SR_CTR, y1 = (p*2+1)*STRIDE + SR_CTR, mid = (y0+y1)/2;
+    flines.push(
+      `<line x1="0" y1="${y0}" x2="38" y2="${y0}"/>` +
+      `<line x1="38" y1="${y0}" x2="38" y2="${y1}"/>` +
+      `<line x1="0" y1="${y1}" x2="38" y2="${y1}"/>` +
+      `<line x1="38" y1="${mid}" x2="${FADE_W}" y2="${mid}"/>`
+    );
+  }
+  const fadeSVG = `<svg width="${FADE_W}" height="${svgH}" style="flex-shrink:0;overflow:visible"><g stroke="#ccc" stroke-width="1.5" fill="none">${flines.join('')}</g></svg>`;
+
+  return `<div class="bscroll"><div class="brow">
+    <div class="col">${leftHTML}</div>
+    ${connSVG}
+    <div class="col">${rightHTML}</div>
+    ${fadeSVG}
+    <div class="fade-ov"></div>
+  </div></div>`;
+}
+
+// ── STANDARD SECTION (2:1 bracket arms) ──────────────────
+function stdSec(leftMUs, rightMUs) {
+  const n = leftMUs.length;
+  if (!n) return '';
+
+  // Centers of left matchups
+  const lCtr = leftMUs.map((_, i) => (i + 0.5) * SLOT);
+  // Centers of right matchups (midpoints of pairs)
+  const rCtr = [];
+  for (let p = 0; p < Math.floor(n/2); p++)
+    rCtr.push((lCtr[p*2] + lCtr[p*2+1]) / 2);
+  const hasRight = rightMUs.length > 0;
+  const svgH = n * SLOT - GAP;
+
+  // Left column
+  const lPad = Math.round((SLOT - CARD_H) / 2);
+  const leftHTML = leftMUs.map(mu =>
+    `<div style="height:${SLOT}px;padding-top:${lPad}px;box-sizing:border-box;">${card(mu)}</div>`
+  ).join('');
+
+  // Connector SVG
+  const clines = rCtr.map((mid, p) => {
+    const y0 = lCtr[p*2], y1 = lCtr[p*2+1];
+    return `<line x1="0" y1="${y0}" x2="${JX}" y2="${y0}"/>` +
+           `<line x1="${JX}" y1="${y0}" x2="${JX}" y2="${y1}"/>` +
+           `<line x1="0" y1="${y1}" x2="${JX}" y2="${y1}"/>` +
+           `<line x1="${JX}" y1="${mid}" x2="${CONN_W}" y2="${mid}"/>`;
+  }).join('');
+  const connSVG = `<svg width="${CONN_W}" height="${svgH}" style="flex-shrink:0;overflow:visible"><g stroke="#ccc" stroke-width="1.5" fill="none">${clines}</g></svg>`;
+
+  // Right column (positioned at rCtr)
+  let prevBot = 0;
+  const rightHTML = rightMUs.map((mu, i) => {
+    const top = rCtr[i] - CARD_H / 2;
+    const sp  = Math.max(0, top - prevBot);
+    prevBot   = top + CARD_H;
+    return (sp > 0 ? `<div style="height:${sp}px"></div>` : '') + card(mu);
+  }).join('');
+
+  // Right fade arms (pairs of rCtr → next round)
+  const flines = [];
+  for (let p = 0; p < Math.floor(rCtr.length/2); p++) {
+    const y0 = rCtr[p*2], y1 = rCtr[p*2+1], mid = (y0+y1)/2;
+    flines.push(
+      `<line x1="0" y1="${y0}" x2="38" y2="${y0}"/>` +
+      `<line x1="38" y1="${y0}" x2="38" y2="${y1}"/>` +
+      `<line x1="0" y1="${y1}" x2="38" y2="${y1}"/>` +
+      `<line x1="38" y1="${mid}" x2="${FADE_W}" y2="${mid}"/>`
+    );
+  }
+  const fadeSVG = flines.length ? `<svg width="${FADE_W}" height="${svgH}" style="flex-shrink:0;overflow:visible"><g stroke="#ccc" stroke-width="1.5" fill="none">${flines.join('')}</g></svg>` : '';
+
+  return `<div class="bscroll"><div class="brow">
+    <div class="col">${leftHTML}</div>
+    ${connSVG}
+    ${hasRight ? `<div class="col">${rightHTML}</div>` : ''}
+    ${fadeSVG}
+    ${flines.length ? '<div class="fade-ov"></div>' : ''}
+  </div></div>`;
+}
+
+// ── MOBILE SECTION ────────────────────────────────────────
+function mobSection(side, mus) {
+  if (!mus.length) return '';
+  const label = side === 'N' ? '<div class="sec-lbl north">&#9650; North</div>' :
+                side === 'S' ? '<div class="sec-lbl south">&#9660; South</div>' : '';
+  return label + `<div class="mob-col">${mus.map(mu => card(mu)).join('')}</div>`;
+}
+
+// ── MATCHUP CARD ──────────────────────────────────────────
+function card(mu) {
+  if (!mu) return '';
+  const w   = mu.winner;
+  const hasW = w !== null && w !== undefined;
+  const t1W  = hasW && mu.team1 && w === mu.team1.seed;
+  const t2W  = hasW && mu.team2 && w === mu.team2.seed;
+  const isBye = !!mu.isBye;
+
+  // Find OR matchup to show "Winner of X vs Y" placeholder
+  let orMu = null;
+  if (isBye && !mu.team2?.name) {
+    const sid = mu.side ? '-' + mu.side : '';
+    orMu = bd.matchups.find(m => m.id === `R0-M${mu.position}${sid}`);
+  }
+
+  return `<div class="card">
+    ${row(mu.team1, t1W, hasW && !t1W, isBye && !hasW, null)}
+    <div class="div"></div>
+    ${row(mu.team2, t2W, hasW && !t2W, false, orMu)}
+  </div>`;
+}
+
+function row(team, isW, isF, showBye, orMu) {
+  if (!team && orMu && orMu.team1 && orMu.team2) {
+    return `<div class="trow"><span class="tbd">Winner of ${orMu.team1.seed} vs. ${orMu.team2.seed}</span></div>`;
+  }
+  if (!team || !team.name) {
+    return `<div class="trow"><span class="tbd">TBD</span></div>`;
+  }
+  const rec   = recs[team.name] || '';
+  const score = team.score !== null && team.score !== undefined ? team.score : '\u2013';
+  const logo  = team.logo
+    ? `<img class="logo" src="${team.logo}" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+    : `<span class="logo-ph"></span>`;
+  const right = showBye
+    ? `<span class="bye-badge">BYE</span>`
+    : `<span class="score">${score}</span>`;
+
+  return `<div class="trow ${isW?'win':''} ${isF?'fade':''}">
+    ${logo}
+    <span class="seed">${team.seed ?? ''}</span>
+    <span class="name">${team.name}</span>
+    ${rec ? `<span class="rec">${rec}</span>` : ''}
+    ${right}
+  </div>`;
+}
+
+// ── WIRE LISTENERS ────────────────────────────────────────
+function wire() {
+  shad.getElementById('prev')?.addEventListener('click', () => {
+    view = Math.max(0, view - 1);
+    refresh();
+  });
+  shad.getElementById('next')?.addEventListener('click', () => {
+    view = Math.min(maxView(), view + 1);
+    refresh();
+  });
+  window.addEventListener('resize', () => {
+    const nm = window.innerWidth < 600;
+    if (nm !== mob) { mob = nm; paint(); }
+  });
+}
+
+function refresh() {
+  shad.getElementById('outer').innerHTML = content();
+  shad.getElementById('nlabel').innerHTML = navLabel();
+  shad.getElementById('prev').disabled = view === 0;
+  shad.getElementById('next').disabled = view >= maxView();
+}
+
+// ── CSS ───────────────────────────────────────────────────
+function css() {
+  return `<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:host{display:block;width:100%;font-family:'Barlow',Arial,Helvetica,sans-serif;}
+.wrap{background:#f5f5f5;}
+.msg{font-size:16px;color:#999;padding:40px 20px;text-align:center;}
+
+/* HEADER */
+.hdr{background:#fff;border-bottom:1px solid #e0e0e0;padding:14px 20px;
+  display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;}
+.hdr-sub{font-size:14px;font-weight:700;color:#999;text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;}
+.hdr-main{font-size:22px;font-weight:700;color:#111;line-height:1.2;}
+.hdr-nav{display:flex;align-items:center;gap:12px;flex-shrink:0;}
+.nbtn{width:40px;height:40px;border-radius:50%;background:#111;color:#fff;border:none;
+  font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  font-weight:700;line-height:1;transition:background .15s;}
+.nbtn:disabled{background:#e0e0e0;color:#bbb;cursor:default;}
+.nbtn:not(:disabled):hover{background:#333;}
+.nlabel{font-size:16px;font-weight:700;color:#111;text-align:center;
+  min-width:180px;white-space:nowrap;}
+.na{color:#bbb;font-weight:400;}
+
+/* OUTER */
+.outer{padding:20px;overflow-x:auto;}
+.bscroll{overflow-x:auto;}
+.brow{display:inline-flex;align-items:flex-start;position:relative;}
+.col{display:flex;flex-direction:column;}
+.unit-box{}
+.mob-col{display:flex;flex-direction:column;gap:${GAP}px;}
+
+/* CARD */
+.card{background:#fff;border:1px solid #e0e0e0;border-radius:4px;
+  width:${CARD_W}px;overflow:hidden;flex-shrink:0;}
+.div{height:1px;background:#eee;}
+
+/* TEAM ROW */
+.trow{display:flex;align-items:center;gap:8px;padding:0 12px;height:${ROW_H}px;}
+.trow.win{font-weight:700;}
+.trow.fade{opacity:.35;}
+.logo{width:26px;height:26px;object-fit:contain;border-radius:13px;flex-shrink:0;}
+.logo-ph{width:26px;height:26px;border-radius:13px;background:#e8e8e8;flex-shrink:0;display:inline-block;}
+.seed{font-size:16px;color:#888;min-width:22px;text-align:right;flex-shrink:0;}
+.trow.fade .seed{color:#ccc;}
+.name{flex:1;font-size:16px;color:#111;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.trow.fade .name{color:#bbb;}
+.rec{font-size:16px;color:#aaa;flex-shrink:0;margin:0 4px;}
+.score{font-size:16px;color:#111;min-width:22px;text-align:right;flex-shrink:0;}
+.trow.fade .score{color:#ccc;}
+.bye-badge{font-size:12px;font-weight:700;color:#999;background:#f2f2f2;
+  padding:3px 7px;border-radius:4px;border:1px solid #e0e0e0;flex-shrink:0;letter-spacing:.3px;}
+.tbd{font-size:16px;color:#bbb;font-style:italic;}
+
+/* SECTION LABELS */
+.sec-lbl{font-size:16px;font-weight:700;text-transform:uppercase;letter-spacing:1px;
+  color:#888;margin-bottom:12px;}
+.sec-lbl.north{color:#5b9cf6;}
+.sec-lbl.south{color:#e06c5b;}
+
+.divider-row{display:flex;align-items:center;gap:12px;margin:28px 0 16px;}
+.divider-row::before,.divider-row::after{content:'';flex:1;height:1px;background:#e0e0e0;}
+.divider-row span{font-size:16px;font-weight:700;text-transform:uppercase;
+  letter-spacing:1px;color:#888;white-space:nowrap;}
+.south-div span{color:#e06c5b;}
+
+/* FADE OVERLAY */
+.fade-ov{position:absolute;right:0;top:0;bottom:0;width:${FADE_W}px;
+  background:linear-gradient(to right,rgba(245,245,245,0),rgba(245,245,245,1) 85%);
+  pointer-events:none;}
+
+/* CHAMPIONSHIP */
+.champ-wrap{margin-top:28px;}
+.champ-lbl{font-size:18px;font-weight:700;color:#111;text-transform:uppercase;
+  letter-spacing:1px;margin-bottom:12px;text-align:center;}
+
+/* MOBILE */
+@media(max-width:599px){
+  .hdr{padding:12px 16px;}
+  .hdr-main{font-size:18px;}
+  .nlabel{min-width:120px;font-size:14px;}
+  .outer{padding:16px;}
+  .card{width:calc(100vw - 32px);}
+}
+</style>`;
+}
+
+// ── BOOTSTRAP ────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
