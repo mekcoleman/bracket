@@ -37,7 +37,7 @@ const SLOT    = CARD_H + GAP;   // 105
 let view = 0;
 let bd   = null;   // bracket data JSON
 let recs = {};     // { teamName: 'W-L' }
-let mob  = window.innerWidth < 600;
+let mob  = false;   // always show both rounds side by side; bracket scrolls horizontally if needed
 let shad = null;
 
 // ── INIT ─────────────────────────────────────────────────
@@ -368,8 +368,7 @@ function wire() {
     refresh();
   });
   window.addEventListener('resize', () => {
-    const nm = window.innerWidth < 600;
-    if (nm !== mob) { mob = nm; paint(); }
+    // no-op: both rounds always shown regardless of screen width
   });
 }
 

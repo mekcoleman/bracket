@@ -500,7 +500,7 @@ async function loadSchools() {
       .filter(row => row.c && row.c[0]?.v)
       .map(row => ({
         n: String(row.c[0].v).trim(),
-        l: row.c[1]?.v ? String(row.c[1].v).trim() : '',
+        l: (row.c[1]?.v ?? row.c[1]?.f ?? '').toString().trim(),
         s: row.c[2]?.v ? String(row.c[2].v).trim() : '',
         t: row.c[3]?.v ? String(row.c[3].v).trim() : '',
       }));
