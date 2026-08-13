@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<title>AP Poll</title>
+<style>html,body{margin:0;padding:0;background:transparent;}#host{width:100%;}</style>
+</head>
+<body>
+<div id="host"></div>
+<script>
+async function init() {
+  const host = document.getElementById('host');
+  const shad = host.attachShadow({ mode: 'open' });
+  shad.innerHTML = css() + '<div class="wrap"><p class="msg">Loading\u2026</p></div>';
+
+  const url = new URLSearchParams(location.search).get('data');
+  if (!url) { shad.innerHTML = css() + '<div class="wrap"><p class="msg">No poll specified.</p></div>'; return; }
+
+  try {
+    const data = await fetch(url).then(r => r.json());
+    shad.innerHTML = css() + build(data);
+    // Auto-resize iframe height
+    const h = shad.querySelector('.poll-card')?.offsetHeight || 500;
+    window.parent?.postMessage({ pollHeight: h + 32 }, '*');
+  } catch(e) {
+    shad.innerHTML = css() + '<div class="wrap"><p class="msg">Error loading poll.</p></div>';
+  }
+}
+
+function build(d) {
+  const { title, rankings, others, showOthers, suppressLastWeek } = d;
+
+  const thStyle = 'font-size:16px;font-weight:600;color:#555;text-align:left;padding:10px 14px;border-bottom:2px solid #e8e8e8;white-space:nowrap;';
+  const thBlank = `<th style="${thStyle}"></th>`;
+
+  const headerHTML = `
+    ${thBlank}
+    <th style="${thStyle}">School</th>
+    ${thBlank}
+    <th style="${thStyle}">Voting Points</th>
+    <th style="${thStyle}">First Place Votes</th>
+    ${suppressLastWeek ? '' : `<th style="${thStyle}">Last Week</th>`}
+  `;
+
+  const rowsHTML = rankings.map((r, idx) => {
+    const logo = r.logo
+      ? `<img src="${r.logo}" referrerpolicy="no-referrer" onerror="this.style.display='none'" class="logo">`
+      : '';
+    const fp = r.firstPlace ? r.firstPlace : '';
+    const lw = r.lastWeek ? r.lastWeek : 'NR';
+    const bg = idx % 2 === 0 ? '#fff' : '#fafafa';
+    const td = 'padding:10px 14px;font-size:16px;vertical-align:middle;border-bottom:1px solid #f0f0f0;';
+    return `<tr style="background:${bg};">
+      <td style="${td}color:#666;white-space:nowrap;width:56px;">No.&nbsp;${r.rank}</td>
+      <td style="${td}font-weight:500;min-width:120px;">${r.school}</td>
+      <td style="${td}width:44px;padding:6px 10px;">${logo}</td>
+      <td style="${td}font-weight:600;">${r.points}</td>
+      <td style="${td}color:#555;">${fp}</td>
+      ${suppressLastWeek ? '' : `<td style="${td}color:#555;">${lw}</td>`}
+    </tr>`;
+  }).join('');
+
+  const othersHTML = showOthers && others
+    ? `<div class="others">Others receiving votes: ${others}.</div>`
+    : '';
+
+  return `<div class="wrap">
+    <div class="poll-card">
+      <h2 class="poll-title">${title}</h2>
+      <div style="overflow-x:auto;">
+        <table class="poll-table">
+          <thead><tr>${headerHTML}</tr></thead>
+          <tbody>${rowsHTML}</tbody>
+        </table>
+      </div>
+      ${othersHTML}
+    </div>
+  </div>`;
+}
+
+function css() {
+  return `<style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    :host{display:block;width:100%;font-family:Arial,Helvetica,sans-serif;}
+    .wrap{background:#f9f9f9;padding:16px;}
+    .poll-card{background:#fff;border:1px solid #ddd;border-radius:6px;overflow:hidden;}
+    .poll-title{font-size:22px;font-weight:700;padding:16px 20px 14px;color:#111;border-bottom:1px solid #eee;}
+    .poll-table{width:100%;border-collapse:collapse;min-width:400px;}
+    .logo{width:36px;height:36px;object-fit:contain;display:block;}
+    .others{font-size:16px;color:#555;padding:12px 20px;border-top:1px solid #eee;font-style:italic;}
+    .msg{font-size:16px;color:#999;padding:40px 20px;text-align:center;}
+  </style>`;
+}
+
+init();
+</script>
+</body>
+</html>

@@ -314,6 +314,7 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
     <div class="topbar-logo">Bracket <span>Builder</span></div>
     <div class="topbar-actions">
       <button class="btn btn-accent btn-sm" onclick="openResults()">&#128203; Results</button>
+      <button class="btn btn-secondary btn-sm" onclick="openPoll()">&#128202; AP Poll</button>
       <button class="btn btn-secondary btn-sm" onclick="openLoadModal()">Load Existing</button>
       <button class="btn btn-sm" onclick="goStep(3)">Save &amp; Publish</button>
     </div>
@@ -434,6 +435,88 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
   </div>
   <div style="flex:1;overflow:auto;padding:28px 32px;">
     <div id="preview-wrap"></div>
+  </div>
+</div>
+
+<!-- POLL OVERLAY -->
+<div id="poll-overlay" style="position:fixed;inset:0;background:var(--bg);z-index:300;display:none;flex-direction:column;">
+  <div style="background:var(--bg2);border-bottom:1px solid var(--border);padding:0 32px;height:60px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
+    <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:22px;">&#128202; AP Poll Builder</h2>
+    <div style="display:flex;gap:10px;align-items:center;">
+      <span id="poll-status"></span>
+      <button class="btn btn-secondary btn-sm" onclick="pollLoadList()">Load Existing</button>
+      <button class="btn btn-success btn-sm" onclick="savePoll()">&#128190; Save</button>
+      <button class="btn btn-secondary btn-sm" onclick="closePoll()">&times; Close</button>
+    </div>
+  </div>
+  <div style="flex:1;overflow:auto;padding:28px 32px;max-width:960px;margin:0 auto;width:100%;">
+
+    <!-- Settings row -->
+    <div style="display:grid;grid-template-columns:160px 120px 1fr;gap:16px;margin-bottom:24px;align-items:end;">
+      <div class="field" style="margin:0;">
+        <label>Class</label>
+        <select id="poll-class">
+          <option value="8A">8A</option><option value="7A">7A</option>
+          <option value="6A">6A</option><option value="5A">5A</option>
+          <option value="4A">4A</option><option value="3A">3A</option>
+          <option value="2A">2A</option><option value="1A">1A</option>
+        </select>
+      </div>
+      <div class="field" style="margin:0;">
+        <label>Week</label>
+        <input type="number" id="poll-week" min="1" max="9" value="1" placeholder="7">
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;padding-bottom:4px;">
+        <input type="checkbox" id="poll-suppress-lw" style="width:auto;accent-color:var(--brand);cursor:pointer;">
+        <label for="poll-suppress-lw" style="font-size:14px;color:var(--text-muted);text-transform:none;letter-spacing:0;margin:0;cursor:pointer;">First week of season (hide Last Week column)</label>
+      </div>
+    </div>
+
+    <!-- Rankings table -->
+    <div class="card" style="padding:0;overflow:hidden;">
+      <table style="width:100%;border-collapse:collapse;">
+        <thead>
+          <tr>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);width:56px;">Rank</th>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);width:40px;">Logo</th>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);">School</th>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);width:130px;">Voting Points</th>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);width:130px;">1st Place Votes</th>
+            <th style="text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:10px 14px;border-bottom:1px solid var(--border);width:110px;">Last Week</th>
+          </tr>
+        </thead>
+        <tbody id="poll-tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- Others receiving votes -->
+    <div style="margin-top:20px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:12px;">
+        <input type="checkbox" id="poll-show-others" checked style="width:auto;accent-color:var(--brand);cursor:pointer;">
+        <label for="poll-show-others" style="font-size:14px;color:var(--text-muted);text-transform:none;letter-spacing:0;margin:0;cursor:pointer;">Show "Others receiving votes" row</label>
+      </div>
+      <div class="field">
+        <label>Others Receiving Votes</label>
+        <input type="text" id="poll-others" placeholder="Bolingbrook 11, Sandburg 7, Loyola 4">
+        <div class="hint">Format: School Name ##, School Name ## &mdash; period added automatically.</div>
+      </div>
+    </div>
+
+    <!-- Embed output -->
+    <div id="poll-embed-wrap" style="display:none;margin-top:24px;padding-top:24px;border-top:1px solid var(--border);">
+      <div class="card-title" style="margin-bottom:12px;">Embed Code</div>
+      <div class="embed-box" id="poll-embed-out"></div>
+      <div class="action-row" style="margin-top:12px;">
+        <button class="btn btn-secondary btn-sm" onclick="copyPollEmbed()">Copy Embed Code</button>
+      </div>
+    </div>
+
+    <!-- Load existing list -->
+    <div id="poll-load-wrap" style="display:none;margin-top:24px;padding-top:24px;border-top:1px solid var(--border);">
+      <div class="card-title" style="margin-bottom:12px;">Saved Polls</div>
+      <div id="poll-file-list"></div>
+    </div>
+
   </div>
 </div>
 
@@ -1099,6 +1182,201 @@ async function saveResults() {
     document.getElementById('res-save-status').innerHTML = '<span class="status-pill error"><span class="dot"></span>Failed</span>';
     showToast('Error: ' + e.message,'error');
   }
+}
+
+// ── AP POLL ────────────────────────────────────────────────
+function openPoll() {
+  document.getElementById('poll-overlay').style.display = 'flex';
+  buildPollRows();
+  document.getElementById('poll-embed-wrap').style.display = 'none';
+  document.getElementById('poll-load-wrap').style.display = 'none';
+}
+
+function closePoll() {
+  document.getElementById('poll-overlay').style.display = 'none';
+}
+
+function buildPollRows() {
+  const tbody = document.getElementById('poll-tbody');
+  tbody.innerHTML = '';
+  for (let i = 1; i <= 10; i++) {
+    const tr = document.createElement('tr');
+    tr.style.borderBottom = '1px solid rgba(42,52,80,.4)';
+    tr.innerHTML = `
+      <td style="padding:8px 14px;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:16px;color:var(--accent);">No.&nbsp;${i}</td>
+      <td style="padding:6px 8px;width:40px;" id="plc-${i}"><div class="logo-empty">?</div></td>
+      <td style="padding:6px 14px;">
+        <div class="autocomplete-wrap" id="pacw-${i}">
+          <input type="text" id="ptn-${i}" placeholder="Search school\u2026"
+            oninput="pAcInput(${i})" onfocus="pAcFocus(${i})" onblur="pAcBlur(${i})">
+          <div class="autocomplete-list" id="pacl-${i}"></div>
+        </div>
+        <input type="hidden" id="plu-${i}">
+      </td>
+      <td style="padding:6px 14px;"><input type="number" id="ppts-${i}" min="0" placeholder="0"
+        style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;color:var(--text);font-size:14px;outline:none;"></td>
+      <td style="padding:6px 14px;"><input type="number" id="pfp-${i}" min="0" placeholder=""
+        style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;color:var(--text);font-size:14px;outline:none;"></td>
+      <td style="padding:6px 14px;"><input type="text" id="plw-${i}" placeholder="NR" maxlength="3"
+        style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;color:var(--text);font-size:14px;outline:none;"></td>`;
+    tbody.appendChild(tr);
+  }
+}
+
+// Poll autocomplete (reuses SCHOOLS array)
+function pAcInput(i) { pAcShow(i, document.getElementById('ptn-' + i).value); }
+function pAcFocus(i) { pAcShow(i, document.getElementById('ptn-' + i).value); }
+function pAcBlur(i)  { setTimeout(() => { const el = document.getElementById('pacl-' + i); if (el) el.classList.remove('open'); }, 200); }
+
+function pAcShow(i, q) {
+  const list = document.getElementById('pacl-' + i);
+  if (!list || !q) { list && list.classList.remove('open'); return; }
+  if (SCHOOLS.length === 0) {
+    list.innerHTML = '<div class="autocomplete-item" style="color:var(--text-muted);cursor:default;font-style:italic;">Loading schools\u2026</div>';
+    list.classList.add('open'); return;
+  }
+  const ql = q.toLowerCase();
+  const matches = SCHOOLS.filter(s => s.n.toLowerCase().includes(ql)).slice(0, 8);
+  if (!matches.length) { list.classList.remove('open'); return; }
+  list.innerHTML = matches.map(s =>
+    '<div class="autocomplete-item" onmousedown="pAcSelect(' + i + ',\'' +
+    s.n.replace(/'/g,"\\'") + '\',\'' + s.l + '\')">' +
+    '<img src="' + s.l + '" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' +
+    s.n + '</div>'
+  ).join('');
+  list.classList.add('open');
+}
+
+function pAcSelect(i, name, logo) {
+  document.getElementById('ptn-' + i).value = name;
+  document.getElementById('plu-' + i).value = logo;
+  setPollLogo(i, logo);
+  document.getElementById('pacl-' + i).classList.remove('open');
+}
+
+function setPollLogo(i, url) {
+  const cell = document.getElementById('plc-' + i);
+  if (!cell) return;
+  if (!url) { cell.innerHTML = '<div class="logo-empty">?</div>'; return; }
+  cell.innerHTML = '<div class="logo-ok">&#10003;</div>';
+  const img = new Image();
+  img.referrerPolicy = 'no-referrer';
+  img.src = url;
+  img.onload = () => {
+    img.style.cssText = 'width:30px;height:30px;object-fit:contain;border-radius:4px;';
+    cell.innerHTML = ''; cell.appendChild(img);
+  };
+}
+
+async function savePoll() {
+  const cls  = document.getElementById('poll-class').value;
+  const week = document.getElementById('poll-week').value;
+  if (!week) { showToast('Please enter a week number.', 'error'); return; }
+
+  const suppressLastWeek = document.getElementById('poll-suppress-lw').checked;
+  const showOthers = document.getElementById('poll-show-others').checked;
+  const others = document.getElementById('poll-others').value.trim();
+
+  const rankings = [];
+  for (let i = 1; i <= 10; i++) {
+    const school = (document.getElementById('ptn-' + i)?.value || '').trim();
+    const logo   = (document.getElementById('plu-' + i)?.value || '').trim();
+    const pts    = parseInt(document.getElementById('ppts-' + i)?.value) || 0;
+    const fp     = parseInt(document.getElementById('pfp-' + i)?.value) || null;
+    const lw     = (document.getElementById('plw-' + i)?.value || '').trim() || null;
+    if (school) rankings.push({ rank: i, school, logo, points: pts, firstPlace: fp, lastWeek: lw });
+  }
+
+  if (!rankings.length) { showToast('Please add at least one school.', 'error'); return; }
+
+  const data = {
+    class: cls,
+    title: 'Class ' + cls + ' AP Poll',
+    week: parseInt(week),
+    suppressLastWeek,
+    showOthers,
+    others,
+    rankings,
+    updatedAt: new Date().toISOString()
+  };
+
+  const fn   = cls.toLowerCase() + '-poll-week' + String(week).padStart(2, '0');
+  const path = 'polls/' + fn + '.json';
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
+
+  document.getElementById('poll-status').innerHTML = '<span class="status-pill saving"><span class="dot"></span>Saving\u2026</span>';
+
+  let sha = null;
+  try { const c = await ghGet(path); if (c.ok) sha = (await c.json()).sha; } catch(_) {}
+  const body = { message: 'Save poll: ' + fn, content };
+  if (sha) body.sha = sha;
+
+  try {
+    const resp = await ghPut(path, body);
+    if (!resp.ok) throw new Error((await resp.json()).message);
+    document.getElementById('poll-status').innerHTML = '<span class="status-pill saved"><span class="dot"></span>Saved!</span>';
+    showToast('Poll saved!', 'success');
+
+    const [owner, repo] = GH_REPO.split('/');
+    const dataUrl   = 'https://raw.githubusercontent.com/' + GH_REPO + '/main/polls/' + fn + '.json';
+    const viewerUrl = 'https://' + owner + '.github.io/' + repo + '/poll-viewer.html?data=' + encodeURIComponent(dataUrl);
+    const embed     = '<iframe src="' + viewerUrl + '" width="100%" height="500" frameborder="0" scrolling="yes" style="border:none;width:100%;"></iframe>';
+    document.getElementById('poll-embed-wrap').style.display = 'block';
+    document.getElementById('poll-embed-out').textContent = embed;
+  } catch(e) {
+    document.getElementById('poll-status').innerHTML = '<span class="status-pill error"><span class="dot"></span>Failed</span>';
+    showToast('Error: ' + e.message, 'error');
+  }
+}
+
+function copyPollEmbed() {
+  navigator.clipboard.writeText(document.getElementById('poll-embed-out').textContent)
+    .then(() => showToast('Copied!', 'success'));
+}
+
+async function pollLoadList() {
+  const wrap = document.getElementById('poll-load-wrap');
+  const list = document.getElementById('poll-file-list');
+  wrap.style.display = 'block';
+  list.innerHTML = '<p style="color:var(--text-muted);font-size:14px;">Loading\u2026</p>';
+  try {
+    const resp = await ghGet('polls');
+    if (!resp.ok) throw new Error('polls/ folder not found. Save your first poll to create it.');
+    const files = (await resp.json()).filter(f => f.name.endsWith('.json'));
+    if (!files.length) { list.innerHTML = '<p style="color:var(--text-muted);font-size:14px;">No saved polls yet.</p>'; return; }
+    list.innerHTML = files.map(f =>
+      '<div class="bracket-file" onclick="pollLoadFile(\'' + f.download_url + '\',this)">' +
+      '<div class="bracket-file-name">' + f.name.replace('.json','') + '</div>' +
+      '</div>'
+    ).join('');
+  } catch(e) {
+    list.innerHTML = '<p style="color:var(--danger);font-size:14px;">' + e.message + '</p>';
+  }
+}
+
+async function pollLoadFile(downloadUrl, el) {
+  document.querySelectorAll('#poll-file-list .bracket-file').forEach(e => e.classList.remove('active'));
+  el.classList.add('active');
+  try {
+    const data = await (await fetch(downloadUrl)).json();
+    // Populate form
+    document.getElementById('poll-class').value = data.class || '8A';
+    document.getElementById('poll-week').value  = data.week  || '';
+    document.getElementById('poll-suppress-lw').checked    = !!data.suppressLastWeek;
+    document.getElementById('poll-show-others').checked    = data.showOthers !== false;
+    document.getElementById('poll-others').value = data.others || '';
+    buildPollRows();
+    (data.rankings || []).forEach(r => {
+      document.getElementById('ptn-' + r.rank) && (document.getElementById('ptn-' + r.rank).value = r.school || '');
+      document.getElementById('plu-' + r.rank) && (document.getElementById('plu-' + r.rank).value = r.logo   || '');
+      document.getElementById('ppts-'+ r.rank) && (document.getElementById('ppts-'+ r.rank).value = r.points || '');
+      document.getElementById('pfp-' + r.rank) && (document.getElementById('pfp-' + r.rank).value = r.firstPlace || '');
+      document.getElementById('plw-' + r.rank) && (document.getElementById('plw-' + r.rank).value = r.lastWeek   || '');
+      if (r.logo) setPollLogo(r.rank, r.logo);
+    });
+    showToast('Poll loaded!', 'success');
+    document.getElementById('poll-load-wrap').style.display = 'none';
+  } catch(e) { showToast('Error loading poll: ' + e.message, 'error'); }
 }
 
 // ── GITHUB HELPERS ─────────────────────────────────────────
