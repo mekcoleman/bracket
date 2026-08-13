@@ -492,18 +492,22 @@ const SCHOOLS_SHEET = '1Ol5Mz84OZ8kgBGANccwA1exVC9rGYqLHODaSJ1lfbfI';
 let SCHOOLS = [];   // {n, l, s, t} — populated after login
 
 async function loadSchools() {
-  const url = `https://docs.google.com/spreadsheets/d/${SCHOOLS_SHEET}/gviz/tq?tqx=out:json&sheet=schools.csv&range=A:D`;
+  // headers=0 tells gviz not to auto-detect headers — avoids a known quirk
+  // where the first data row (Abingdon) comes back with null values
+  const url = `https://docs.google.com/spreadsheets/d/${SCHOOLS_SHEET}/gviz/tq?tqx=out:json&sheet=schools.csv&range=A:D&headers=0`;
   try {
     const text = await fetch(url).then(r => r.text());
     const json = JSON.parse(text.substring(text.indexOf('(') + 1, text.lastIndexOf(')')));
     SCHOOLS = (json.table.rows || [])
-      .filter(row => row.c && row.c[0]?.v)
+      .slice(1)  // skip row 0 which is the header ("school_name", "logo_url", "seed", "brackets")
+      .filter(row => row.c && (row.c[0]?.v || row.c[0]?.f))
       .map(row => ({
-        n: String(row.c[0].v).trim(),
+        n: String(row.c[0]?.v || row.c[0]?.f || '').trim(),
         l: (row.c[1]?.v ?? row.c[1]?.f ?? '').toString().trim(),
-        s: row.c[2]?.v ? String(row.c[2].v).trim() : '',
-        t: row.c[3]?.v ? String(row.c[3].v).trim() : '',
-      }));
+        s: (row.c[2]?.v ?? row.c[2]?.f ?? '').toString().trim(),
+        t: (row.c[3]?.v ?? row.c[3]?.f ?? '').toString().trim(),
+      }))
+      .filter(s => s.n && s.n !== 'school_name');
     console.log(`Schools loaded: ${SCHOOLS.length}`);
   } catch(e) {
     console.warn('Could not load schools from Google Sheet:', e);
