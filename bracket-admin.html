@@ -1258,10 +1258,13 @@ function matchSchoolToDb(rawName) {
 }
 
 // ── Email parser ─────────────────────────────────────────────
-function parseEmailText(text) {
+function parseEmailText(rawText) {
+  // Normalise line endings — emails often use \r\n
+  const text = rawText.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
   const result = {};
-  // Split into class sections on "Class XA" lines
-  const sections = text.split(/(?=^Class\s+[1-8]A\s*$)/im);
+
+  // Split on lines that are exactly "Class XA" (allow leading/trailing spaces)
+  const sections = text.split(/\n(?=[ \t]*Class\s+[1-8]A[ \t]*\n)/i);
   for (const sec of sections) {
     const hdr = sec.match(/^Class\s+([1-8]A)\s*$/im);
     if (!hdr) continue;
@@ -1475,13 +1478,12 @@ async function saveAllPolls() {
   const statusEl = document.getElementById('poll-batch-status');
   statusEl.innerHTML = '<span class="status-pill saving"><span class="dot"></span>Saving&hellip;</span>';
   const embeds = [];
-  let saved = 0, failed = 0;
+  let saved = 0, skipped = 0, failed = 0;
   for (const cls of ALL) {
-    // Only save classes that were parsed (panel exists and has at least one school)
     const panel = document.getElementById('pet-panel-' + cls);
-    if (!panel || !_parsedPolls[cls]) continue;
+    if (!panel) { skipped++; continue; }
     const { rankings, others } = readPollEditData(cls);
-    if (!rankings.length) continue;
+    if (!rankings.length) { skipped++; continue; }
     const data = {
       class: cls, title: 'Class ' + cls + ' AP Poll', week: _parsedWeek,
       suppressLastWeek: suppress, showOthers: !!others, others,
@@ -1502,25 +1504,40 @@ async function saveAllPolls() {
       const viewerUrl = 'https://' + owner + '.github.io/' + repo + '/poll-viewer.html?data=' + encodeURIComponent(dataUrl);
       embeds.push({ cls, fn, code: '<iframe src="' + viewerUrl + '" width="100%" height="500" frameborder="0" scrolling="yes" style="border:none;width:100%;"></iframe>' });
       saved++;
-    } catch(e) { console.error(cls, e.message); failed++; }
+    } catch(e) { console.error('Poll save failed [' + cls + ']:', e.message); failed++; }
   }
+
+  if (!saved && !failed) {
+    statusEl.innerHTML = '<span class="status-pill error"><span class="dot"></span>No data found &mdash; try re-parsing.</span>';
+    showToast('Nothing saved. Please re-paste and parse the email first.', 'error');
+    return;
+  }
+
   statusEl.innerHTML = failed
     ? `<span class="status-pill error"><span class="dot"></span>${saved} saved, ${failed} failed</span>`
     : `<span class="status-pill saved"><span class="dot"></span>All ${saved} saved!</span>`;
+
   if (embeds.length) {
     const rows = embeds.map(e =>
       `<div style="margin-bottom:16px;">
         <div style="font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:15px;color:var(--accent);margin-bottom:6px;">${e.fn}</div>
-        <div class="embed-box" style="font-size:12px;" id="pembed-${e.cls}">${e.code}</div>
+        <div class="embed-box" style="font-size:12px;" id="pembed-${e.cls}"></div>
         <button class="btn btn-secondary btn-sm" style="margin-top:6px;"
           onclick="navigator.clipboard.writeText(document.getElementById('pembed-${e.cls}').textContent).then(()=>showToast('Copied!','success'))">Copy</button>
       </div>`
     ).join('');
     const wrap = document.getElementById('poll-all-embeds');
     wrap.innerHTML = '<div class="card-title" style="margin-bottom:12px;">Embed Codes</div>' + rows;
+    // Set embed code as plain text AFTER innerHTML so the browser
+    // doesn't try to render the <iframe> tag as an actual iframe
+    embeds.forEach(e => {
+      const el = document.getElementById('pembed-' + e.cls);
+      if (el) el.textContent = e.code;
+    });
     wrap.style.display = 'block';
+    wrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
-  showToast(saved + ' polls saved!', 'success');
+  showToast(saved + ' poll' + (saved !== 1 ? 's' : '') + ' saved!', 'success');
 }
 
 // ── AP POLL (single class) ────────────────────────────────────
