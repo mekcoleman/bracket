@@ -2,7 +2,7 @@
   "class": "6A",
   "title": "Class 6A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Simeon 10, Harlem 10, Bradley-Bourbonnais 8, Rock Island 3, Libertyville 1",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:13.110Z"
+  "updatedAt": "2026-08-19T22:07:16.913Z"
 }
