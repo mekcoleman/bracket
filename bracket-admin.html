@@ -1240,15 +1240,16 @@ function matchSchoolToDb(rawName) {
   if (!SCHOOLS.length) return { name: rawName, logo: '' };
   const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
   const rn = norm(rawName);
-  // 1. Exact
+  // 1. Exact normalized match
   for (const s of SCHOOLS) { if (norm(s.n) === rn) return { name: s.n, logo: s.l }; }
-  // 2. All significant raw words appear in canonical name
-  const words = rn.split(' ').filter(w => w.length > 2);
+  // 2. Word-by-word match (includes 2-char abbreviations like IC, St)
+  //    Uses word-boundary checking so "IC" doesn't match inside "Catholic"
+  const words = rn.split(' ').filter(w => w.length > 1);
   if (words.length) {
     let best = null, bestScore = 0;
     for (const s of SCHOOLS) {
-      const cn = norm(s.n);
-      const hits = words.filter(w => cn.includes(w)).length;
+      const cnWords = norm(s.n).split(' ');
+      const hits = words.filter(w => cnWords.includes(w)).length;
       const score = hits / words.length;
       if (score > bestScore) { bestScore = score; best = s; }
     }
