@@ -1,0 +1,101 @@
+{
+  "class": "1A",
+  "title": "Class 1A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Tuscola 13, Casey-Westfield 12, Deer Creek-Mackinaw 9, Gibson City-Melvin-Sibley 9, Forreston 7, Galena 2, Greenfield-Northwestern 2, Athens 1, Clifton Central 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Lena-Winslow",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ERNR5TZWMFCLPHLFHIIMHLAAHU.jpg",
+      "points": 97,
+      "firstPlace": 8,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Mount Sterling (Brown County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6VEOAXR66VDTDFCBSBFYLYDT6U.webp",
+      "points": 83,
+      "firstPlace": 1,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Stockton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DADZFJZMIRBVRCTKGKJN5BVML4.webp",
+      "points": 79,
+      "firstPlace": 1,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Hardin (Calhoun)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ELA4EAM76ZHCBN7BADTDUZYGNM.webp",
+      "points": 71,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Camp Point (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D5W7LNSHO5C5FONMPBBLWUJ3BY.png",
+      "points": 54,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Dwight",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2SXZRLGDFNAULL3VMPDDIWMHIQ.jpg",
+      "points": 28,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Heyworth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3EEFX3VXGRCT7END2RJXSVBQ5E.webp",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Arthur-Lovington-Atwood-Hammond",
+      "logo": "",
+      "points": 23,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Fithian (Oakwood)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZWE6QUZJX5DIFMSHEEQHJGFY6Y.jpg",
+      "points": 17,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Kewanee (Wethersfield)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VZ4ISCMGVBHE5OCU7S3B342JAU.webp",
+      "points": 16,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:17.497Z"
+}
