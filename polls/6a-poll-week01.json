@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Simeon 10, Harlem 10, Bradley-Bourbonnais 8, Rock Island 3, Libertyville 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "East St. Louis",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg",
+      "points": 110,
+      "firstPlace": 11,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 95,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 90,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Lake Zurich",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/P6HEI3DVE5HLHDPSEDGFC4YEAE.jpg",
+      "points": 60,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 55,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 49,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 32,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Joliet (Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Burlington (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2EW2UPSX2RFVDPJDR7FFRYQOGA.jpg",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Chatham (Glenwood)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:13.110Z"
+}
