@@ -2,7 +2,7 @@
   "class": "3A",
   "title": "Class 3A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Williamsville 6, Monmouth-Roseville 3, Hope Academy 2, PORTA 2, Princeton 2, Benton 1, Johnsburg 1,",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:15.773Z"
+  "updatedAt": "2026-08-19T22:07:19.473Z"
 }
