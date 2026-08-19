@@ -2,7 +2,7 @@
   "class": "5A",
   "title": "Class 5A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Mahomet-Seymour 15, Oak Forest 13, Prairie Ridge 5, Kaneland 5",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:14.003Z"
+  "updatedAt": "2026-08-19T22:07:17.687Z"
 }
