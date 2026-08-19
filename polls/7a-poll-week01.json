@@ -1,0 +1,101 @@
+{
+  "class": "7A",
+  "title": "Class 7A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Lincoln-Way Central 10, Normal 10, Kenwood 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Chicago (Brother Rice)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
+      "points": 79,
+      "firstPlace": 7,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Batavia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SAVDKYCFGRD6PATXJAKAOQYSNM.jpg",
+      "points": 65,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Chicago (St. Rita)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
+      "points": 60,
+      "firstPlace": 1,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Arlington Heights (Hersey)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KI2BCIZJEZAA3OB7JGFG57GKLE.png",
+      "points": 49,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Downers Grove (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AV3ZAEDG4JBY5HCA4WU7JXJFLA.jpg",
+      "points": 45,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Glen Ellyn (Glenbard West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
+      "points": 34,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Burbank (St. Laurence)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6ARYC3ZDYJFUXOONTALJXTXQAU.png",
+      "points": 27,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Chicago (Richards)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/W5KQMRMTUJE67BIEWHCPUVKMQY.jpg",
+      "points": 24,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "St. Charles (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/77AS5QTPXVAL5FYMCJCFBTJL6A.jpeg",
+      "points": 23,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Wheaton (Warrenville South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LPPMGAAPRRF6HO6ADAVDYAP3AE.jpg",
+      "points": 13,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:12.087Z"
+}
