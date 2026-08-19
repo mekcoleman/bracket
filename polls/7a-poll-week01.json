@@ -2,7 +2,7 @@
   "class": "7A",
   "title": "Class 7A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Lincoln-Way Central 10, Normal 10, Kenwood 1",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:12.087Z"
+  "updatedAt": "2026-08-19T22:07:16.094Z"
 }
