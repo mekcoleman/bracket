@@ -2,7 +2,7 @@
   "class": "2A",
   "title": "Class 2A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Nashville 13, Shelbyville 9, Flora 7, Johnston City 5, DuQuoin 4, Pana 4",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:16.636Z"
+  "updatedAt": "2026-08-19T22:07:20.378Z"
 }
