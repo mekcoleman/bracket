@@ -1,0 +1,101 @@
+{
+  "class": "8A",
+  "title": "Class 8A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Fremd 11, Homewood-Flossmoor 7, York 6, Sandburg 4, Palatine 4, Belleville East 2",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 80,
+      "firstPlace": 8,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Oswego",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/635GZ2UKOJCNFOKH52R7BJXVJY.jpg",
+      "points": 64,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Bolingbrook",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/34CQZS42KNH4LDS4ARQMNI2K3I.png",
+      "points": 59,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Wilmette (Loyola)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JMQ6NK6B6NFGDME2G43UEXOKSU.jpg",
+      "points": 54,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Barrington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5SZ2NP6USJHPPNQQ4FJNWYS4Z4.png",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Frankfort (Lincoln-Way East)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AMYKRDCXNZFCBNFHEERLPDJYLA.gif",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": true
+    },
+    {
+      "rank": 7,
+      "school": "LaGrange (Lyons)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": true
+    },
+    {
+      "rank": 8,
+      "school": "Park Ridge (Maine South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XU5JCGTBHJEZHNSVYYIBTD6C2I.jpg",
+      "points": 29,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Gurnee (Warren)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4T4JPAJWHZBGFEDRWGGMSU75GQ.jpg",
+      "points": 17,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Lockport",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PTR2GG63L5DVFLY3AIPUZNDO6E.png",
+      "points": 14,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:10.902Z"
+}
