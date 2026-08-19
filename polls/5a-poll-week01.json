@@ -1,0 +1,101 @@
+{
+  "class": "5A",
+  "title": "Class 5A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Mahomet-Seymour 15, Oak Forest 13, Prairie Ridge 5, Kaneland 5",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "New Lenox (Providence)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
+      "points": 86,
+      "firstPlace": 6,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Wheaton (St. Francis)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NNSM6MPACRCMRPT3NIPFVHZ7YQ.webp",
+      "points": 84,
+      "firstPlace": 3,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Springfield (Sacred Heart Griffin)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZLOW7Z2SSJHT3LW6QOPSO2NVCU.gif",
+      "points": 57,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Cary-Grove",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XZHHYRWF6BGT3PTQ3N37PIRKZY.jpg",
+      "points": 46,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Belvidere (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AASZJX53SJAYZICZWM5S53PT5Q.jpg",
+      "points": 41,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Peoria",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/J6HB2CLPLJGHPM6T6FPPSZCCK4.webp",
+      "points": 40,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Kankakee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
+      "points": 35,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Washington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/A56OIIFUDNDRNKCLIH3Q5OTLTI.jpg",
+      "points": 29,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Morton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6GW3ARBVVJGALF5XX7HFSDW27I.webp",
+      "points": 24,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Chicago (Morgan Park)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4HADLLCA2JECZCYP3H7H3BEMAA.png",
+      "points": 19,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:14.003Z"
+}
