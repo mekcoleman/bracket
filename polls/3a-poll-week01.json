@@ -1,0 +1,101 @@
+{
+  "class": "3A",
+  "title": "Class 3A AP Poll",
+  "week": 1,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Williamsville 6, Monmouth-Roseville 3, Hope Academy 2, PORTA 2, Princeton 2, Benton 1, Johnsburg 1,",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Byron",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DL4EONBUW5HZNPKXWWSWCWXYGQ.jpg",
+      "points": 92,
+      "firstPlace": 4,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Aurora (Central Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YFHBJGZKKFGSPNXT62HAISBPNM.png",
+      "points": 89,
+      "firstPlace": 7,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "St. Joseph (Ogden)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3XXBEQQNMNCDBJJ4Q24E2Y44AA.webp",
+      "points": 58,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Tolono (Unity)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DR6OGHNJVRF77KWUWTRIBUHQ34.jpg",
+      "points": 56,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Richmond-Burton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2W5GX6VM5VGW5B35JVCMV33NHA.jpeg",
+      "points": 54,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Monticello",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LJIWBKOIWJBPZKZFBIJGC3HWBQ.webp",
+      "points": 29,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Kankakee (Bishop McNamara)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
+      "points": 28,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Stanford (Olympia)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FMTZGJU2DBAYTB3Y43KHY4ZNGY.webp",
+      "points": 25,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Vandalia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KXRSU5DOWBDGXG4E35D4SYYNHU.webp",
+      "points": 12,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Chicago (Perspectives Leadership)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IBPGKIJSPNFONIRBIIVFVNCEOQ.png",
+      "points": 7,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-19T22:05:15.773Z"
+}
