@@ -2,7 +2,7 @@
   "class": "4A",
   "title": "Class 4A AP Poll",
   "week": 1,
-  "suppressLastWeek": false,
+  "suppressLastWeek": true,
   "showOthers": true,
   "others": "Peoria Notre Dame 17, Macomb 15, Dixon 12, Althoff 8, Marmion 4, Evergreen Park 1, Sterling 1",
   "rankings": [
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-19T22:05:14.901Z"
+  "updatedAt": "2026-08-19T22:07:18.553Z"
 }
