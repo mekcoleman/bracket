@@ -1,0 +1,974 @@
+{
+  "id": "class-3A-Week1",
+  "title": "Class 3A Week 1 Projection",
+  "bracketType": "48split",
+  "orientation": "lr",
+  "roundNames": [
+    "Opening Round",
+    "Second Round",
+    "Quarterfinals",
+    "Semifinals",
+    "Final",
+    "State Championship"
+  ],
+  "teams": [],
+  "northTeams": [
+    {
+      "seed": 1,
+      "name": "Byron",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DL4EONBUW5HZNPKXWWSWCWXYGQ.jpg"
+    },
+    {
+      "seed": 2,
+      "name": "Chicago (South Shore)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WZSFAIFAWNGS5DBWPG6J64VXIM.webp"
+    },
+    {
+      "seed": 3,
+      "name": "Richmond-Burton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2W5GX6VM5VGW5B35JVCMV33NHA.jpeg"
+    },
+    {
+      "seed": 4,
+      "name": "Kankakee (Bishop McNamara)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png"
+    },
+    {
+      "seed": 5,
+      "name": "Elmhurst (IC Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YDYRE7FA3FCCXOIUYFDJZJ2ATE.gif"
+    },
+    {
+      "seed": 6,
+      "name": "Chicago (Dyett)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7CCEUKTL4RHBNCBWZNP7IADVOM.png"
+    },
+    {
+      "seed": 7,
+      "name": "Chicago (Dunbar)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6T3WVFY2NZC3BACSNPN6AX34FI.jpeg"
+    },
+    {
+      "seed": 8,
+      "name": "Durand",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp"
+    },
+    {
+      "seed": 9,
+      "name": "Manteno",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZFDK5KQOANEWVEFCWDEPDC4VC4.png"
+    },
+    {
+      "seed": 10,
+      "name": "Monmouth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QJVIZ7UL5FC4JKECMNRZMTR7GQ.webp"
+    },
+    {
+      "seed": 11,
+      "name": "Princeton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XGPRPJLQQFFN7DFSKQVUIJPPTU.png"
+    },
+    {
+      "seed": 12,
+      "name": "Genoa-Kingston",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/T4G5G5SHMNDERH7LX336FE3464.jpg"
+    },
+    {
+      "seed": 13,
+      "name": "Oregon",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NPNCYMQ4ZFE6RAEYQ2RCTMSCJU.jpg"
+    },
+    {
+      "seed": 14,
+      "name": "Palos Heights (Chicago Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2E5KU7BY4RA7VJBZNZHGBRIBPI.webp"
+    },
+    {
+      "seed": 15,
+      "name": "Chicago (Hope Academy)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FE3CQADLVRB2RJHZ4DBBBB4IAU.jpeg"
+    },
+    {
+      "seed": 16,
+      "name": "Chicago (Marshall)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LLSXTBXNTJDNTMQENY55S3IZYQ.png"
+    },
+    {
+      "seed": 17,
+      "name": "Peru (St. Bede)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WDABJL7HG5HMBN6HJSHMSJIYQA.png"
+    },
+    {
+      "seed": 18,
+      "name": "Poplar Grove (North Boone)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4S62D7FHMZHMFFU7TCNAI7V3HY.webp"
+    },
+    {
+      "seed": 19,
+      "name": "Johnsburg",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GTHAPAORKNGHRLWFEWA4EUAU6U.jpeg"
+    },
+    {
+      "seed": 20,
+      "name": "Woodstock (Marian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/G7AGFHM4EZH5BB3K4T32FPD5I4.webp"
+    },
+    {
+      "seed": 21,
+      "name": "Kewanee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZI4YOGHRRFNHJTI2KW6KPYQGU.GIF"
+    },
+    {
+      "seed": 22,
+      "name": "Mendota",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DJHLMFJ6PFFJTDBDARNAE5TZ7M.jpg"
+    },
+    {
+      "seed": 23,
+      "name": "Sandwich",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LZFVGMMJE5CWPEKR5VPYWS5GOU.png"
+    },
+    {
+      "seed": 24,
+      "name": "Herscher",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6YK5K7QXTZB3JGRGUST6AGM3HI.jpg"
+    }
+  ],
+  "southTeams": [
+    {
+      "seed": 1,
+      "name": "Mt. Carmel",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/R3TC2C2QAND5DBUMD6U4OJLETI.webp"
+    },
+    {
+      "seed": 2,
+      "name": "Columbia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LY5WQPJSBNERPMT3OBTLYHMPPM.webp"
+    },
+    {
+      "seed": 3,
+      "name": "Benton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4E7XNRL6QJFUBA225PZUMME7VU.png"
+    },
+    {
+      "seed": 4,
+      "name": "Fairfield",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FCU7XVZQTFAXXG34W4HYQRDNSU.webp"
+    },
+    {
+      "seed": 5,
+      "name": "Williamsville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KV2GY2BXJJC4RH3ZSV2ZRENYZI.jpg"
+    },
+    {
+      "seed": 6,
+      "name": "Greenville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/E2OZVCRKCRAXTEZC7F4KO6SN3Y.webp"
+    },
+    {
+      "seed": 7,
+      "name": "St. Joseph (Ogden)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3XXBEQQNMNCDBJJ4Q24E2Y44AA.webp"
+    },
+    {
+      "seed": 8,
+      "name": "Stanford (Olympia)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FMTZGJU2DBAYTB3Y43KHY4ZNGY.webp"
+    },
+    {
+      "seed": 9,
+      "name": "Tolono (Unity)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DR6OGHNJVRF77KWUWTRIBUHQ34.jpg"
+    },
+    {
+      "seed": 10,
+      "name": "Breese (Mater Dei)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PN274FXDINF7JATM5H4MTKGWEE.png"
+    },
+    {
+      "seed": 11,
+      "name": "Hillsboro",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6IMU5FZLAFGH5NXEDK4ADCNDJM.webp"
+    },
+    {
+      "seed": 12,
+      "name": "Harrisburg",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IN366ITRWVD33EGP3VWJN726AQ.webp"
+    },
+    {
+      "seed": 13,
+      "name": "Monticello",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LJIWBKOIWJBPZKZFBIJGC3HWBQ.webp"
+    },
+    {
+      "seed": 14,
+      "name": "Paris",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SRWZKRKP7BHPJNPVHOHJK3QEP4.webp"
+    },
+    {
+      "seed": 15,
+      "name": "Eureka",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Y4A7D7H52ZG4FMOQHLEBAUSDDU.webp"
+    },
+    {
+      "seed": 16,
+      "name": "Fairbury (Prairie Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LCBXFS4575HRTBJOVM63GVGKGU.jpg"
+    },
+    {
+      "seed": 17,
+      "name": "Roxana",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RCZPCVWRSFDR5H5UDBGS4HTS3I.webp"
+    },
+    {
+      "seed": 18,
+      "name": "Murphysboro",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KVTOY26NXVH5NNLENXX3MGR4XI.webp"
+    },
+    {
+      "seed": 19,
+      "name": "Robinson",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XIK2GQNBAZCIPBVTCWYBQCDHRU.webp"
+    },
+    {
+      "seed": 20,
+      "name": "Petersburg (PORTA)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/TE2Q7FKMQVCMHFHLD3VQUMTZWY.jpg"
+    },
+    {
+      "seed": 21,
+      "name": "Metropolis (Massac County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FATNXBL3ZEKPEA46UMIWOH7KI.jpg"
+    },
+    {
+      "seed": 22,
+      "name": "Staunton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FMNWFYAVRGWFAGP5ZTCKK6C5E.webp"
+    },
+    {
+      "seed": 23,
+      "name": "Clinton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/43I2PGNPDVGDLHJFQ4KULP2JS4.webp"
+    },
+    {
+      "seed": 24,
+      "name": "Newton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/X35IY2GJORB6LCGPKN4HUAH2YU.webp"
+    }
+  ],
+  "matchups": [
+    {
+      "id": "R0-M0-N",
+      "round": 0,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 16,
+        "name": "Chicago (Marshall)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LLSXTBXNTJDNTMQENY55S3IZYQ.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 17,
+        "name": "Peru (St. Bede)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WDABJL7HG5HMBN6HJSHMSJIYQA.png",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M1-N",
+      "round": 0,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 9,
+        "name": "Manteno",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZFDK5KQOANEWVEFCWDEPDC4VC4.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 24,
+        "name": "Herscher",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6YK5K7QXTZB3JGRGUST6AGM3HI.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M2-N",
+      "round": 0,
+      "position": 2,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 12,
+        "name": "Genoa-Kingston",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/T4G5G5SHMNDERH7LX336FE3464.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 21,
+        "name": "Kewanee",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZI4YOGHRRFNHJTI2KW6KPYQGU.GIF",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M3-N",
+      "round": 0,
+      "position": 3,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 13,
+        "name": "Oregon",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NPNCYMQ4ZFE6RAEYQ2RCTMSCJU.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 20,
+        "name": "Woodstock (Marian)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/G7AGFHM4EZH5BB3K4T32FPD5I4.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M4-N",
+      "round": 0,
+      "position": 4,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 15,
+        "name": "Chicago (Hope Academy)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FE3CQADLVRB2RJHZ4DBBBB4IAU.jpeg",
+        "score": null
+      },
+      "team2": {
+        "seed": 18,
+        "name": "Poplar Grove (North Boone)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4S62D7FHMZHMFFU7TCNAI7V3HY.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M5-N",
+      "round": 0,
+      "position": 5,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 10,
+        "name": "Monmouth",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QJVIZ7UL5FC4JKECMNRZMTR7GQ.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 23,
+        "name": "Sandwich",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LZFVGMMJE5CWPEKR5VPYWS5GOU.png",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M6-N",
+      "round": 0,
+      "position": 6,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 11,
+        "name": "Princeton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XGPRPJLQQFFN7DFSKQVUIJPPTU.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 22,
+        "name": "Mendota",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DJHLMFJ6PFFJTDBDARNAE5TZ7M.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M7-N",
+      "round": 0,
+      "position": 7,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 14,
+        "name": "Palos Heights (Chicago Christian)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2E5KU7BY4RA7VJBZNZHGBRIBPI.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 19,
+        "name": "Johnsburg",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GTHAPAORKNGHRLWFEWA4EUAU6U.jpeg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R1-M0-N",
+      "round": 1,
+      "position": 0,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 1,
+        "name": "Byron",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DL4EONBUW5HZNPKXWWSWCWXYGQ.jpg",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M1-N",
+      "round": 1,
+      "position": 1,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 8,
+        "name": "Durand",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M2-N",
+      "round": 1,
+      "position": 2,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 5,
+        "name": "Elmhurst (IC Catholic)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YDYRE7FA3FCCXOIUYFDJZJ2ATE.gif",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M3-N",
+      "round": 1,
+      "position": 3,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 4,
+        "name": "Kankakee (Bishop McNamara)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M4-N",
+      "round": 1,
+      "position": 4,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 2,
+        "name": "Chicago (South Shore)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WZSFAIFAWNGS5DBWPG6J64VXIM.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M5-N",
+      "round": 1,
+      "position": 5,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 7,
+        "name": "Chicago (Dunbar)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6T3WVFY2NZC3BACSNPN6AX34FI.jpeg",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M6-N",
+      "round": 1,
+      "position": 6,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 6,
+        "name": "Chicago (Dyett)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7CCEUKTL4RHBNCBWZNP7IADVOM.png",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M7-N",
+      "round": 1,
+      "position": 7,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 3,
+        "name": "Richmond-Burton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2W5GX6VM5VGW5B35JVCMV33NHA.jpeg",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M0-N",
+      "round": 2,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M1-N",
+      "round": 2,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M2-N",
+      "round": 2,
+      "position": 2,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M3-N",
+      "round": 2,
+      "position": 3,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M0-N",
+      "round": 3,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M1-N",
+      "round": 3,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R4-M0-N",
+      "round": 4,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R0-M0-S",
+      "round": 0,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 16,
+        "name": "Fairbury (Prairie Central)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LCBXFS4575HRTBJOVM63GVGKGU.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 17,
+        "name": "Roxana",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RCZPCVWRSFDR5H5UDBGS4HTS3I.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M1-S",
+      "round": 0,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 9,
+        "name": "Tolono (Unity)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DR6OGHNJVRF77KWUWTRIBUHQ34.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 24,
+        "name": "Newton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/X35IY2GJORB6LCGPKN4HUAH2YU.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M2-S",
+      "round": 0,
+      "position": 2,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 12,
+        "name": "Harrisburg",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IN366ITRWVD33EGP3VWJN726AQ.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 21,
+        "name": "Metropolis (Massac County)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FATNXBL3ZEKPEA46UMIWOH7KI.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M3-S",
+      "round": 0,
+      "position": 3,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 13,
+        "name": "Monticello",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LJIWBKOIWJBPZKZFBIJGC3HWBQ.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 20,
+        "name": "Petersburg (PORTA)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/TE2Q7FKMQVCMHFHLD3VQUMTZWY.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M4-S",
+      "round": 0,
+      "position": 4,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 15,
+        "name": "Eureka",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Y4A7D7H52ZG4FMOQHLEBAUSDDU.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 18,
+        "name": "Murphysboro",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KVTOY26NXVH5NNLENXX3MGR4XI.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M5-S",
+      "round": 0,
+      "position": 5,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 10,
+        "name": "Breese (Mater Dei)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PN274FXDINF7JATM5H4MTKGWEE.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 23,
+        "name": "Clinton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/43I2PGNPDVGDLHJFQ4KULP2JS4.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M6-S",
+      "round": 0,
+      "position": 6,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 11,
+        "name": "Hillsboro",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6IMU5FZLAFGH5NXEDK4ADCNDJM.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 22,
+        "name": "Staunton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FMNWFYAVRGWFAGP5ZTCKK6C5E.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M7-S",
+      "round": 0,
+      "position": 7,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 14,
+        "name": "Paris",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SRWZKRKP7BHPJNPVHOHJK3QEP4.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 19,
+        "name": "Robinson",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XIK2GQNBAZCIPBVTCWYBQCDHRU.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R1-M0-S",
+      "round": 1,
+      "position": 0,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 1,
+        "name": "Mt. Carmel",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/R3TC2C2QAND5DBUMD6U4OJLETI.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M1-S",
+      "round": 1,
+      "position": 1,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 8,
+        "name": "Stanford (Olympia)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FMTZGJU2DBAYTB3Y43KHY4ZNGY.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M2-S",
+      "round": 1,
+      "position": 2,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 5,
+        "name": "Williamsville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KV2GY2BXJJC4RH3ZSV2ZRENYZI.jpg",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M3-S",
+      "round": 1,
+      "position": 3,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 4,
+        "name": "Fairfield",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FCU7XVZQTFAXXG34W4HYQRDNSU.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M4-S",
+      "round": 1,
+      "position": 4,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 2,
+        "name": "Columbia",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LY5WQPJSBNERPMT3OBTLYHMPPM.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M5-S",
+      "round": 1,
+      "position": 5,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 7,
+        "name": "St. Joseph (Ogden)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3XXBEQQNMNCDBJJ4Q24E2Y44AA.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M6-S",
+      "round": 1,
+      "position": 6,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 6,
+        "name": "Greenville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/E2OZVCRKCRAXTEZC7F4KO6SN3Y.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M7-S",
+      "round": 1,
+      "position": 7,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 3,
+        "name": "Benton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4E7XNRL6QJFUBA225PZUMME7VU.png",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M0-S",
+      "round": 2,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M1-S",
+      "round": 2,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M2-S",
+      "round": 2,
+      "position": 2,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M3-S",
+      "round": 2,
+      "position": 3,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M0-S",
+      "round": 3,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M1-S",
+      "round": 3,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R4-M0-S",
+      "round": 4,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "CHAMPIONSHIP",
+      "round": 5,
+      "position": 0,
+      "side": null,
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    }
+  ],
+  "createdAt": "2026-08-24T23:10:01.856Z",
+  "updatedAt": "2026-08-24T23:10:01.856Z",
+  "editCode": "XZPG-52RM"
+}
