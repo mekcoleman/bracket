@@ -1,0 +1,101 @@
+{
+  "class": "5A",
+  "title": "Class 5A AP Poll",
+  "week": 2,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Triad 14, Washington 12, Belvidere North 10, Antioch 5, Oak Forest 3, Wheaton Academy 3, Decatur MacArthur 2",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "New Lenox (Providence)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
+      "points": 130,
+      "firstPlace": 13,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Springfield (Sacred Heart Griffin)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZLOW7Z2SSJHT3LW6QOPSO2NVCU.gif",
+      "points": 106,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Kankakee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
+      "points": 101,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Wheaton (St. Francis)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NNSM6MPACRCMRPT3NIPFVHZ7YQ.webp",
+      "points": 95,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Mahomet-Seymour",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CWLMV7OWMNDRDOAER3NUHE2AWM.webp",
+      "points": 74,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Maple Park (Kaneland)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3WVD3MBV2NFJVC2UKYMK5SWXQI.jpg",
+      "points": 67,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Chicago (Morgan Park)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4HADLLCA2JECZCYP3H7H3BEMAA.png",
+      "points": 53,
+      "firstPlace": null,
+      "lastWeek": "10",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Crystal Lake (South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IVKOFEK4ERVHWTRZE6FNUVJ24M.jpg",
+      "points": 17,
+      "firstPlace": null,
+      "lastWeek": "NR",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Morton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6GW3ARBVVJGALF5XX7HFSDW27I.webp",
+      "points": 16,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Peoria",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/J6HB2CLPLJGHPM6T6FPPSZCCK4.webp",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-27T02:10:51.358Z"
+}
