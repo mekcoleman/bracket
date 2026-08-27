@@ -1,0 +1,101 @@
+{
+  "class": "2A",
+  "title": "Class 2A AP Poll",
+  "week": 2,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Riverdale 7, Flora 6, Eastland-Pearl City 4, Moweaqua Central A&M 3, St. Teresa 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Wilmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg",
+      "points": 138,
+      "firstPlace": 12,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "El Paso-Gridley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp",
+      "points": 126,
+      "firstPlace": 1,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Maroa-Forsyth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp",
+      "points": 112,
+      "firstPlace": 1,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Downs (Tri-Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp",
+      "points": 99,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Sterling (Newman Central Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QG3WVTHPXBBDBOTT726IKVWYBM.png",
+      "points": 71,
+      "firstPlace": null,
+      "lastWeek": "T5",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Aurora (Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png",
+      "points": 58,
+      "firstPlace": null,
+      "lastWeek": "T5",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Farmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NXDDVXBSA5HD3C4GC2ZK57DZBE.webp",
+      "points": 49,
+      "firstPlace": null,
+      "lastWeek": "T7",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Westville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2UK2VM6FW5A7DF2UXRG5N3LYVA.webp",
+      "points": 43,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Nashville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/F2ROE6PYB5F77AGCWDZMR6DYJU.webp",
+      "points": 29,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Taylor Ridge (Rockridge)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JWVVUN3SNNEQXMPWV24B5JY2Z4.png",
+      "points": 24,
+      "firstPlace": null,
+      "lastWeek": "T7",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-27T02:10:54.519Z"
+}
