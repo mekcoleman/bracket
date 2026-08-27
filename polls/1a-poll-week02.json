@@ -1,0 +1,101 @@
+{
+  "class": "1A",
+  "title": "Class 1A AP Poll",
+  "week": 2,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Tuscola 21, Casey-Westfield 20, Athens 4, Galena 3, Dwight 1.",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Lena-Winslow",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ERNR5TZWMFCLPHLFHIIMHLAAHU.jpg",
+      "points": 127,
+      "firstPlace": 11,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Mount Sterling (Brown County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6VEOAXR66VDTDFCBSBFYLYDT6U.webp",
+      "points": 122,
+      "firstPlace": 2,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Hardin (Calhoun)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ELA4EAM76ZHCBN7BADTDUZYGNM.webp",
+      "points": 111,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Camp Point (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D5W7LNSHO5C5FONMPBBLWUJ3BY.png",
+      "points": 99,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Heyworth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3EEFX3VXGRCT7END2RJXSVBQ5E.webp",
+      "points": 62,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Stockton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DADZFJZMIRBVRCTKGKJN5BVML4.webp",
+      "points": 61,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Fithian (Oakwood)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZWE6QUZJX5DIFMSHEEQHJGFY6Y.jpg",
+      "points": 48,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Arthur",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IKQR67HMEFAJ5CPZWW5PR6Z2WE.png",
+      "points": 40,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Kewanee (Wethersfield)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VZ4ISCMGVBHE5OCU7S3B342JAU.webp",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Forreston",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VZF2NYKEBVHNBFYERNHOEZMVKA.jpg",
+      "points": 23,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-08-27T02:10:55.940Z"
+}
