@@ -4,7 +4,7 @@
   "week": 2,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Maine South 14, Bolingbrook 7, Sandburg 5, Huntley 4, Naperville North 1",
+  "others": "Maine South 14, Bolingbrook 7, Sandburg 5, Huntley 4, Naperville North 1.",
   "rankings": [
     {
       "rank": 1,
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-27T01:36:07.104Z"
+  "updatedAt": "2026-08-27T02:10:47.725Z"
 }
