@@ -1,0 +1,101 @@
+{
+  "class": "3A",
+  "title": "Class 3A AP Poll",
+  "week": 2,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Durand-Pecatonica 22, Benton 3, Petersburg PORTA 2, Manteno 1.",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Byron",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DL4EONBUW5HZNPKXWWSWCWXYGQ.jpg",
+      "points": 133,
+      "firstPlace": 7,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Elmhurst (IC Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YDYRE7FA3FCCXOIUYFDJZJ2ATE.gif",
+      "points": 128,
+      "firstPlace": 7,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "St. Joseph (Ogden)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3XXBEQQNMNCDBJJ4Q24E2Y44AA.webp",
+      "points": 102,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Tolono (Unity)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DR6OGHNJVRF77KWUWTRIBUHQ34.jpg",
+      "points": 98,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Richmond-Burton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2W5GX6VM5VGW5B35JVCMV33NHA.jpeg",
+      "points": 90,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Monticello",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LJIWBKOIWJBPZKZFBIJGC3HWBQ.webp",
+      "points": 55,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Williamsville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KV2GY2BXJJC4RH3ZSV2ZRENYZI.jpg",
+      "points": 47,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Stanford (Olympia)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FMTZGJU2DBAYTB3Y43KHY4ZNGY.webp",
+      "points": 28,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Vandalia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KXRSU5DOWBDGXG4E35D4SYYNHU.webp",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": true
+    },
+    {
+      "rank": 10,
+      "school": "Kankakee (Bishop McNamara)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": true
+    }
+  ],
+  "updatedAt": "2026-08-27T02:10:53.323Z"
+}
