@@ -76,7 +76,7 @@
       "points": 31,
       "firstPlace": null,
       "lastWeek": "9",
-      "tied": false
+      "tied": true
     },
     {
       "rank": 9,
@@ -85,7 +85,7 @@
       "points": 31,
       "firstPlace": null,
       "lastWeek": "NR",
-      "tied": false
+      "tied": true
     },
     {
       "rank": 10,
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-08-27T02:10:50.320Z"
+  "updatedAt": "2026-08-27T02:18:56.145Z"
 }
