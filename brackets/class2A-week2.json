@@ -1,0 +1,974 @@
+{
+  "id": "class2A-week2",
+  "title": "Class 2A Week 2 Bracket Projection",
+  "bracketType": "48split",
+  "orientation": "lr",
+  "roundNames": [
+    "Opening Round",
+    "Second Round",
+    "Quarterfinals",
+    "Semifinals",
+    "Final",
+    "State Championship"
+  ],
+  "teams": [],
+  "northTeams": [
+    {
+      "seed": 1,
+      "name": "Port Byron (Riverdale)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/K3J5RNHM7NFNZGAUMP5OLZ6VTA.webp"
+    },
+    {
+      "seed": 2,
+      "name": "El Paso-Gridley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp"
+    },
+    {
+      "seed": 3,
+      "name": "Maroa-Forsyth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp"
+    },
+    {
+      "seed": 4,
+      "name": "Downs (Tri-Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp"
+    },
+    {
+      "seed": 5,
+      "name": "Wilmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg"
+    },
+    {
+      "seed": 6,
+      "name": "Westville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2UK2VM6FW5A7DF2UXRG5N3LYVA.webp"
+    },
+    {
+      "seed": 7,
+      "name": "Aurora (Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png"
+    },
+    {
+      "seed": 8,
+      "name": "Farmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NXDDVXBSA5HD3C4GC2ZK57DZBE.webp"
+    },
+    {
+      "seed": 9,
+      "name": "Carthage (Illini West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/N6OJ4TKSKJBFHFLXQJRJGV5GEQ.jpeg"
+    },
+    {
+      "seed": 10,
+      "name": "Peotone",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SKRKEZFZ3ZEKNFOCE6NU7V4OLY.jpg"
+    },
+    {
+      "seed": 11,
+      "name": "Chicago (Julian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QU2KUWVGFVBKFBKVZ3QJ43JEKI.png"
+    },
+    {
+      "seed": 12,
+      "name": "Erie",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/INMOXFGTPZC3DJMZU3V5D2TQMU.gif"
+    },
+    {
+      "seed": 13,
+      "name": "Elmwood",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3BGFI6WVYVHQVOWAIDPOT4CGVY.webp"
+    },
+    {
+      "seed": 14,
+      "name": "Braidwood (Reed-Custer)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/T4RRVBFD5NHZNMZEAXDELWYOZA.jpg"
+    },
+    {
+      "seed": 15,
+      "name": "Beardstown",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JVKC5B2ICBC5JKHO7EVXTMUSZI.jpg"
+    },
+    {
+      "seed": 16,
+      "name": "Lanark (Eastland)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KEKTIQKV5BHVZFPSDLE57CJGF4.webp"
+    },
+    {
+      "seed": 17,
+      "name": "Seneca",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WCLHAKCTYIA7WRUGDZMOLVU7BA.jpg"
+    },
+    {
+      "seed": 18,
+      "name": "Bismarck-Henning",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/EUHU6FEBRZFNDLG4ZMT34SDKNI.png"
+    },
+    {
+      "seed": 19,
+      "name": "Westmont",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DVQ56OXQH5H3PGEYSYP4B3N4SA.jpg"
+    },
+    {
+      "seed": 20,
+      "name": "Colfax (Ridgeview)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JC6WB7S4WBBWJOMBBMZIFRWU4Q.webp"
+    },
+    {
+      "seed": 21,
+      "name": "Aledo (Mercer County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q577MQAYABBRVISMW7VIS3ZX4I.jpeg"
+    },
+    {
+      "seed": 22,
+      "name": "Winnebago",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PFVOU5VWGVDQBFC74FJOYEMKVQ.jpg"
+    },
+    {
+      "seed": 23,
+      "name": "Georgetown (Ridge Farm)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RQI6DTUD4FCTZI6UU6YBQPS66Q.webp"
+    },
+    {
+      "seed": 24,
+      "name": "Paxton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4KAEBBDCH5GRPIV3C4DCOIFLHM.webp"
+    }
+  ],
+  "southTeams": [
+    {
+      "seed": 1,
+      "name": "Johnston City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZFUGVLBORDSLH63WQMDK7KNFE.webp"
+    },
+    {
+      "seed": 2,
+      "name": "Flora",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7FDIQ52ZJBAZVHQP4TG4R7AIAQ.webp"
+    },
+    {
+      "seed": 3,
+      "name": "Sullivan",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IYNYW2JZFRFJ7M7THXDEQZKC7Q.webp"
+    },
+    {
+      "seed": 4,
+      "name": "Decatur (St. Teresa)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QZRT4UCOFBGTROGIULE2NNKJ7Q.webp"
+    },
+    {
+      "seed": 5,
+      "name": "Nashville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/F2ROE6PYB5F77AGCWDZMR6DYJU.webp"
+    },
+    {
+      "seed": 6,
+      "name": "Chester",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/63Q4NG4TPBCB7PYGQD6GKY7BMY.png"
+    },
+    {
+      "seed": 7,
+      "name": "Vandalia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KXRSU5DOWBDGXG4E35D4SYYNHU.webp"
+    },
+    {
+      "seed": 8,
+      "name": "Moweaqua (Central A&M)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHNWCJPUEFHCXGJ4YITGDWBEDI.webp"
+    },
+    {
+      "seed": 9,
+      "name": "DuQuoin",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WTJHMY5OTZDRXGBBZVZHUJ6H3Q.webp"
+    },
+    {
+      "seed": 10,
+      "name": "Christopher",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/26YHWZVB4REKXM4CRZJ5OVEJMQ.webp"
+    },
+    {
+      "seed": 11,
+      "name": "Pana",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ED5MAUQAEJESDA6DFIDKJBNWOU.webp"
+    },
+    {
+      "seed": 12,
+      "name": "Red Bud",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SIHAC2NUGFCEXFIGENIJU7NUTE.webp"
+    },
+    {
+      "seed": 13,
+      "name": "Warrensburg-Latham",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MWJC52HITBASPBSADSBO5VBM7Q.jpg"
+    },
+    {
+      "seed": 14,
+      "name": "Auburn",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VHTHRT5CCRGR3KCZH77P2JN4ZU.png"
+    },
+    {
+      "seed": 15,
+      "name": "Carmi (White County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YYBRGE6WQFAPPH35TIPTJIAWNM.png"
+    },
+    {
+      "seed": 16,
+      "name": "West Frankfort",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BSN7TDCHGFGKPLRLQTJWQLAW5I.webp"
+    },
+    {
+      "seed": 17,
+      "name": "Carlinville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RJKRUWT5VHFFAT5JVLNN7MXKQ.png"
+    },
+    {
+      "seed": 18,
+      "name": "Piasa (Southwestern)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VVE5RBZ2XVGCZA7V7V5ZHBIXJI.webp"
+    },
+    {
+      "seed": 19,
+      "name": "McLeansboro (Hamilton County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XLAL3JQTPRG37C4XYEAC75EW6I.webp"
+    },
+    {
+      "seed": 20,
+      "name": "Niantic (Sangamon Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UTA6EZ2J7ZDR5P7FVK27BRC6FU.webp"
+    },
+    {
+      "seed": 21,
+      "name": "Riverton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D3WLOXWTPNBSJGEDHHOW6TH6FE.webp"
+    },
+    {
+      "seed": 22,
+      "name": "Jacksonville (Routt)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/USPJXEAPXZCHLDQZBRVII2GCAI.webp"
+    },
+    {
+      "seed": 23,
+      "name": "Pittsfield",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/G7GOWURDRBDXNCTZWXBTIZ2VXE.webp"
+    },
+    {
+      "seed": 24,
+      "name": "Pleasant Hill",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IU4BNU2CZNFDTLCMSL6RHCIWBA.webp"
+    }
+  ],
+  "matchups": [
+    {
+      "id": "R0-M0-N",
+      "round": 0,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 16,
+        "name": "Lanark (Eastland)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KEKTIQKV5BHVZFPSDLE57CJGF4.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 17,
+        "name": "Seneca",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WCLHAKCTYIA7WRUGDZMOLVU7BA.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M1-N",
+      "round": 0,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 9,
+        "name": "Carthage (Illini West)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/N6OJ4TKSKJBFHFLXQJRJGV5GEQ.jpeg",
+        "score": null
+      },
+      "team2": {
+        "seed": 24,
+        "name": "Paxton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4KAEBBDCH5GRPIV3C4DCOIFLHM.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M2-N",
+      "round": 0,
+      "position": 2,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 12,
+        "name": "Erie",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/INMOXFGTPZC3DJMZU3V5D2TQMU.gif",
+        "score": null
+      },
+      "team2": {
+        "seed": 21,
+        "name": "Aledo (Mercer County)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q577MQAYABBRVISMW7VIS3ZX4I.jpeg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M3-N",
+      "round": 0,
+      "position": 3,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 13,
+        "name": "Elmwood",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3BGFI6WVYVHQVOWAIDPOT4CGVY.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 20,
+        "name": "Colfax (Ridgeview)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JC6WB7S4WBBWJOMBBMZIFRWU4Q.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M4-N",
+      "round": 0,
+      "position": 4,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 15,
+        "name": "Beardstown",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JVKC5B2ICBC5JKHO7EVXTMUSZI.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 18,
+        "name": "Bismarck-Henning",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/EUHU6FEBRZFNDLG4ZMT34SDKNI.png",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M5-N",
+      "round": 0,
+      "position": 5,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 10,
+        "name": "Peotone",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SKRKEZFZ3ZEKNFOCE6NU7V4OLY.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 23,
+        "name": "Georgetown (Ridge Farm)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RQI6DTUD4FCTZI6UU6YBQPS66Q.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M6-N",
+      "round": 0,
+      "position": 6,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 11,
+        "name": "Chicago (Julian)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QU2KUWVGFVBKFBKVZ3QJ43JEKI.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 22,
+        "name": "Winnebago",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PFVOU5VWGVDQBFC74FJOYEMKVQ.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M7-N",
+      "round": 0,
+      "position": 7,
+      "side": "N",
+      "isBye": false,
+      "team1": {
+        "seed": 14,
+        "name": "Braidwood (Reed-Custer)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/T4RRVBFD5NHZNMZEAXDELWYOZA.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 19,
+        "name": "Westmont",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DVQ56OXQH5H3PGEYSYP4B3N4SA.jpg",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R1-M0-N",
+      "round": 1,
+      "position": 0,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 1,
+        "name": "Port Byron (Riverdale)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/K3J5RNHM7NFNZGAUMP5OLZ6VTA.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M1-N",
+      "round": 1,
+      "position": 1,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 8,
+        "name": "Farmington",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NXDDVXBSA5HD3C4GC2ZK57DZBE.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M2-N",
+      "round": 1,
+      "position": 2,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 5,
+        "name": "Wilmington",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M3-N",
+      "round": 1,
+      "position": 3,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 4,
+        "name": "Downs (Tri-Valley)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M4-N",
+      "round": 1,
+      "position": 4,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 2,
+        "name": "El Paso-Gridley",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M5-N",
+      "round": 1,
+      "position": 5,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 7,
+        "name": "Aurora (Christian)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M6-N",
+      "round": 1,
+      "position": 6,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 6,
+        "name": "Westville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2UK2VM6FW5A7DF2UXRG5N3LYVA.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M7-N",
+      "round": 1,
+      "position": 7,
+      "side": "N",
+      "isBye": true,
+      "team1": {
+        "seed": 3,
+        "name": "Maroa-Forsyth",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M0-N",
+      "round": 2,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M1-N",
+      "round": 2,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M2-N",
+      "round": 2,
+      "position": 2,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M3-N",
+      "round": 2,
+      "position": 3,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M0-N",
+      "round": 3,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M1-N",
+      "round": 3,
+      "position": 1,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R4-M0-N",
+      "round": 4,
+      "position": 0,
+      "side": "N",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R0-M0-S",
+      "round": 0,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 16,
+        "name": "West Frankfort",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BSN7TDCHGFGKPLRLQTJWQLAW5I.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 17,
+        "name": "Carlinville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RJKRUWT5VHFFAT5JVLNN7MXKQ.png",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M1-S",
+      "round": 0,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 9,
+        "name": "DuQuoin",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WTJHMY5OTZDRXGBBZVZHUJ6H3Q.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 24,
+        "name": "Pleasant Hill",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IU4BNU2CZNFDTLCMSL6RHCIWBA.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M2-S",
+      "round": 0,
+      "position": 2,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 12,
+        "name": "Red Bud",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SIHAC2NUGFCEXFIGENIJU7NUTE.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 21,
+        "name": "Riverton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D3WLOXWTPNBSJGEDHHOW6TH6FE.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M3-S",
+      "round": 0,
+      "position": 3,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 13,
+        "name": "Warrensburg-Latham",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MWJC52HITBASPBSADSBO5VBM7Q.jpg",
+        "score": null
+      },
+      "team2": {
+        "seed": 20,
+        "name": "Niantic (Sangamon Valley)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UTA6EZ2J7ZDR5P7FVK27BRC6FU.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M4-S",
+      "round": 0,
+      "position": 4,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 15,
+        "name": "Carmi (White County)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YYBRGE6WQFAPPH35TIPTJIAWNM.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 18,
+        "name": "Piasa (Southwestern)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VVE5RBZ2XVGCZA7V7V5ZHBIXJI.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M5-S",
+      "round": 0,
+      "position": 5,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 10,
+        "name": "Christopher",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/26YHWZVB4REKXM4CRZJ5OVEJMQ.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 23,
+        "name": "Pittsfield",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/G7GOWURDRBDXNCTZWXBTIZ2VXE.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M6-S",
+      "round": 0,
+      "position": 6,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 11,
+        "name": "Pana",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ED5MAUQAEJESDA6DFIDKJBNWOU.webp",
+        "score": null
+      },
+      "team2": {
+        "seed": 22,
+        "name": "Jacksonville (Routt)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/USPJXEAPXZCHLDQZBRVII2GCAI.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R0-M7-S",
+      "round": 0,
+      "position": 7,
+      "side": "S",
+      "isBye": false,
+      "team1": {
+        "seed": 14,
+        "name": "Auburn",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VHTHRT5CCRGR3KCZH77P2JN4ZU.png",
+        "score": null
+      },
+      "team2": {
+        "seed": 19,
+        "name": "McLeansboro (Hamilton County)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XLAL3JQTPRG37C4XYEAC75EW6I.webp",
+        "score": null
+      },
+      "winner": null
+    },
+    {
+      "id": "R1-M0-S",
+      "round": 1,
+      "position": 0,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 1,
+        "name": "Johnston City",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZFUGVLBORDSLH63WQMDK7KNFE.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M1-S",
+      "round": 1,
+      "position": 1,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 8,
+        "name": "Moweaqua (Central A&M)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHNWCJPUEFHCXGJ4YITGDWBEDI.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M2-S",
+      "round": 1,
+      "position": 2,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 5,
+        "name": "Nashville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/F2ROE6PYB5F77AGCWDZMR6DYJU.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M3-S",
+      "round": 1,
+      "position": 3,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 4,
+        "name": "Decatur (St. Teresa)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QZRT4UCOFBGTROGIULE2NNKJ7Q.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M4-S",
+      "round": 1,
+      "position": 4,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 2,
+        "name": "Flora",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7FDIQ52ZJBAZVHQP4TG4R7AIAQ.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M5-S",
+      "round": 1,
+      "position": 5,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 7,
+        "name": "Vandalia",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KXRSU5DOWBDGXG4E35D4SYYNHU.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M6-S",
+      "round": 1,
+      "position": 6,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 6,
+        "name": "Chester",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/63Q4NG4TPBCB7PYGQD6GKY7BMY.png",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R1-M7-S",
+      "round": 1,
+      "position": 7,
+      "side": "S",
+      "isBye": true,
+      "team1": {
+        "seed": 3,
+        "name": "Sullivan",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IYNYW2JZFRFJ7M7THXDEQZKC7Q.webp",
+        "score": null
+      },
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M0-S",
+      "round": 2,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M1-S",
+      "round": 2,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M2-S",
+      "round": 2,
+      "position": 2,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R2-M3-S",
+      "round": 2,
+      "position": 3,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M0-S",
+      "round": 3,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R3-M1-S",
+      "round": 3,
+      "position": 1,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "R4-M0-S",
+      "round": 4,
+      "position": 0,
+      "side": "S",
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    },
+    {
+      "id": "CHAMPIONSHIP",
+      "round": 5,
+      "position": 0,
+      "side": null,
+      "isBye": false,
+      "team1": null,
+      "team2": null,
+      "winner": null
+    }
+  ],
+  "createdAt": "2026-08-31T18:41:33.184Z",
+  "updatedAt": "2026-08-31T18:41:33.184Z",
+  "editCode": "X2JY-UVDL"
+}
