@@ -1260,14 +1260,13 @@ function matchSchoolToDb(rawName) {
 
 // ── Email parser ─────────────────────────────────────────────
 function parseEmailText(rawText) {
-  // Normalise line endings — emails often use \r\n
+  // Normalise line endings
   const text = rawText.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
   const result = {};
-
-  // Split on lines that are exactly "Class XA" (allow leading/trailing spaces)
   const sections = text.split(/\n(?=[ \t]*Class\s+[1-8]A[ \t]*\n)/i);
+
   for (const sec of sections) {
-    const hdr = sec.match(/^Class\s+([1-8]A)\s*$/im);
+    const hdr = sec.match(/^[ \t]*Class\s+([1-8]A)[ \t]*$/im);
     if (!hdr) continue;
     const cls = hdr[1].toUpperCase();
     const rankings = [];
@@ -1275,43 +1274,88 @@ function parseEmailText(rawText) {
     let lastWasTieStart = false;
     let lastRank = null;
     const lines = sec.split('\n');
+
     for (let li = 0; li < lines.length; li++) {
       const line = lines[li];
       const t = line.trim();
-      if (!t || t.match(/^Class\s+[1-8]A/i)) continue;
-      if (t.match(/^(here are|illinois|as voted|any questions)/i)) continue;
+      if (!t || t.match(/^[ \t]*Class\s+[1-8]A/i)) continue;
+      if (t.match(/^(here are|illinois|based on|with records|as voted|any questions|preseason)/i)) continue;
+
       // Others receiving votes
       const om = t.match(/^Others\s+receiving\s+votes[:\s]+(.+)/i);
       if (om) { others = om[1].replace(/\.+$/, '').trim(); lastWasTieStart = false; continue; }
+
       // Tie continuation — indented, no leading digit
       if (lastWasTieStart && lastRank !== null && line.match(/^[ \t]{2,}/) && !t.match(/^\d/)) {
-        const cm = t.match(/^(.+?)(?:\s+\((\d+)\))?\s+(\d+)\s*$/);
-        if (cm) {
-          const m = matchSchoolToDb(cm[1].trim());
+        const parsed = parseRankingTokens(t);
+        if (parsed) {
+          const m = matchSchoolToDb(parsed.school);
           rankings.push({ rank: lastRank, school: m.name, logo: m.logo,
-            points: parseInt(cm[3]), firstPlace: cm[2] ? parseInt(cm[2]) : null,
-            lastWeek: null, tied: true });
+            points: parsed.points, firstPlace: parsed.fp,
+            lastWeek: parsed.lastWeek, record: parsed.record, tied: true });
           continue;
         }
       }
-      // Standard ranking line: "N. [optional (tie)] School [(fp)] pts"
-      const rm = t.match(/^(\d+)[.,]\s+(?:\(tie\)\s+)?(.+?)(?:\s+\((\d+)\))?\s+(\d+)\s*$/);
-      if (rm) {
-        const rank = parseInt(rm[1]);
-        const isTieStart = /^\d+[.,]\s+\(tie\)/i.test(t);
-        const m = matchSchoolToDb(rm[2].trim());
-        rankings.push({ rank, school: m.name, logo: m.logo,
-          points: parseInt(rm[4]), firstPlace: rm[3] ? parseInt(rm[3]) : null,
-          lastWeek: null, tied: false });
-        lastRank = rank;
-        lastWasTieStart = isTieStart;
-        continue;
+
+      // Standard ranking line
+      const rankPfx = t.match(/^(\d+)[.,]\s+(?:\(tie\)\s*)?/);
+      if (rankPfx) {
+        const rank = parseInt(rankPfx[1]);
+        const isTieStart = /\(tie\)/i.test(rankPfx[0]);
+        const rest = t.slice(rankPfx[0].length).trim();
+        const parsed = parseRankingTokens(rest);
+        if (parsed) {
+          const m = matchSchoolToDb(parsed.school);
+          rankings.push({ rank, school: m.name, logo: m.logo,
+            points: parsed.points, firstPlace: parsed.fp,
+            lastWeek: parsed.lastWeek, record: parsed.record, tied: false });
+          lastRank = rank;
+          lastWasTieStart = isTieStart;
+          continue;
+        }
       }
       lastWasTieStart = false;
     }
     if (rankings.length) result[cls] = { class: cls, title: 'Class ' + cls + ' AP Poll', rankings, others };
   }
   return result;
+}
+
+// Tokenise ranking content after the rank prefix.
+// Handles both formats:
+//   Old: "School [(fp)] points"
+//   New: "School [(fp)] W-L [(fp)] points lastWeek"
+function parseRankingTokens(rest) {
+  // Detect W-L record (digits-dash-digits) but NOT letter-dash-letter school names
+  const recM = rest.match(/\b(\d+-\d+)\b/);
+
+  if (recM) {
+    // New format
+    const recIdx = rest.indexOf(recM[0]);
+    let beforeRec = rest.slice(0, recIdx).trim();
+    let afterRec  = rest.slice(recIdx + recM[0].length).trim();
+    let fp = null;
+
+    // fp before record: "School (11) 1-0 ..."
+    const fpBefore = beforeRec.match(/\s*\((\d+)\)\s*$/);
+    if (fpBefore) { fp = parseInt(fpBefore[1]); beforeRec = beforeRec.slice(0, fpBefore.index).trim(); }
+
+    // fp after record: "School 1-0 (1) 112 3"
+    const fpAfter = afterRec.match(/^\((\d+)\)\s+/);
+    if (fpAfter && fp === null) { fp = parseInt(fpAfter[1]); afterRec = afterRec.slice(fpAfter[0].length).trim(); }
+
+    const parts = afterRec.split(/\s+/);
+    if (!parts.length || isNaN(parseInt(parts[0]))) return null;
+    const points   = parseInt(parts[0]);
+    const lastWeek = parts[1] ? parts[1].replace(/[.,]+$/, '').toUpperCase() : null;
+    return { school: beforeRec, fp, record: recM[1], points, lastWeek };
+
+  } else {
+    // Old format: "School [(fp)] points"
+    const m = rest.match(/^(.+?)(?:\s+\((\d+)\))?\s+(\d+)\s*$/);
+    if (!m) return null;
+    return { school: m[1].trim(), fp: m[2] ? parseInt(m[2]) : null, record: null, points: parseInt(m[3]), lastWeek: null };
+  }
 }
 
 function runPollParse() {
