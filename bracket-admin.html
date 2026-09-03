@@ -314,7 +314,7 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
     <div class="topbar-logo">Bracket <span>Builder</span></div>
     <div class="topbar-actions">
       <button class="btn btn-accent btn-sm" onclick="openResults()">&#128203; Results</button>
-      <button class="btn btn-secondary btn-sm" onclick="openPoll()">&#128202; AP Poll</button>
+      <button class="btn btn-secondary btn-sm" onclick="openPoll()">&#128202; Poll</button>
       <button class="btn btn-secondary btn-sm" onclick="openLoadModal()">Load Existing</button>
       <button class="btn btn-sm" onclick="goStep(3)">Save &amp; Publish</button>
     </div>
@@ -441,7 +441,7 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
 <!-- POLL OVERLAY -->
 <div id="poll-overlay" style="position:fixed;inset:0;background:var(--bg);z-index:300;display:none;flex-direction:column;">
   <div style="background:var(--bg2);border-bottom:1px solid var(--border);padding:0 32px;height:60px;display:flex;align-items:center;justify-content:space-between;flex-shrink:0;">
-    <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:22px;">&#128202; AP Poll Builder</h2>
+    <h2 style="font-family:'Barlow Condensed',sans-serif;font-weight:800;font-size:22px;">&#128202; Poll Builder</h2>
     <div style="display:flex;gap:10px;align-items:center;">
       <span id="poll-status"></span>
       <button class="btn btn-accent btn-sm" onclick="openPastePoll()">&#128203; Paste from Email</button>
@@ -453,10 +453,14 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
   <div style="flex:1;overflow:auto;padding:28px 32px;max-width:960px;margin:0 auto;width:100%;">
 
     <!-- Settings row -->
-    <div style="display:grid;grid-template-columns:160px 120px 1fr;gap:16px;margin-bottom:24px;align-items:end;">
+    <div style="display:grid;grid-template-columns:1fr 160px 120px;gap:16px;margin-bottom:24px;align-items:end;">
+      <div class="field" style="margin:0;">
+        <label>Poll Title</label>
+        <input type="text" id="poll-title" placeholder="Class 8A Illinois Media Poll">
+      </div>
       <div class="field" style="margin:0;">
         <label>Class</label>
-        <select id="poll-class">
+        <select id="poll-class" onchange="updatePollTitle()">
           <option value="8A">8A</option><option value="7A">7A</option>
           <option value="6A">6A</option><option value="5A">5A</option>
           <option value="4A">4A</option><option value="3A">3A</option>
@@ -467,10 +471,10 @@ body{font-family:'Barlow',sans-serif;background:var(--bg);color:var(--text);min-
         <label>Week</label>
         <input type="number" id="poll-week" min="1" max="9" value="1" placeholder="7">
       </div>
-      <div style="display:flex;align-items:center;gap:8px;padding-bottom:4px;">
-        <input type="checkbox" id="poll-suppress-lw" style="width:auto;accent-color:var(--brand);cursor:pointer;">
-        <label for="poll-suppress-lw" style="font-size:14px;color:var(--text-muted);text-transform:none;letter-spacing:0;margin:0;cursor:pointer;">First week of season (hide Last Week column)</label>
-      </div>
+    </div>
+    <div style="display:flex;align-items:center;gap:8px;margin-bottom:24px;">
+      <input type="checkbox" id="poll-suppress-lw" style="width:auto;accent-color:var(--brand);cursor:pointer;">
+      <label for="poll-suppress-lw" style="font-size:14px;color:var(--text-muted);text-transform:none;letter-spacing:0;margin:0;cursor:pointer;">First week of season (hide Last Week column)</label>
     </div>
 
     <!-- Rankings table -->
@@ -1316,7 +1320,7 @@ function parseEmailText(rawText) {
       }
       lastWasTieStart = false;
     }
-    if (rankings.length) result[cls] = { class: cls, title: 'Class ' + cls + ' AP Poll', rankings, others };
+    if (rankings.length) result[cls] = { class: cls, title: 'Class ' + cls + ' Illinois Media Poll', rankings, others };
   }
   return result;
 }
@@ -1400,7 +1404,8 @@ function renderEditableParsedPreview() {
 function buildPollEditPanel(cls, d) {
   if (!d) return `<p style="color:var(--text-muted);font-size:14px;padding:20px 0;">Class ${cls} was not found in the email. You can enter data manually using the single-class form.</p>`;
 
-  const thS = 'text-align:left;font-size:11px;font-weight:600;letter-spacing:.8px;text-transform:uppercase;color:var(--text-muted);padding:8px 12px;border-bottom:1px solid var(--border);';
+  const defaultTitle = 'Class ' + cls + ' Illinois Media Poll';
+  const inp = 'width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:7px 10px;color:var(--text);font-size:13px;outline:none;';
 
   const rows = d.rankings.map((r, idx) => {
     const i = idx + 1;
@@ -1430,7 +1435,12 @@ function buildPollEditPanel(cls, d) {
     </tr>`;
   }).join('');
 
-  return `<table style="width:100%;border-collapse:collapse;margin-bottom:16px;">
+  return `<div class="field" style="margin-bottom:16px;">
+    <label>Poll Title</label>
+    <input type="text" id="pe-${cls}-title" value="${defaultTitle}"
+      style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;color:var(--text);font-size:14px;outline:none;">
+  </div>
+  <table style="width:100%;border-collapse:collapse;margin-bottom:16px;">
     <thead><tr>
       <th style="${thS}width:70px;">Rank</th>
       <th style="${thS}width:36px;"></th>
@@ -1498,7 +1508,7 @@ function peAcSelect(cls, i, name, logo) {
 }
 
 function readPollEditData(cls) {
-  // Read all 10 rows from the editable form for a given class
+  const title  = document.getElementById(`pe-${cls}-title`)?.value?.trim() || ('Class ' + cls + ' Illinois Media Poll');
   const rankings = [];
   for (let i = 1; i <= 10; i++) {
     const school = document.getElementById(`pe-${cls}-tn-${i}`)?.value?.trim() || '';
@@ -1514,7 +1524,7 @@ function readPollEditData(cls) {
     });
   }
   const others = document.getElementById(`pe-${cls}-others`)?.value?.trim() || '';
-  return { rankings, others };
+  return { title, rankings, others };
 }
 
 async function saveAllPolls() {
@@ -1527,10 +1537,10 @@ async function saveAllPolls() {
   for (const cls of ALL) {
     const panel = document.getElementById('pet-panel-' + cls);
     if (!panel) { skipped++; continue; }
-    const { rankings, others } = readPollEditData(cls);
+    const { title, rankings, others } = readPollEditData(cls);
     if (!rankings.length) { skipped++; continue; }
     const data = {
-      class: cls, title: 'Class ' + cls + ' AP Poll', week: _parsedWeek,
+      class: cls, title, week: _parsedWeek,
       suppressLastWeek: suppress, showOthers: !!others, others,
       rankings, updatedAt: new Date().toISOString()
     };
@@ -1586,11 +1596,24 @@ async function saveAllPolls() {
 }
 
 // ── AP POLL (single class) ────────────────────────────────────
+function updatePollTitle() {
+  const cls = document.getElementById('poll-class')?.value || '8A';
+  const titleEl = document.getElementById('poll-title');
+  if (titleEl && !titleEl.dataset.edited) {
+    titleEl.value = 'Class ' + cls + ' Illinois Media Poll';
+  }
+}
+
 function openPoll() {
   document.getElementById('poll-overlay').style.display = 'flex';
+  updatePollTitle();
   buildPollRows();
   document.getElementById('poll-embed-wrap').style.display = 'none';
   document.getElementById('poll-load-wrap').style.display = 'none';
+  // Track manual edits to the title so auto-update stops
+  document.getElementById('poll-title').addEventListener('input', function() {
+    this.dataset.edited = 'true';
+  }, { once: true });
 }
 
 function closePoll() {
@@ -1677,6 +1700,7 @@ function setPollLogo(i, url) {
 async function savePoll() {
   const cls  = document.getElementById('poll-class').value;
   const week = document.getElementById('poll-week').value;
+  const title = (document.getElementById('poll-title')?.value?.trim()) || ('Class ' + cls + ' Illinois Media Poll');
   if (!week) { showToast('Please enter a week number.', 'error'); return; }
 
   const suppressLastWeek = document.getElementById('poll-suppress-lw').checked;
@@ -1698,7 +1722,7 @@ async function savePoll() {
 
   const data = {
     class: cls,
-    title: 'Class ' + cls + ' AP Poll',
+    title,
     week: parseInt(week),
     suppressLastWeek,
     showOthers,
@@ -1769,6 +1793,8 @@ async function pollLoadFile(downloadUrl, el) {
     // Populate form
     document.getElementById('poll-class').value = data.class || '8A';
     document.getElementById('poll-week').value  = data.week  || '';
+    const titleEl = document.getElementById('poll-title');
+    if (titleEl) { titleEl.value = data.title || ('Class ' + (data.class || '8A') + ' Illinois Media Poll'); titleEl.dataset.edited = 'true'; }
     document.getElementById('poll-suppress-lw').checked    = !!data.suppressLastWeek;
     document.getElementById('poll-show-others').checked    = data.showOthers !== false;
     document.getElementById('poll-others').value = data.others || '';
