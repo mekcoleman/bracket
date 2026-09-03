@@ -56,6 +56,7 @@ function build(d) {
 
   const rowsHTML = rankings.map((r, idx) => {
     const rankDisplay = r._showT ? 'T-' + r._rank : 'No.\u00a0' + r._rank;
+    const logo = r.logo
       ? `<img src="${r.logo}" referrerpolicy="no-referrer" onerror="this.style.display='none'" class="logo">`
       : '';
     const fp = r.firstPlace ? r.firstPlace : '';
