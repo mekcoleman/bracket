@@ -1264,8 +1264,13 @@ function matchSchoolToDb(rawName) {
 
 // ── Email parser ─────────────────────────────────────────────
 function parseEmailText(rawText) {
-  // Normalise line endings
-  const text = rawText.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  // Normalise line endings and strip URL-defense hyperlinks.
+  // Email security services rewrite school names as [Name](https://urldefense.com/...)
+  // which breaks rank parsing. Strip the markdown link back to plain text.
+  let text = rawText
+    .replace(/\r\n/g, '\n').replace(/[\r\u2028\u2029]/g, '\n')
+    .replace(/\[([^\]]+)\]\(https?:[^)]+\)/g, '$1');  // [text](url) → text
+
   const result = {};
   const sections = text.split(/\n(?=[ \t]*Class\s+[1-8]A[ \t]*\n)/i);
 
@@ -1283,10 +1288,10 @@ function parseEmailText(rawText) {
       const line = lines[li];
       const t = line.trim();
       if (!t || t.match(/^[ \t]*Class\s+[1-8]A/i)) continue;
-      if (t.match(/^(here are|illinois|based on|with records|as voted|any questions|preseason)/i)) continue;
+      if (t.match(/^(here are?|here the|illinois|based on|with records|as voted|any questions|preseason)/i)) continue;
 
-      // Others receiving votes
-      const om = t.match(/^Others\s+receiving\s+votes[:\s]+(.+)/i);
+      // Others / Also receiving votes (email uses both)
+      const om = t.match(/^(?:Others|Also)\s+receiving\s+votes[:\s]+(.+)/i);
       if (om) { others = om[1].replace(/\.+$/, '').trim(); lastWasTieStart = false; continue; }
 
       // Tie continuation — indented, no leading digit
@@ -1307,6 +1312,7 @@ function parseEmailText(rawText) {
         const rank = parseInt(rankPfx[1]);
         const isTieStart = /\(tie\)/i.test(rankPfx[0]);
         const rest = t.slice(rankPfx[0].length).trim();
+        if (!rest) { lastWasTieStart = false; continue; } // stray "9. " lines
         const parsed = parseRankingTokens(rest);
         if (parsed) {
           const m = matchSchoolToDb(parsed.school);
@@ -1367,16 +1373,20 @@ function runPollParse() {
   const week = document.getElementById('poll-paste-week').value;
   if (!text.trim()) { showToast('Please paste the email.', 'error'); return; }
   if (!week) { showToast('Please enter a week number.', 'error'); return; }
-  _parsedPolls = parseEmailText(text);
-  _parsedWeek  = parseInt(week);
-  const found = Object.keys(_parsedPolls).length;
-  if (!found) { showToast('No classes found — check the email format.', 'error'); return; }
-  document.getElementById('poll-parse-summary').innerHTML = renderEditableParsedPreview();
-  document.getElementById('poll-parse-preview').style.display = 'block';
-  document.getElementById('poll-all-embeds').style.display = 'none';
-  // Switch to first found class
-  const first = ['8A','7A','6A','5A','4A','3A','2A','1A'].find(c => _parsedPolls[c]);
-  if (first) switchPollEditTab(first);
+  try {
+    _parsedPolls = parseEmailText(text);
+    _parsedWeek  = parseInt(week);
+    const found = Object.keys(_parsedPolls).length;
+    if (!found) { showToast('No classes found — check the email format.', 'error'); return; }
+    document.getElementById('poll-parse-summary').innerHTML = renderEditableParsedPreview();
+    document.getElementById('poll-parse-preview').style.display = 'block';
+    document.getElementById('poll-all-embeds').style.display = 'none';
+    const first = ['8A','7A','6A','5A','4A','3A','2A','1A'].find(c => _parsedPolls[c]);
+    if (first) switchPollEditTab(first);
+  } catch(e) {
+    console.error('Poll parse error:', e);
+    showToast('Parse error: ' + e.message, 'error');
+  }
 }
 
 function renderEditableParsedPreview() {
