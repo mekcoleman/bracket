@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A AP Poll",
+  "week": 3,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Bradley-Bourbonnais 4, Wauconda 4",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "East St. Louis",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg",
+      "points": 129,
+      "firstPlace": 13,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 117,
+      "firstPlace": 1,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 101,
+      "firstPlace": null,
+      "lastWeek": "4T",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 83,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 62,
+      "firstPlace": null,
+      "lastWeek": "4T",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Burlington (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2EW2UPSX2RFVDPJDR7FFRYQOGA.jpg",
+      "points": 56,
+      "firstPlace": null,
+      "lastWeek": "8T",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 46,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Dunlap",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
+      "points": 45,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Machesney Park (Harlem)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
+      "points": 36,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Joliet (Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
+      "points": 32,
+      "firstPlace": null,
+      "lastWeek": null,
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-03T16:01:18.739Z"
+}
