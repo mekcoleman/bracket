@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<title>AP Poll</title>
+<title>Illinois Media Poll</title>
 <style>html,body{margin:0;padding:0;background:transparent;}#host{width:100%;}</style>
 </head>
 <body>
@@ -30,7 +30,17 @@ async function init() {
 }
 
 function build(d) {
-  const { title, rankings, others, showOthers, suppressLastWeek } = d;
+  const { rankings, others, showOthers, suppressLastWeek } = d;
+  // Correct legacy title if saved before rename
+  const title = (d.title || '').replace(/AP Poll/gi, 'Illinois Media Poll');
+
+  // Compute display ranks — tied row shares rank with row above; next non-tied row uses its position number
+  let displayRank = 1;
+  rankings.forEach((r, idx) => {
+    if (!r.tied) displayRank = idx + 1;
+    r._rank  = displayRank;
+    r._showT = r.tied || (idx + 1 < rankings.length && rankings[idx + 1].tied);
+  });
 
   const thStyle = 'font-size:16px;font-weight:600;color:#555;text-align:left;padding:10px 14px;border-bottom:2px solid #e8e8e8;white-space:nowrap;';
   const thBlank = `<th style="${thStyle}"></th>`;
@@ -45,7 +55,7 @@ function build(d) {
   `;
 
   const rowsHTML = rankings.map((r, idx) => {
-    const logo = r.logo
+    const rankDisplay = r._showT ? 'T-' + r._rank : 'No.\u00a0' + r._rank;
       ? `<img src="${r.logo}" referrerpolicy="no-referrer" onerror="this.style.display='none'" class="logo">`
       : '';
     const fp = r.firstPlace ? r.firstPlace : '';
@@ -53,7 +63,7 @@ function build(d) {
     const bg = idx % 2 === 0 ? '#fff' : '#fafafa';
     const td = 'padding:10px 14px;font-size:16px;vertical-align:middle;border-bottom:1px solid #f0f0f0;';
     return `<tr style="background:${bg};">
-      <td style="${td}color:#666;white-space:nowrap;width:56px;">No.&nbsp;${r.rank}</td>
+      <td style="${td}color:#666;white-space:nowrap;width:56px;">${rankDisplay}</td>
       <td style="${td}font-weight:500;min-width:120px;">${r.school}</td>
       <td style="${td}width:44px;padding:6px 10px;">${logo}</td>
       <td style="${td}font-weight:600;">${r.points}</td>
