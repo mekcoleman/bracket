@@ -1,10 +1,10 @@
 {
   "class": "8A",
-  "title": "Class 8A AP Poll",
+  "title": "Class 8A Illinois Media Poll",
   "week": 3,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Bolingbrook 5, Evanston 1, Huntley 1.",
+  "others": "Bolingbrook 5, Evanston 1, Huntley 1",
   "rankings": [
     {
       "rank": 1,
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-03T16:01:15.832Z"
+  "updatedAt": "2026-09-03T16:18:04.519Z"
 }
