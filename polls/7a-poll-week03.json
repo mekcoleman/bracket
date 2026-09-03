@@ -1,0 +1,101 @@
+{
+  "class": "7A",
+  "title": "Class 7A AP Poll",
+  "week": 3,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Wheaton-Warrenville South 5, Guilford 2, Jacobs 1, DePaul Prep 1, Quincy 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Arlington Heights (Hersey)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KI2BCIZJEZAA3OB7JGFG57GKLE.png",
+      "points": 111,
+      "firstPlace": 7,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Chicago (Brother Rice)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
+      "points": 96,
+      "firstPlace": 4,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Downers Grove (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AV3ZAEDG4JBY5HCA4WU7JXJFLA.jpg",
+      "points": 78,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Chicago (St. Rita)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
+      "points": 64,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Batavia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SAVDKYCFGRD6PATXJAKAOQYSNM.jpg",
+      "points": 64,
+      "firstPlace": null,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "St. Charles (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/77AS5QTPXVAL5FYMCJCFBTJL6A.jpeg",
+      "points": 63,
+      "firstPlace": 1,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Glen Ellyn (Glenbard West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
+      "points": 36,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Normal (Community)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7UQO3LSXLFBSLLOLHP4JD2KSOM.webp",
+      "points": 35,
+      "firstPlace": null,
+      "lastWeek": "8T",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Mt. Prospect (Prospect)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg",
+      "points": 33,
+      "firstPlace": null,
+      "lastWeek": "10",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "New Lenox (Lincoln-Way West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U4AG7U474JCCRN3DEJSWISDMVQ.jpg",
+      "points": 13,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-03T16:01:17.381Z"
+}
