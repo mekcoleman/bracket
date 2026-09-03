@@ -1,0 +1,101 @@
+{
+  "class": "5A",
+  "title": "Class 5A AP Poll",
+  "week": 3,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Morton 24, MacArthur 6, Wheaton Academy 6, Carbondale 5, Crystal Lake South 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "New Lenox (Providence)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
+      "points": 160,
+      "firstPlace": 16,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Mahomet-Seymour",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CWLMV7OWMNDRDOAER3NUHE2AWM.webp",
+      "points": 125,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Wheaton (St. Francis)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NNSM6MPACRCMRPT3NIPFVHZ7YQ.webp",
+      "points": 105,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Maple Park (Kaneland)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3WVD3MBV2NFJVC2UKYMK5SWXQI.jpg",
+      "points": 102,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Springfield (Sacred Heart Griffin)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZLOW7Z2SSJHT3LW6QOPSO2NVCU.gif",
+      "points": 101,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Kankakee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
+      "points": 92,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Chicago (Morgan Park)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4HADLLCA2JECZCYP3H7H3BEMAA.png",
+      "points": 61,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Troy (Triad)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VAWPCWWDTNFKVMGVUKESLINJK4.webp",
+      "points": 37,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Sycamore",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RPTBSPVJTNG6NKAL5OTOPYEKAE.jpg",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": "NR",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Antioch",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AK6PHFIGJRGHXLXKXMEOTO2S4U.jpg",
+      "points": 25,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-03T16:01:19.985Z"
+}
