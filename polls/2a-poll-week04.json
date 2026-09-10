@@ -1,0 +1,101 @@
+{
+  "class": "2A",
+  "title": "Class 2A Illinois Media Poll",
+  "week": 4,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Flora 10, Sterling Newman 9, Westville 4, West Frankfort 3, Nashville 1, Sullivan 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Wilmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg",
+      "points": 118,
+      "firstPlace": 10,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "El Paso-Gridley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp",
+      "points": 105,
+      "firstPlace": 1,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Maroa-Forsyth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp",
+      "points": 100,
+      "firstPlace": 1,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Downs (Tri-Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp",
+      "points": 82,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Aurora (Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png",
+      "points": 64,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Taylor Ridge (Rockridge)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JWVVUN3SNNEQXMPWV24B5JY2Z4.png",
+      "points": 52,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Port Byron (Riverdale)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/K3J5RNHM7NFNZGAUMP5OLZ6VTA.webp",
+      "points": 45,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Decatur (St. Teresa)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QZRT4UCOFBGTROGIULE2NNKJ7Q.webp",
+      "points": 38,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Farmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NXDDVXBSA5HD3C4GC2ZK57DZBE.webp",
+      "points": 19,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Johnston City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZFUGVLBORDSLH63WQMDK7KNFE.webp",
+      "points": 14,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-10T13:51:58.863Z"
+}
