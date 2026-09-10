@@ -4,13 +4,13 @@
   "week": 3,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Bolingbrook 5, Evanston 1, Huntley 1",
+  "others": "Huntley 13, Marist 5, New Trier 5, Evanston 4",
   "rankings": [
     {
       "rank": 1,
       "school": "Wilmette (Loyola)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JMQ6NK6B6NFGDME2G43UEXOKSU.jpg",
-      "points": 108,
+      "points": 122,
       "firstPlace": 9,
       "lastWeek": "1",
       "tied": false
@@ -19,7 +19,7 @@
       "rank": 2,
       "school": "Chicago (Mount Carmel)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
-      "points": 100,
+      "points": 119,
       "firstPlace": 2,
       "lastWeek": "2",
       "tied": false
@@ -28,8 +28,8 @@
       "rank": 3,
       "school": "Frankfort (Lincoln-Way East)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AMYKRDCXNZFCBNFHEERLPDJYLA.gif",
-      "points": 94,
-      "firstPlace": null,
+      "points": 105,
+      "firstPlace": 2,
       "lastWeek": "3",
       "tied": false
     },
@@ -37,65 +37,65 @@
       "rank": 4,
       "school": "Oswego",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/635GZ2UKOJCNFOKH52R7BJXVJY.jpg",
-      "points": 78,
+      "points": 96,
       "firstPlace": null,
       "lastWeek": "4",
       "tied": false
     },
     {
       "rank": 5,
-      "school": "Homewood-Flossmoor",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GHUUYRYHDNBO5N4DVA5RFC74EU.gif",
-      "points": 64,
-      "firstPlace": null,
-      "lastWeek": "5",
-      "tied": false
-    },
-    {
-      "rank": 6,
       "school": "LaGrange (Lyons)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg",
-      "points": 48,
+      "points": 71,
       "firstPlace": null,
       "lastWeek": "6",
       "tied": false
     },
     {
-      "rank": 7,
+      "rank": 6,
       "school": "Palatine (Fremd)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BPJIFSJRNNE4RARHXFMHMYIR54.webp",
-      "points": 41,
+      "points": 56,
       "firstPlace": null,
       "lastWeek": "7",
       "tied": false
     },
     {
-      "rank": 8,
+      "rank": 7,
       "school": "Orland Park (Sandburg)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IE66QXGVQ5BQJI5ELCXX4ICXHI.webp",
-      "points": 31,
+      "points": 51,
       "firstPlace": null,
-      "lastWeek": "RV",
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Park Ridge (Maine South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XU5JCGTBHJEZHNSVYYIBTD6C2I.jpg",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": "10",
       "tied": false
     },
     {
       "rank": 9,
-      "school": "Chicago (Marist)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/675B5O4XXVF3VPM5HEB6HPHLPU.png",
-      "points": 26,
+      "school": "Homewood-Flossmoor",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GHUUYRYHDNBO5N4DVA5RFC74EU.gif",
+      "points": 24,
       "firstPlace": null,
-      "lastWeek": "9",
+      "lastWeek": "5",
       "tied": false
     },
     {
       "rank": 10,
-      "school": "Park Ridge (Maine South)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XU5JCGTBHJEZHNSVYYIBTD6C2I.jpg",
-      "points": 11,
+      "school": "Bolingbrook",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/34CQZS42KNH4LDS4ARQMNI2K3I.png",
+      "points": 14,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-03T16:27:32.756Z"
+  "updatedAt": "2026-09-10T13:49:08.011Z"
 }
