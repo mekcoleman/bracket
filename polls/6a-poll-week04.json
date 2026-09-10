@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A Illinois Media Poll",
+  "week": 4,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "King 3, Joliet Catholic 2, Wauconda 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "East St. Louis",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg",
+      "points": 139,
+      "firstPlace": 13,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 125,
+      "firstPlace": 1,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 103,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 92,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 81,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Dunlap",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
+      "points": 64,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Machesney Park (Harlem)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
+      "points": 54,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 50,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Bradley-Bourbonnais",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GK42SFEMSZFRJGGQ2LPPHURXGU.jpg",
+      "points": 30,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Wheaton (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/533A7HCQH5HCTMNYFG5BZMAQMQ.jpg",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": "NR",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-10T13:51:54.967Z"
+}
