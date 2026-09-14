@@ -34,138 +34,138 @@
     },
     {
       "seed": 5,
+      "name": "East St. Louis",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg"
+    },
+    {
+      "seed": 6,
       "name": "Algonquin (Jacobs)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/L4ERKD2T2NDZDPBJVX25N2G65I.jpg"
     },
     {
-      "seed": 6,
+      "seed": 7,
       "name": "Mt. Prospect (Prospect)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg"
     },
     {
-      "seed": 7,
+      "seed": 8,
       "name": "Chicago (Westinghouse)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WR7LXCH6RJAN5AORSOQJJOWEHI.webp"
     },
     {
-      "seed": 8,
+      "seed": 9,
       "name": "Chicago (St. Rita)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg"
     },
     {
-      "seed": 9,
+      "seed": 10,
       "name": "New Lenox (Lincoln-Way Central)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/I7SYCSWEDBGDFO4PD3HIMKFZ4A.png"
     },
     {
-      "seed": 10,
+      "seed": 11,
       "name": "Glen Ellyn (Glenbard West)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg"
     },
     {
-      "seed": 11,
+      "seed": 12,
       "name": "Oak Lawn (Richards)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NYY54MQCVJABFH4WSXKON7W2SM.webp"
     },
     {
-      "seed": 12,
+      "seed": 13,
       "name": "Rockford (Guilford)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FCLQII6Y25D5BMLPYOVET7FPAQ.webp"
     },
     {
-      "seed": 13,
+      "seed": 14,
       "name": "Chicago (Brother Rice)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png"
     },
     {
-      "seed": 14,
+      "seed": 15,
       "name": "Buffalo Grove",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2X67X3AJCBCFDPXK2TYI2XKJHU.jpeg"
     },
     {
-      "seed": 15,
+      "seed": 16,
       "name": "Rockford (Jefferson)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp"
     },
     {
-      "seed": 16,
+      "seed": 17,
       "name": "Chicago (Kenwood)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NTFFNTZXFRBPDNPLXNLFSPNLDM.png"
     },
     {
-      "seed": 17,
+      "seed": 18,
       "name": "Plainfield (South)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QWMRJPXI2VBFBEX7VNTUQ3NBCI.jpg"
     },
     {
-      "seed": 18,
+      "seed": 19,
       "name": "Chicago (St. Patrick)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGBKE5KBIRE2LOVCKGYXGU3ODU.webp"
     },
     {
-      "seed": 19,
+      "seed": 20,
       "name": "Zion-Benton",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UD6LIDYU2RDE5AHS5J566O6AKI.webp"
     },
     {
-      "seed": 20,
+      "seed": 21,
       "name": "Skokie (Niles North)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLOO5EX5SBELFAO6SORP653ENQ.webp"
     },
     {
-      "seed": 21,
+      "seed": 22,
       "name": "Yorkville",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GC54ZP22GFDUJDXTV5EX4P6U5A.jpg"
     },
     {
-      "seed": 22,
+      "seed": 23,
       "name": "Chicago (DePaul)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/TWQ7PBXHSRGDZNY4XP5J7DMY2U.jpg"
     },
     {
-      "seed": 23,
+      "seed": 24,
       "name": "St. Charles (North)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/77AS5QTPXVAL5FYMCJCFBTJL6A.jpeg"
     },
     {
-      "seed": 24,
+      "seed": 25,
       "name": "Plainfield (North)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5AK43GTDD5C75IITL56CYHEXUI.jpeg"
     },
     {
-      "seed": 25,
+      "seed": 26,
       "name": "Moline",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PD62N3R7V5CXZJYEXXFDELA5OA.webp"
     },
     {
-      "seed": 26,
+      "seed": 27,
       "name": "Lombard (Glenbard East)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U2D3S6XXNJAXRAMUQFQD33RLNI.jpg"
     },
     {
-      "seed": 27,
+      "seed": 28,
       "name": "Edwardsville",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp"
     },
     {
-      "seed": 28,
+      "seed": 29,
       "name": "Belleville (East)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTC3E5NA3BGJBBZ2OSHRYR3J4Y.jpeg"
     },
     {
-      "seed": 29,
+      "seed": 30,
       "name": "West Chicago",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CPCFLAQQPJHMZBZCEQLOYIQ24Q.webp"
     },
     {
-      "seed": 30,
+      "seed": 31,
       "name": "Chicago (Lincoln Park)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/35I5WGUS5BBWFNYK6N4IYTSV6E.png"
-    },
-    {
-      "seed": 31,
-      "name": "Villa Park (Willowbrook)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/EQ4PGUUCOJCMTGMBNVZMG4AAPA.webp"
     },
     {
       "seed": 32,
@@ -284,8 +284,8 @@
       "isBye": false,
       "team1": {
         "seed": 17,
-        "name": "Plainfield (South)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QWMRJPXI2VBFBEX7VNTUQ3NBCI.jpg",
+        "name": "Chicago (Kenwood)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NTFFNTZXFRBPDNPLXNLFSPNLDM.png",
         "score": null
       },
       "team2": {
@@ -304,8 +304,8 @@
       "isBye": false,
       "team1": {
         "seed": 25,
-        "name": "Moline",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PD62N3R7V5CXZJYEXXFDELA5OA.webp",
+        "name": "Plainfield (North)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5AK43GTDD5C75IITL56CYHEXUI.jpeg",
         "score": null
       },
       "team2": {
@@ -324,8 +324,8 @@
       "isBye": false,
       "team1": {
         "seed": 24,
-        "name": "Plainfield (North)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5AK43GTDD5C75IITL56CYHEXUI.jpeg",
+        "name": "St. Charles (North)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/77AS5QTPXVAL5FYMCJCFBTJL6A.jpeg",
         "score": null
       },
       "team2": {
@@ -344,8 +344,8 @@
       "isBye": false,
       "team1": {
         "seed": 29,
-        "name": "West Chicago",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CPCFLAQQPJHMZBZCEQLOYIQ24Q.webp",
+        "name": "Belleville (East)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTC3E5NA3BGJBBZ2OSHRYR3J4Y.jpeg",
         "score": null
       },
       "team2": {
@@ -364,8 +364,8 @@
       "isBye": false,
       "team1": {
         "seed": 20,
-        "name": "Skokie (Niles North)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLOO5EX5SBELFAO6SORP653ENQ.webp",
+        "name": "Zion-Benton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UD6LIDYU2RDE5AHS5J566O6AKI.webp",
         "score": null
       },
       "team2": {
@@ -384,8 +384,8 @@
       "isBye": false,
       "team1": {
         "seed": 28,
-        "name": "Belleville (East)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTC3E5NA3BGJBBZ2OSHRYR3J4Y.jpeg",
+        "name": "Edwardsville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp",
         "score": null
       },
       "team2": {
@@ -404,8 +404,8 @@
       "isBye": false,
       "team1": {
         "seed": 21,
-        "name": "Yorkville",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GC54ZP22GFDUJDXTV5EX4P6U5A.jpg",
+        "name": "Skokie (Niles North)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLOO5EX5SBELFAO6SORP653ENQ.webp",
         "score": null
       },
       "team2": {
@@ -424,8 +424,8 @@
       "isBye": false,
       "team1": {
         "seed": 31,
-        "name": "Villa Park (Willowbrook)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/EQ4PGUUCOJCMTGMBNVZMG4AAPA.webp",
+        "name": "Chicago (Lincoln Park)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/35I5WGUS5BBWFNYK6N4IYTSV6E.png",
         "score": null
       },
       "team2": {
@@ -444,8 +444,8 @@
       "isBye": false,
       "team1": {
         "seed": 18,
-        "name": "Chicago (St. Patrick)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGBKE5KBIRE2LOVCKGYXGU3ODU.webp",
+        "name": "Plainfield (South)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QWMRJPXI2VBFBEX7VNTUQ3NBCI.jpg",
         "score": null
       },
       "team2": {
@@ -464,8 +464,8 @@
       "isBye": false,
       "team1": {
         "seed": 26,
-        "name": "Lombard (Glenbard East)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U2D3S6XXNJAXRAMUQFQD33RLNI.jpg",
+        "name": "Moline",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PD62N3R7V5CXZJYEXXFDELA5OA.webp",
         "score": null
       },
       "team2": {
@@ -484,8 +484,8 @@
       "isBye": false,
       "team1": {
         "seed": 23,
-        "name": "St. Charles (North)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/77AS5QTPXVAL5FYMCJCFBTJL6A.jpeg",
+        "name": "Chicago (DePaul)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/TWQ7PBXHSRGDZNY4XP5J7DMY2U.jpg",
         "score": null
       },
       "team2": {
@@ -504,8 +504,8 @@
       "isBye": false,
       "team1": {
         "seed": 30,
-        "name": "Chicago (Lincoln Park)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/35I5WGUS5BBWFNYK6N4IYTSV6E.png",
+        "name": "West Chicago",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CPCFLAQQPJHMZBZCEQLOYIQ24Q.webp",
         "score": null
       },
       "team2": {
@@ -524,8 +524,8 @@
       "isBye": false,
       "team1": {
         "seed": 19,
-        "name": "Zion-Benton",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UD6LIDYU2RDE5AHS5J566O6AKI.webp",
+        "name": "Chicago (St. Patrick)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGBKE5KBIRE2LOVCKGYXGU3ODU.webp",
         "score": null
       },
       "team2": {
@@ -544,8 +544,8 @@
       "isBye": false,
       "team1": {
         "seed": 27,
-        "name": "Edwardsville",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp",
+        "name": "Lombard (Glenbard East)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U2D3S6XXNJAXRAMUQFQD33RLNI.jpg",
         "score": null
       },
       "team2": {
@@ -564,8 +564,8 @@
       "isBye": false,
       "team1": {
         "seed": 22,
-        "name": "Chicago (DePaul)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/TWQ7PBXHSRGDZNY4XP5J7DMY2U.jpg",
+        "name": "Yorkville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GC54ZP22GFDUJDXTV5EX4P6U5A.jpg",
         "score": null
       },
       "team2": {
@@ -599,8 +599,8 @@
       "isBye": true,
       "team1": {
         "seed": 16,
-        "name": "Chicago (Kenwood)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NTFFNTZXFRBPDNPLXNLFSPNLDM.png",
+        "name": "Rockford (Jefferson)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp",
         "score": null
       },
       "team2": null,
@@ -614,8 +614,8 @@
       "isBye": true,
       "team1": {
         "seed": 8,
-        "name": "Chicago (St. Rita)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
+        "name": "Chicago (Westinghouse)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WR7LXCH6RJAN5AORSOQJJOWEHI.webp",
         "score": null
       },
       "team2": null,
@@ -629,8 +629,8 @@
       "isBye": true,
       "team1": {
         "seed": 9,
-        "name": "New Lenox (Lincoln-Way Central)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/I7SYCSWEDBGDFO4PD3HIMKFZ4A.png",
+        "name": "Chicago (St. Rita)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
         "score": null
       },
       "team2": null,
@@ -659,8 +659,8 @@
       "isBye": true,
       "team1": {
         "seed": 13,
-        "name": "Chicago (Brother Rice)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
+        "name": "Rockford (Guilford)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FCLQII6Y25D5BMLPYOVET7FPAQ.webp",
         "score": null
       },
       "team2": null,
@@ -674,8 +674,8 @@
       "isBye": true,
       "team1": {
         "seed": 5,
-        "name": "Algonquin (Jacobs)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/L4ERKD2T2NDZDPBJVX25N2G65I.jpg",
+        "name": "East St. Louis",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg",
         "score": null
       },
       "team2": null,
@@ -689,8 +689,8 @@
       "isBye": true,
       "team1": {
         "seed": 12,
-        "name": "Rockford (Guilford)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FCLQII6Y25D5BMLPYOVET7FPAQ.webp",
+        "name": "Oak Lawn (Richards)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NYY54MQCVJABFH4WSXKON7W2SM.webp",
         "score": null
       },
       "team2": null,
@@ -719,8 +719,8 @@
       "isBye": true,
       "team1": {
         "seed": 15,
-        "name": "Rockford (Jefferson)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp",
+        "name": "Buffalo Grove",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2X67X3AJCBCFDPXK2TYI2XKJHU.jpeg",
         "score": null
       },
       "team2": null,
@@ -734,8 +734,8 @@
       "isBye": true,
       "team1": {
         "seed": 7,
-        "name": "Chicago (Westinghouse)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WR7LXCH6RJAN5AORSOQJJOWEHI.webp",
+        "name": "Mt. Prospect (Prospect)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg",
         "score": null
       },
       "team2": null,
@@ -749,8 +749,8 @@
       "isBye": true,
       "team1": {
         "seed": 10,
-        "name": "Glen Ellyn (Glenbard West)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
+        "name": "New Lenox (Lincoln-Way Central)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/I7SYCSWEDBGDFO4PD3HIMKFZ4A.png",
         "score": null
       },
       "team2": null,
@@ -779,8 +779,8 @@
       "isBye": true,
       "team1": {
         "seed": 14,
-        "name": "Buffalo Grove",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2X67X3AJCBCFDPXK2TYI2XKJHU.jpeg",
+        "name": "Chicago (Brother Rice)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
         "score": null
       },
       "team2": null,
@@ -794,8 +794,8 @@
       "isBye": true,
       "team1": {
         "seed": 6,
-        "name": "Mt. Prospect (Prospect)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg",
+        "name": "Algonquin (Jacobs)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/L4ERKD2T2NDZDPBJVX25N2G65I.jpg",
         "score": null
       },
       "team2": null,
@@ -809,8 +809,8 @@
       "isBye": true,
       "team1": {
         "seed": 11,
-        "name": "Oak Lawn (Richards)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NYY54MQCVJABFH4WSXKON7W2SM.webp",
+        "name": "Glen Ellyn (Glenbard West)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
         "score": null
       },
       "team2": null,
@@ -967,7 +967,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-09-14T01:10:36.227Z",
-  "updatedAt": "2026-09-14T01:10:36.228Z",
-  "editCode": "AZ36-ZYGA"
+  "createdAt": "2026-09-14T18:58:05.285Z",
+  "updatedAt": "2026-09-14T18:58:05.286Z",
+  "editCode": "MV9X-WMAR"
 }
