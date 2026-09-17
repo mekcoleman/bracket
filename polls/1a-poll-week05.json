@@ -4,7 +4,7 @@
   "week": 5,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "No. 10 Forreston 14, Galena 12, Oakwood 8, Fulton 3, Greenfield 3",
+  "others": "No. 10 Forreston 14, Galena 12, Oakwood 8, Fulton 3, Greenfield 3.",
   "rankings": [
     {
       "rank": 1,
@@ -56,7 +56,7 @@
       "school": "Stockton",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DADZFJZMIRBVRCTKGKJN5BVML4.webp",
       "points": 73,
-      "firstPlace": 1,
+      "firstPlace": null,
       "lastWeek": "7",
       "tied": false
     },
@@ -64,7 +64,7 @@
       "rank": 7,
       "school": "Tuscola",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HL5VZH4P75DCPFNIZSGNYDFBAE.webp",
-      "points": 59,
+      "points": 54,
       "firstPlace": null,
       "lastWeek": "9",
       "tied": false
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-17T22:05:09.450Z"
+  "updatedAt": "2026-09-17T22:09:55.600Z"
 }
