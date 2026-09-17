@@ -1,0 +1,101 @@
+{
+  "class": "7A",
+  "title": "Class 7A Illinois Media Poll",
+  "week": 5,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Lincoln-Way West 5, Quincy 4, St. Patrick 2, Wheaton-Warrenville South 2, Lincoln-Way Central 1, Plainfield East 1, Guilford 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "East St. Louis",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GGAPFN6HAFGMTDV66IYF4FWH6Y.jpg",
+      "points": 140,
+      "firstPlace": 14,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Chicago (Brother Rice)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
+      "points": 118,
+      "firstPlace": null,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Arlington Heights (Hersey)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KI2BCIZJEZAA3OB7JGFG57GKLE.png",
+      "points": 117,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Downers Grove (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AV3ZAEDG4JBY5HCA4WU7JXJFLA.jpg",
+      "points": 100,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Batavia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SAVDKYCFGRD6PATXJAKAOQYSNM.jpg",
+      "points": 75,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Mt. Prospect (Prospect)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg",
+      "points": 70,
+      "firstPlace": null,
+      "lastWeek": "6T",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Chicago (St. Rita)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
+      "points": 56,
+      "firstPlace": null,
+      "lastWeek": "6T",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Normal (Community)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7UQO3LSXLFBSLLOLHP4JD2KSOM.webp",
+      "points": 36,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Glen Ellyn (Glenbard West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
+      "points": 21,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Algonquin (Jacobs)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/L4ERKD2T2NDZDPBJVX25N2G65I.jpg",
+      "points": 21,
+      "firstPlace": null,
+      "lastWeek": "NR",
+      "tied": true
+    }
+  ],
+  "updatedAt": "2026-09-17T20:32:44.944Z"
+}
