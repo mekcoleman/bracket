@@ -4,7 +4,7 @@
   "week": 5,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Galena 12, Oakwood 8, Fulton 3, Greenfield-Northwestern 3",
+  "others": "Galena 12, Oakwood 8, Fulton 3, Greenfield 3",
   "rankings": [
     {
       "rank": 1,
@@ -64,7 +64,7 @@
       "rank": 7,
       "school": "Tuscola",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HL5VZH4P75DCPFNIZSGNYDFBAE.webp",
-      "points": 54,
+      "points": 59,
       "firstPlace": null,
       "lastWeek": "9",
       "tied": false
@@ -86,7 +86,16 @@
       "firstPlace": null,
       "lastWeek": "NR",
       "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Forreston",
+      "logo": "",
+      "points": 14,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
     }
   ],
-  "updatedAt": "2026-09-17T21:51:09.613Z"
+  "updatedAt": "2026-09-17T21:58:58.866Z"
 }
