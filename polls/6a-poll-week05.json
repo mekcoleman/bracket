@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A Illinois Media Poll",
+  "week": 5,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Glenwood 9, King 5, Bradley-Bourbonnais 4, Oak Lawn 2, Libertyville 1, Niles Notre Dame 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 127,
+      "firstPlace": 11,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 109,
+      "firstPlace": 2,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 99,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Dunlap",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
+      "points": 91,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Machesney Park (Harlem)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
+      "points": 74,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Wheaton (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/533A7HCQH5HCTMNYFG5BZMAQMQ.jpg",
+      "points": 72,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 59,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Wauconda",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QPOJJHI4UJAIDPMFINC26QUR4E.webp",
+      "points": 31,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Joliet (Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
+      "points": 16,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-17T20:32:46.025Z"
+}
