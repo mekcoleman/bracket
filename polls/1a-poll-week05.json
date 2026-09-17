@@ -4,7 +4,7 @@
   "week": 5,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "No. 10 Forreston 14, Galena 12, Oakwood 8, Fulton 3, Greenfield 3.",
+  "others": "Galena 12, Oakwood 8, Fulton 3, Greenfield 3.",
   "rankings": [
     {
       "rank": 1,
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-17T22:09:55.600Z"
+  "updatedAt": "2026-09-17T22:10:54.499Z"
 }
