@@ -1479,24 +1479,45 @@ function switchPollEditTab(cls) {
   if (btn) { btn.style.background = 'var(--brand)'; btn.style.color = '#fff'; }
 }
 
+// Shared helper — positions a dropdown using fixed coords so it escapes overflow:auto clipping
+function positionDropdown(input, list) {
+  const r = input.getBoundingClientRect();
+  list.style.position = 'fixed';
+  list.style.width    = r.width + 'px';
+  list.style.left     = r.left  + 'px';
+  list.style.zIndex   = '9999';
+  const spaceBelow = window.innerHeight - r.bottom;
+  if (spaceBelow > 220) {
+    list.style.top       = (r.bottom + 1) + 'px';
+    list.style.bottom    = 'auto';
+    list.style.maxHeight = Math.min(300, spaceBelow - 8) + 'px';
+  } else {
+    list.style.top       = 'auto';
+    list.style.bottom    = (window.innerHeight - r.top + 1) + 'px';
+    list.style.maxHeight = Math.min(300, r.top - 8) + 'px';
+  }
+}
+
 // Autocomplete for editable preview panels
 function peAcInput(cls, i) {
-  const q = document.getElementById(`pe-${cls}-tn-${i}`)?.value || '';
-  const list = document.getElementById(`pe-${cls}-acl-${i}`);
-  if (!list) return;
+  const input = document.getElementById(`pe-${cls}-tn-${i}`);
+  const list  = document.getElementById(`pe-${cls}-acl-${i}`);
+  if (!input || !list) return;
+  const q = input.value || '';
   if (!q) { list.classList.remove('open'); return; }
   if (SCHOOLS.length === 0) {
     list.innerHTML = '<div class="autocomplete-item" style="color:var(--text-muted);font-style:italic;cursor:default;">Loading schools\u2026</div>';
-    list.classList.add('open'); return;
+  } else {
+    const ql = q.toLowerCase();
+    const matches = SCHOOLS.filter(s => s.n.toLowerCase().includes(ql)).slice(0, 8);
+    if (!matches.length) { list.classList.remove('open'); return; }
+    list.innerHTML = matches.map(s =>
+      `<div class="autocomplete-item" onmousedown="peAcSelect('${cls}',${i},'${s.n.replace(/'/g,"\\'")}','${s.l}')">
+        <img src="${s.l}" referrerpolicy="no-referrer" onerror="this.style.display='none'"> ${s.n}
+      </div>`
+    ).join('');
   }
-  const ql = q.toLowerCase();
-  const matches = SCHOOLS.filter(s => s.n.toLowerCase().includes(ql)).slice(0, 8);
-  if (!matches.length) { list.classList.remove('open'); return; }
-  list.innerHTML = matches.map(s =>
-    `<div class="autocomplete-item" onmousedown="peAcSelect('${cls}',${i},'${s.n.replace(/'/g,"\\'")}','${s.l}')">
-      <img src="${s.l}" referrerpolicy="no-referrer" onerror="this.style.display='none'"> ${s.n}
-    </div>`
-  ).join('');
+  positionDropdown(input, list);
   list.classList.add('open');
 }
 function peAcBlur(cls, i) {
@@ -1669,21 +1690,23 @@ function pAcFocus(i) { pAcShow(i, document.getElementById('ptn-' + i).value); }
 function pAcBlur(i)  { setTimeout(() => { const el = document.getElementById('pacl-' + i); if (el) el.classList.remove('open'); }, 200); }
 
 function pAcShow(i, q) {
-  const list = document.getElementById('pacl-' + i);
-  if (!list || !q) { list && list.classList.remove('open'); return; }
+  const input = document.getElementById('ptn-' + i);
+  const list  = document.getElementById('pacl-' + i);
+  if (!input || !list || !q) { list && list.classList.remove('open'); return; }
   if (SCHOOLS.length === 0) {
     list.innerHTML = '<div class="autocomplete-item" style="color:var(--text-muted);cursor:default;font-style:italic;">Loading schools\u2026</div>';
-    list.classList.add('open'); return;
+  } else {
+    const ql = q.toLowerCase();
+    const matches = SCHOOLS.filter(s => s.n.toLowerCase().includes(ql)).slice(0, 8);
+    if (!matches.length) { list.classList.remove('open'); return; }
+    list.innerHTML = matches.map(s =>
+      '<div class="autocomplete-item" onmousedown="pAcSelect(' + i + ',\'' +
+      s.n.replace(/'/g,"\\'") + '\',\'' + s.l + '\')">' +
+      '<img src="' + s.l + '" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' +
+      s.n + '</div>'
+    ).join('');
   }
-  const ql = q.toLowerCase();
-  const matches = SCHOOLS.filter(s => s.n.toLowerCase().includes(ql)).slice(0, 8);
-  if (!matches.length) { list.classList.remove('open'); return; }
-  list.innerHTML = matches.map(s =>
-    '<div class="autocomplete-item" onmousedown="pAcSelect(' + i + ',\'' +
-    s.n.replace(/'/g,"\\'") + '\',\'' + s.l + '\')">' +
-    '<img src="' + s.l + '" referrerpolicy="no-referrer" onerror="this.style.display=\'none\'">' +
-    s.n + '</div>'
-  ).join('');
+  positionDropdown(input, list);
   list.classList.add('open');
 }
 
@@ -1810,14 +1833,15 @@ async function pollLoadFile(downloadUrl, el) {
     document.getElementById('poll-show-others').checked    = data.showOthers !== false;
     document.getElementById('poll-others').value = data.others || '';
     buildPollRows();
-    (data.rankings || []).forEach(r => {
-      document.getElementById('ptn-' + r.rank) && (document.getElementById('ptn-' + r.rank).value = r.school || '');
-      document.getElementById('plu-' + r.rank) && (document.getElementById('plu-' + r.rank).value = r.logo   || '');
-      document.getElementById('ppts-'+ r.rank) && (document.getElementById('ppts-'+ r.rank).value = r.points || '');
-      document.getElementById('pfp-' + r.rank) && (document.getElementById('pfp-' + r.rank).value = r.firstPlace || '');
-      document.getElementById('plw-' + r.rank) && (document.getElementById('plw-' + r.rank).value = r.lastWeek   || '');
-      if (r.logo) setPollLogo(r.rank, r.logo);
-      const tieEl = document.getElementById('ptie-' + r.rank);
+    (data.rankings || []).forEach((r, idx) => {
+      const i = idx + 1;
+      document.getElementById('ptn-' + i) && (document.getElementById('ptn-' + i).value = r.school || '');
+      document.getElementById('plu-' + i) && (document.getElementById('plu-' + i).value = r.logo   || '');
+      document.getElementById('ppts-'+ i) && (document.getElementById('ppts-'+ i).value = r.points || '');
+      document.getElementById('pfp-' + i) && (document.getElementById('pfp-' + i).value = r.firstPlace || '');
+      document.getElementById('plw-' + i) && (document.getElementById('plw-' + i).value = r.lastWeek   || '');
+      if (r.logo) setPollLogo(i, r.logo);
+      const tieEl = document.getElementById('ptie-' + i);
       if (tieEl) tieEl.checked = r.tied || false;
     });
     showToast('Poll loaded!', 'success');
