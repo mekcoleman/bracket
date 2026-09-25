@@ -1,0 +1,101 @@
+{
+  "class": "4A",
+  "title": "Class 4A Illinois Media Poll",
+  "week": 6,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Highland 19, Cahokia 13, Sterling 7, Evergreen Park 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Rochester",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DI27VO7HVBEUFIGIRMXAWEC76Q.webp",
+      "points": 176,
+      "firstPlace": 15,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Lombard (Montini)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MMZJD4A4FRGXTMEJTCGRGGTKBQ.jpg",
+      "points": 161,
+      "firstPlace": 3,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Morris",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FQX6X32HZFUDLRKLGA3E7KBIY.jpg",
+      "points": 140,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Breese (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AW55MK45XZFHXCXKPITC7JD374.png",
+      "points": 112,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Centralia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NM3Y2DQNSRDE7GOFJBSY2FLB6U.jpeg",
+      "points": 110,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Coal City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/M2JSO5RP2VELBCDL6R2BCBVWIM.jpg",
+      "points": 85,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Bloomington (Central Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q6QY2DLUPJCC3FLFUNN7NL3VBE.gif",
+      "points": 70,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Carterville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7LZ3OZTX65FZREV3RY5NTOHVRY.png",
+      "points": 47,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Metamora",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/W7GKCEZRCZC65BOCAVJ5GULOF4.webp",
+      "points": 42,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Dixon",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FVVPDUK6SZCP3B2T4KEXTEMBOE.png",
+      "points": 21,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-25T14:58:33.434Z"
+}
