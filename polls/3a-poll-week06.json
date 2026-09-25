@@ -1,0 +1,101 @@
+{
+  "class": "3A",
+  "title": "Class 3A Illinois Media Poll",
+  "week": 6,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Mt. Carmel 12, Tolono Unity 9, Manteno 3, Fairfield 2",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Elmhurst (IC Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YDYRE7FA3FCCXOIUYFDJZJ2ATE.gif",
+      "points": 143,
+      "firstPlace": 9,
+      "lastWeek": "1T",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Byron",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DL4EONBUW5HZNPKXWWSWCWXYGQ.jpg",
+      "points": 140,
+      "firstPlace": 6,
+      "lastWeek": "1T",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "St. Joseph (Ogden)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3XXBEQQNMNCDBJJ4Q24E2Y44AA.webp",
+      "points": 117,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Richmond-Burton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/2W5GX6VM5VGW5B35JVCMV33NHA.jpeg",
+      "points": 109,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Williamsville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KV2GY2BXJJC4RH3ZSV2ZRENYZI.jpg",
+      "points": 88,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Durand",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp",
+      "points": 55,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Kankakee (Bishop McNamara)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
+      "points": 54,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Monticello",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LJIWBKOIWJBPZKZFBIJGC3HWBQ.webp",
+      "points": 43,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Benton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4E7XNRL6QJFUBA225PZUMME7VU.png",
+      "points": 35,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Hillsboro",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6IMU5FZLAFGH5NXEDK4ADCNDJM.webp",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "10",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-25T14:58:34.530Z"
+}
