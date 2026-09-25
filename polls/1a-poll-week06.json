@@ -4,7 +4,7 @@
   "week": 6,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Galena 8, Oakwood 2, Salt Fork 1, Greenfield 1",
+  "others": "Galena 8, Oakwood 2, Salt Fork 1, Greenfield-Northwestern 1",
   "rankings": [
     {
       "rank": 1,
@@ -71,8 +71,8 @@
     },
     {
       "rank": 8,
-      "school": "Arthur-Lovington-A-H",
-      "logo": "",
+      "school": "Arthur",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IKQR67HMEFAJ5CPZWW5PR6Z2WE.png",
       "points": 47,
       "firstPlace": null,
       "lastWeek": "8",
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-25T15:09:03.493Z"
+  "updatedAt": "2026-09-25T15:11:31.654Z"
 }
