@@ -62,8 +62,8 @@
     },
     {
       "rank": 7,
-      "school": "Bloomington CC",
-      "logo": "",
+      "school": "Bloomington (Central Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q6QY2DLUPJCC3FLFUNN7NL3VBE.gif",
       "points": 70,
       "firstPlace": null,
       "lastWeek": "7",
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-25T15:08:58.621Z"
+  "updatedAt": "2026-09-25T15:11:28.127Z"
 }
