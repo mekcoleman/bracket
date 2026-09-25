@@ -1,0 +1,101 @@
+{
+  "class": "2A",
+  "title": "Class 2A Illinois Media Poll",
+  "week": 6,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Sullivan 13, Westville 8, Flora 6, Nashville 3",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Wilmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg",
+      "points": 156,
+      "firstPlace": 12,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "El Paso-Gridley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp",
+      "points": 144,
+      "firstPlace": 2,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Maroa-Forsyth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp",
+      "points": 133,
+      "firstPlace": 2,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Port Byron (Riverdale)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/K3J5RNHM7NFNZGAUMP5OLZ6VTA.webp",
+      "points": 101,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Downs (Tri-Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp",
+      "points": 90,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Johnston City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZFUGVLBORDSLH63WQMDK7KNFE.webp",
+      "points": 73,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Aurora (Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png",
+      "points": 51,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Erie-Prophetstown",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/INMOXFGTPZC3DJMZU3V5D2TQMU.gif",
+      "points": 50,
+      "firstPlace": null,
+      "lastWeek": "10",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "West Frankfort",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BSN7TDCHGFGKPLRLQTJWQLAW5I.webp",
+      "points": 34,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Taylor Ridge (Rockridge)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JWVVUN3SNNEQXMPWV24B5JY2Z4.png",
+      "points": 27,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-25T14:58:35.630Z"
+}
