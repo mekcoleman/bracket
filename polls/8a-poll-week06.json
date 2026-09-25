@@ -1,0 +1,101 @@
+{
+  "class": "8A",
+  "title": "Class 8A Illinois Media Poll",
+  "week": 6,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Conant 11, Fremd 11, Sandburg 2",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Wilmette (Loyola)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JMQ6NK6B6NFGDME2G43UEXOKSU.jpg",
+      "points": 137,
+      "firstPlace": 11,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Chicago (Mount Carmel)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHLSCH2ZGNESXPZVLFOZDUISZY.png",
+      "points": 124,
+      "firstPlace": 1,
+      "lastWeek": null,
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Frankfort (Lincoln-Way East)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AMYKRDCXNZFCBNFHEERLPDJYLA.gif",
+      "points": 117,
+      "firstPlace": 2,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Bolingbrook",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/34CQZS42KNH4LDS4ARQMNI2K3I.png",
+      "points": 85,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Park Ridge (Maine South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XU5JCGTBHJEZHNSVYYIBTD6C2I.jpg",
+      "points": 66,
+      "firstPlace": null,
+      "lastWeek": "7T",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Huntley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D6MXUJKRX5COHCILJIHKQ5OEFQ.jpg",
+      "points": 65,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Oswego",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/635GZ2UKOJCNFOKH52R7BJXVJY.jpg",
+      "points": 57,
+      "firstPlace": null,
+      "lastWeek": "7T",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Chicago (St. Ignatius)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HCW3UYIEJJBLDNARVKRZYEIUTI.webp",
+      "points": 42,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "LaGrange (Lyons)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg",
+      "points": 33,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Homewood-Flossmoor",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GHUUYRYHDNBO5N4DVA5RFC74EU.gif",
+      "points": 20,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-09-25T14:58:26.940Z"
+}
