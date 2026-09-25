@@ -71,8 +71,8 @@
     },
     {
       "rank": 8,
-      "school": "Erie-Prophetstown",
-      "logo": "",
+      "school": "Erie",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/INMOXFGTPZC3DJMZU3V5D2TQMU.gif",
       "points": 50,
       "firstPlace": null,
       "lastWeek": "10",
@@ -97,5 +97,5 @@
       "tied": false
     }
   ],
-  "updatedAt": "2026-09-25T15:09:01.129Z"
+  "updatedAt": "2026-09-25T15:11:30.518Z"
 }
