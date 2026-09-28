@@ -95,13 +95,13 @@
     },
     {
       "seed": 17,
-      "name": "Havana",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MA4MG36TEJG45BUV3UHVE653A4.webp"
+      "name": "Tremont",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BENTTSHB5NGL3LKXVEDGSBMTLM.jpg"
     },
     {
       "seed": 18,
-      "name": "Tremont",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BENTTSHB5NGL3LKXVEDGSBMTLM.jpg"
+      "name": "Princeville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/APXAKPX4PRC3RI27JANUWDSDHQ.webp"
     },
     {
       "seed": 19,
@@ -110,18 +110,18 @@
     },
     {
       "seed": 20,
+      "name": "Orion",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHLF6LHO6REPDK6LPLQUQ5AGKU.webp"
+    },
+    {
+      "seed": 21,
       "name": "Manlius (Bureau Valley)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLJGXLBU55DI7HTYCEZ5BDF47I.png"
     },
     {
-      "seed": 21,
+      "seed": 22,
       "name": "Momence",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/O3JZIOJUTRDTZOY7WE2WZAYBBU.webp"
-    },
-    {
-      "seed": 22,
-      "name": "Orion",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHLF6LHO6REPDK6LPLQUQ5AGKU.webp"
     },
     {
       "seed": 23,
@@ -202,28 +202,28 @@
     },
     {
       "seed": 14,
-      "name": "Athens",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DOQOZZ265RDSVLAGELZ46GQU6A.png"
+      "name": "Havana",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MA4MG36TEJG45BUV3UHVE653A4.webp"
     },
     {
       "seed": 15,
-      "name": "Bridgeport (Red Hill)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HX7RPX4D2JG7DFAOYK6JY5V6DQ.png"
-    },
-    {
-      "seed": 16,
       "name": "Carrollton",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7VFJ3ZCSBFHXNLT55ND4OZ74BA.jpeg"
     },
     {
+      "seed": 16,
+      "name": "Bridgeport (Red Hill)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HX7RPX4D2JG7DFAOYK6JY5V6DQ.png"
+    },
+    {
       "seed": 17,
-      "name": "Toledo (Cumberland)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PXJFHC5RHZH2FF7BQHMQSTSSPY.jpg"
+      "name": "Athens",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DOQOZZ265RDSVLAGELZ46GQU6A.png"
     },
     {
       "seed": 18,
-      "name": "Princeville",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/APXAKPX4PRC3RI27JANUWDSDHQ.webp"
+      "name": "Toledo (Cumberland)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PXJFHC5RHZH2FF7BQHMQSTSSPY.jpg"
     },
     {
       "seed": 19,
@@ -253,7 +253,7 @@
     {
       "seed": 24,
       "name": "Arcola",
-      "logo": ""
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPNCSMLFYVHJFGYEGGVF4UDJQU.png"
     }
   ],
   "matchups": [
@@ -271,8 +271,8 @@
       },
       "team2": {
         "seed": 17,
-        "name": "Havana",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MA4MG36TEJG45BUV3UHVE653A4.webp",
+        "name": "Tremont",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BENTTSHB5NGL3LKXVEDGSBMTLM.jpg",
         "score": null
       },
       "winner": null
@@ -311,8 +311,8 @@
       },
       "team2": {
         "seed": 21,
-        "name": "Momence",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/O3JZIOJUTRDTZOY7WE2WZAYBBU.webp",
+        "name": "Manlius (Bureau Valley)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLJGXLBU55DI7HTYCEZ5BDF47I.png",
         "score": null
       },
       "winner": null
@@ -331,8 +331,8 @@
       },
       "team2": {
         "seed": 20,
-        "name": "Manlius (Bureau Valley)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WLJGXLBU55DI7HTYCEZ5BDF47I.png",
+        "name": "Orion",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHLF6LHO6REPDK6LPLQUQ5AGKU.webp",
         "score": null
       },
       "winner": null
@@ -351,8 +351,8 @@
       },
       "team2": {
         "seed": 18,
-        "name": "Tremont",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BENTTSHB5NGL3LKXVEDGSBMTLM.jpg",
+        "name": "Princeville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/APXAKPX4PRC3RI27JANUWDSDHQ.webp",
         "score": null
       },
       "winner": null
@@ -391,8 +391,8 @@
       },
       "team2": {
         "seed": 22,
-        "name": "Orion",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WHLF6LHO6REPDK6LPLQUQ5AGKU.webp",
+        "name": "Momence",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/O3JZIOJUTRDTZOY7WE2WZAYBBU.webp",
         "score": null
       },
       "winner": null
@@ -615,14 +615,14 @@
       "isBye": false,
       "team1": {
         "seed": 16,
-        "name": "Carrollton",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7VFJ3ZCSBFHXNLT55ND4OZ74BA.jpeg",
+        "name": "Bridgeport (Red Hill)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HX7RPX4D2JG7DFAOYK6JY5V6DQ.png",
         "score": null
       },
       "team2": {
         "seed": 17,
-        "name": "Toledo (Cumberland)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PXJFHC5RHZH2FF7BQHMQSTSSPY.jpg",
+        "name": "Athens",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DOQOZZ265RDSVLAGELZ46GQU6A.png",
         "score": null
       },
       "winner": null
@@ -642,7 +642,7 @@
       "team2": {
         "seed": 24,
         "name": "Arcola",
-        "logo": "",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPNCSMLFYVHJFGYEGGVF4UDJQU.png",
         "score": null
       },
       "winner": null
@@ -695,14 +695,14 @@
       "isBye": false,
       "team1": {
         "seed": 15,
-        "name": "Bridgeport (Red Hill)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HX7RPX4D2JG7DFAOYK6JY5V6DQ.png",
+        "name": "Carrollton",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7VFJ3ZCSBFHXNLT55ND4OZ74BA.jpeg",
         "score": null
       },
       "team2": {
         "seed": 18,
-        "name": "Princeville",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/APXAKPX4PRC3RI27JANUWDSDHQ.webp",
+        "name": "Toledo (Cumberland)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PXJFHC5RHZH2FF7BQHMQSTSSPY.jpg",
         "score": null
       },
       "winner": null
@@ -755,8 +755,8 @@
       "isBye": false,
       "team1": {
         "seed": 14,
-        "name": "Athens",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DOQOZZ265RDSVLAGELZ46GQU6A.png",
+        "name": "Havana",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MA4MG36TEJG45BUV3UHVE653A4.webp",
         "score": null
       },
       "team2": {
@@ -968,7 +968,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-09-27T20:43:53.618Z",
-  "updatedAt": "2026-09-27T20:43:53.618Z",
-  "editCode": "25PD-K2ZZ"
+  "createdAt": "2026-09-28T22:54:47.520Z",
+  "updatedAt": "2026-09-28T22:54:47.520Z",
+  "editCode": "JWDA-8C5L"
 }
