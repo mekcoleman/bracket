@@ -120,8 +120,8 @@
     },
     {
       "seed": 22,
-      "name": "Rockford (Auburn)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OSBQB2OWHNG6JDRTET2U5QLHC4.webp"
+      "name": "Rockford (East)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HCCSCHGIAREZJKRSXED32YSTFU.webp"
     },
     {
       "seed": 23,
@@ -391,8 +391,8 @@
       },
       "team2": {
         "seed": 22,
-        "name": "Rockford (Auburn)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OSBQB2OWHNG6JDRTET2U5QLHC4.webp",
+        "name": "Rockford (East)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HCCSCHGIAREZJKRSXED32YSTFU.webp",
         "score": null
       },
       "winner": null
@@ -968,7 +968,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-09-27T22:28:48.507Z",
-  "updatedAt": "2026-09-27T22:28:48.508Z",
-  "editCode": "TUL3-K3MA"
+  "createdAt": "2026-09-28T03:58:05.049Z",
+  "updatedAt": "2026-09-28T03:58:05.052Z",
+  "editCode": "ZRLL-SD2P"
 }
