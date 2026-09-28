@@ -154,33 +154,33 @@
     },
     {
       "seed": 29,
+      "name": "New Lenox (Lincoln-Way West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U4AG7U474JCCRN3DEJSWISDMVQ.jpg"
+    },
+    {
+      "seed": 30,
       "name": "Edwardsville",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp"
     },
     {
-      "seed": 30,
+      "seed": 31,
       "name": "Hoffman Estates",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/S5E6ZYBS3BEFDH7GEMUWWCDO7I.webp"
     },
     {
-      "seed": 31,
+      "seed": 32,
       "name": "Rockford (Jefferson)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp"
     },
     {
-      "seed": 32,
+      "seed": 33,
       "name": "Rich (Township)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3DRYO6VVNVGJ7C25INVQ246WCA.webp"
     },
     {
-      "seed": 33,
+      "seed": 34,
       "name": "Elgin",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DXXFWIX73NG23IFO7OBUERUKNA.jpeg"
-    },
-    {
-      "seed": 34,
-      "name": "New Lenox (Lincoln-Way West)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U4AG7U474JCCRN3DEJSWISDMVQ.jpg"
     },
     {
       "seed": 35,
@@ -264,14 +264,14 @@
       "isBye": false,
       "team1": {
         "seed": 32,
-        "name": "Rich (Township)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3DRYO6VVNVGJ7C25INVQ246WCA.webp",
+        "name": "Rockford (Jefferson)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp",
         "score": null
       },
       "team2": {
         "seed": 33,
-        "name": "Elgin",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DXXFWIX73NG23IFO7OBUERUKNA.jpeg",
+        "name": "Rich (Township)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3DRYO6VVNVGJ7C25INVQ246WCA.webp",
         "score": null
       },
       "winner": null
@@ -344,8 +344,8 @@
       "isBye": false,
       "team1": {
         "seed": 29,
-        "name": "Edwardsville",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp",
+        "name": "New Lenox (Lincoln-Way West)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U4AG7U474JCCRN3DEJSWISDMVQ.jpg",
         "score": null
       },
       "team2": {
@@ -424,14 +424,14 @@
       "isBye": false,
       "team1": {
         "seed": 31,
-        "name": "Rockford (Jefferson)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3RPYLO3IMRF7HIXHR4ZIH4AQQI.webp",
+        "name": "Hoffman Estates",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/S5E6ZYBS3BEFDH7GEMUWWCDO7I.webp",
         "score": null
       },
       "team2": {
         "seed": 34,
-        "name": "New Lenox (Lincoln-Way West)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U4AG7U474JCCRN3DEJSWISDMVQ.jpg",
+        "name": "Elgin",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DXXFWIX73NG23IFO7OBUERUKNA.jpeg",
         "score": null
       },
       "winner": null
@@ -504,8 +504,8 @@
       "isBye": false,
       "team1": {
         "seed": 30,
-        "name": "Hoffman Estates",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/S5E6ZYBS3BEFDH7GEMUWWCDO7I.webp",
+        "name": "Edwardsville",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3VZRBYQ7WZBGVGMQ5OFGZKZU3Q.webp",
         "score": null
       },
       "team2": {
@@ -967,7 +967,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-09-27T22:47:23.111Z",
-  "updatedAt": "2026-09-27T22:47:23.111Z",
-  "editCode": "JC6S-4UC8"
+  "createdAt": "2026-09-28T23:05:36.423Z",
+  "updatedAt": "2026-09-28T23:05:36.423Z",
+  "editCode": "W8AF-H8VV"
 }
