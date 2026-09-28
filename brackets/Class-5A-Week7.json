@@ -152,23 +152,23 @@
     },
     {
       "seed": 4,
-      "name": "Kankakee",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg"
-    },
-    {
-      "seed": 5,
       "name": "New Lenox (Providence)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg"
     },
     {
-      "seed": 6,
+      "seed": 5,
       "name": "Chicago (Agricultural Science)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QLAYNELVXZC6FKUGAPFUUMV3HI.jpeg"
     },
     {
-      "seed": 7,
+      "seed": 6,
       "name": "Chicago (Corliss)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/V6CRDZB3OVEJVECHKYCAHJNQHQ.png"
+    },
+    {
+      "seed": 7,
+      "name": "Kankakee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg"
     },
     {
       "seed": 8,
@@ -805,8 +805,8 @@
       "isBye": true,
       "team1": {
         "seed": 5,
-        "name": "New Lenox (Providence)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
+        "name": "Chicago (Agricultural Science)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QLAYNELVXZC6FKUGAPFUUMV3HI.jpeg",
         "score": null
       },
       "team2": null,
@@ -820,8 +820,8 @@
       "isBye": true,
       "team1": {
         "seed": 4,
-        "name": "Kankakee",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
+        "name": "New Lenox (Providence)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
         "score": null
       },
       "team2": null,
@@ -850,8 +850,8 @@
       "isBye": true,
       "team1": {
         "seed": 7,
-        "name": "Chicago (Corliss)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/V6CRDZB3OVEJVECHKYCAHJNQHQ.png",
+        "name": "Kankakee",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
         "score": null
       },
       "team2": null,
@@ -865,8 +865,8 @@
       "isBye": true,
       "team1": {
         "seed": 6,
-        "name": "Chicago (Agricultural Science)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QLAYNELVXZC6FKUGAPFUUMV3HI.jpeg",
+        "name": "Chicago (Corliss)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/V6CRDZB3OVEJVECHKYCAHJNQHQ.png",
         "score": null
       },
       "team2": null,
@@ -968,7 +968,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-09-27T21:58:29.978Z",
-  "updatedAt": "2026-09-27T21:58:29.978Z",
-  "editCode": "A8LK-CA8T"
+  "createdAt": "2026-09-28T22:59:41.122Z",
+  "updatedAt": "2026-09-28T22:59:41.122Z",
+  "editCode": "YRVK-V6F9"
 }
