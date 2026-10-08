@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A Illinois Media Poll",
+  "week": 8,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "King 11, Riverside-Brookfield 4, Libertyville 2.",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 129,
+      "firstPlace": 12,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 112,
+      "firstPlace": 1,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Machesney Park (Harlem)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
+      "points": 100,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Dunlap",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
+      "points": 76,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Joliet (Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
+      "points": 72,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Wauconda",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QPOJJHI4UJAIDPMFINC26QUR4E.webp",
+      "points": 66,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 59,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Pekin",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JFYFDPAA3RHVDOXT2A4EUSESIU.webp",
+      "points": 26,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Crete-Monee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YE7D4LD62JEOJAVE7TBDSEDEBE.jpg",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": true
+    },
+    {
+      "rank": 10,
+      "school": "Wheaton (North)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/533A7HCQH5HCTMNYFG5BZMAQMQ.jpg",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": true
+    }
+  ],
+  "updatedAt": "2026-10-08T22:31:35.044Z"
+}
