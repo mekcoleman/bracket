@@ -71,8 +71,8 @@
     },
     {
       "rank": 8,
-      "school": "Nazareth",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JFYFDPAA3RHVDOXT2A4EUSESIU.webp",
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
       "points": 28,
       "firstPlace": null,
       "lastWeek": "RV",
@@ -81,7 +81,7 @@
     {
       "rank": 9,
       "school": "Pekin",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YE7D4LD62JEOJAVE7TBDSEDEBE.jpg",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JFYFDPAA3RHVDOXT2A4EUSESIU.webp",
       "points": 26,
       "firstPlace": null,
       "lastWeek": "RV",
@@ -97,5 +97,5 @@
       "tied": true
     }
   ],
-  "updatedAt": "2026-10-09T15:53:11.618Z"
+  "updatedAt": "2026-10-09T15:53:33.652Z"
 }
