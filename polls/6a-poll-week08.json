@@ -71,31 +71,31 @@
     },
     {
       "rank": 8,
-      "school": "Pekin",
+      "school": "Nazareth",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JFYFDPAA3RHVDOXT2A4EUSESIU.webp",
-      "points": 26,
+      "points": 28,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     },
     {
       "rank": 9,
-      "school": "Crete-Monee",
+      "school": "Pekin",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YE7D4LD62JEOJAVE7TBDSEDEBE.jpg",
-      "points": 15,
+      "points": 26,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     },
     {
       "rank": 10,
-      "school": "Wheaton (North)",
+      "school": "Wheaton North",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/533A7HCQH5HCTMNYFG5BZMAQMQ.jpg",
       "points": 15,
       "firstPlace": null,
       "lastWeek": "7",
-      "tied": false
+      "tied": true
     }
   ],
-  "updatedAt": "2026-10-08T22:38:08.395Z"
+  "updatedAt": "2026-10-09T15:53:11.618Z"
 }
