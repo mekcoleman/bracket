@@ -202,13 +202,13 @@
     },
     {
       "seed": 14,
-      "name": "Chatham (Glenwood)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png"
+      "name": "East Moline (United)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6UYXWPHVUFC2LIGJVYN432YKWA.webp"
     },
     {
       "seed": 15,
-      "name": "East Moline (United)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6UYXWPHVUFC2LIGJVYN432YKWA.webp"
+      "name": "Chatham (Glenwood)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png"
     },
     {
       "seed": 16,
@@ -227,18 +227,18 @@
     },
     {
       "seed": 19,
-      "name": "LaGrange Park (Nazareth)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp"
-    },
-    {
-      "seed": 20,
       "name": "Bradley-Bourbonnais",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GK42SFEMSZFRJGGQ2LPPHURXGU.jpg"
     },
     {
+      "seed": 20,
+      "name": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp"
+    },
+    {
       "seed": 21,
-      "name": "Chicago (Lindblom)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CU232I3AWFBHLH3TAVSXCFRWTI.png"
+      "name": "Chatham (Glenwood)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png"
     },
     {
       "seed": 22,
@@ -661,8 +661,8 @@
       },
       "team2": {
         "seed": 21,
-        "name": "Chicago (Lindblom)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CU232I3AWFBHLH3TAVSXCFRWTI.png",
+        "name": "Chatham (Glenwood)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png",
         "score": null
       },
       "winner": null
@@ -681,8 +681,8 @@
       },
       "team2": {
         "seed": 20,
-        "name": "Bradley-Bourbonnais",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GK42SFEMSZFRJGGQ2LPPHURXGU.jpg",
+        "name": "LaGrange Park (Nazareth)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
         "score": null
       },
       "winner": null
@@ -695,8 +695,8 @@
       "isBye": false,
       "team1": {
         "seed": 15,
-        "name": "East Moline (United)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6UYXWPHVUFC2LIGJVYN432YKWA.webp",
+        "name": "Chatham (Glenwood)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png",
         "score": null
       },
       "team2": {
@@ -755,14 +755,14 @@
       "isBye": false,
       "team1": {
         "seed": 14,
-        "name": "Chatham (Glenwood)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UPYK4AJZYBEJPIUQ4LDX6RJNZ4.png",
+        "name": "East Moline (United)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6UYXWPHVUFC2LIGJVYN432YKWA.webp",
         "score": null
       },
       "team2": {
         "seed": 19,
-        "name": "LaGrange Park (Nazareth)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+        "name": "Bradley-Bourbonnais",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GK42SFEMSZFRJGGQ2LPPHURXGU.jpg",
         "score": null
       },
       "winner": null
@@ -968,7 +968,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-10-13T04:01:04.032Z",
-  "updatedAt": "2026-10-13T04:01:04.033Z",
-  "editCode": "TMZU-K4CV"
+  "createdAt": "2026-10-15T01:42:31.098Z",
+  "updatedAt": "2026-10-15T01:42:31.098Z",
+  "editCode": "E57N-7YBS"
 }
