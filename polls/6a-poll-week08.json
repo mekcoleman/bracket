@@ -4,7 +4,7 @@
   "week": 8,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "King 11, Riverside-Brookfield 4, Libertyville 2",
+  "others": "Wauconda 15, Pekin 7, Oak Lawn 6, Wheaton North 4, Crete-Monee 2, Grant 1",
   "rankings": [
     {
       "rank": 1,
@@ -28,51 +28,51 @@
       "rank": 3,
       "school": "Machesney Park (Harlem)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
-      "points": 100,
+      "points": 99,
       "firstPlace": null,
-      "lastWeek": "4",
+      "lastWeek": "3",
       "tied": false
     },
     {
       "rank": 4,
       "school": "Dunlap",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
-      "points": 76,
+      "points": 82,
       "firstPlace": null,
-      "lastWeek": "5",
+      "lastWeek": "4",
       "tied": false
     },
     {
       "rank": 5,
-      "school": "Joliet (Catholic)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
-      "points": 72,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 82,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": true
+    },
+    {
+      "rank": 6,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 56,
       "firstPlace": null,
       "lastWeek": "8",
       "tied": false
     },
     {
-      "rank": 6,
-      "school": "Wauconda",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/QPOJJHI4UJAIDPMFINC26QUR4E.webp",
-      "points": 66,
-      "firstPlace": null,
-      "lastWeek": "6",
-      "tied": false
-    },
-    {
       "rank": 7,
-      "school": "Oak Park (Fenwick)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
-      "points": 59,
+      "school": "Joliet (Catholic)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FOLM345FMNBQ7LY4MXPGVH6YDE.jpg",
+      "points": 53,
       "firstPlace": null,
-      "lastWeek": "3",
+      "lastWeek": "5",
       "tied": false
     },
     {
       "rank": 8,
-      "school": "LaGrange Park (Nazareth)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "school": "Riverside-Brookfield",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UXBZWRJ5YZC3ZAFJDWJ62UX2WM.webp",
       "points": 28,
       "firstPlace": null,
       "lastWeek": "RV",
@@ -80,22 +80,22 @@
     },
     {
       "rank": 9,
-      "school": "Pekin",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JFYFDPAA3RHVDOXT2A4EUSESIU.webp",
-      "points": 26,
+      "school": "Libertyville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4YVDHHXXJRABTACNQ7NVFZLTSY.jpg",
+      "points": 18,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     },
     {
       "rank": 10,
-      "school": "Crete-Monee",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YE7D4LD62JEOJAVE7TBDSEDEBE.jpg",
-      "points": 15,
+      "school": "Chicago (King)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4JODRO2YLJFYPDQ7WTL4NORQRM.png",
+      "points": 16,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     }
   ],
-  "updatedAt": "2026-10-09T16:02:27.856Z"
+  "updatedAt": "2026-10-15T22:57:22.971Z"
 }
