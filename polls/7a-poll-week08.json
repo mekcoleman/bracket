@@ -4,7 +4,7 @@
   "week": 8,
   "suppressLastWeek": false,
   "showOthers": true,
-  "others": "Jacobs 11, Wheaton Warrenville South 9, Kenwood 1, Plainfield South 1",
+  "others": "Jacobs 9, Kenwood 7 Glenbard West 6, Plainfield South 2",
   "rankings": [
     {
       "rank": 1,
@@ -19,7 +19,7 @@
       "rank": 2,
       "school": "Chicago (Brother Rice)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JICQMCZIWNCYZNNUNKOV4ZWBA4.png",
-      "points": 124,
+      "points": 123,
       "firstPlace": null,
       "lastWeek": "2",
       "tied": false
@@ -37,65 +37,65 @@
       "rank": 4,
       "school": "Mt. Prospect (Prospect)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PJ3EODDZMJGTDF7LNJ6DUI5VUY.jpg",
-      "points": 88,
+      "points": 99,
       "firstPlace": null,
-      "lastWeek": "5",
+      "lastWeek": "4",
       "tied": false
     },
     {
       "rank": 5,
       "school": "Normal (Community)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7UQO3LSXLFBSLLOLHP4JD2KSOM.webp",
-      "points": 70,
+      "points": 78,
       "firstPlace": null,
-      "lastWeek": "6",
+      "lastWeek": "5",
       "tied": false
     },
     {
       "rank": 6,
       "school": "Downers Grove (North)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AV3ZAEDG4JBY5HCA4WU7JXJFLA.jpg",
-      "points": 54,
+      "points": 73,
       "firstPlace": null,
-      "lastWeek": "4",
+      "lastWeek": "6",
       "tied": false
     },
     {
       "rank": 7,
-      "school": "Glen Ellyn (Glenbard West)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AZD776MYXNBPRC7HZXR2HHESBE.jpg",
-      "points": 53,
+      "school": "Batavia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SAVDKYCFGRD6PATXJAKAOQYSNM.jpg",
+      "points": 51,
       "firstPlace": null,
-      "lastWeek": "T7",
+      "lastWeek": "8",
       "tied": false
     },
     {
       "rank": 8,
-      "school": "Batavia",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SAVDKYCFGRD6PATXJAKAOQYSNM.jpg",
-      "points": 48,
+      "school": "Chicago (St. Rita)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
+      "points": 33,
       "firstPlace": null,
-      "lastWeek": "T7",
+      "lastWeek": "9",
       "tied": false
     },
     {
       "rank": 9,
-      "school": "Chicago (St. Rita)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H4ASWIS2YJFSNKQMPRQYBWK6AE.jpg",
-      "points": 31,
+      "school": "Rockton (Hononegah)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RV26BKUB6ZATJA5LGHD5KRSQSA.webp",
+      "points": 19,
       "firstPlace": null,
-      "lastWeek": "T9",
+      "lastWeek": "10",
       "tied": false
     },
     {
       "rank": 10,
-      "school": "Rockton (Hononegah)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RV26BKUB6ZATJA5LGHD5KRSQSA.webp",
-      "points": 17,
+      "school": "Wheaton (Warrenville South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LPPMGAAPRRF6HO6ADAVDYAP3AE.jpg",
+      "points": 16,
       "firstPlace": null,
       "lastWeek": "RV",
       "tied": false
     }
   ],
-  "updatedAt": "2026-10-08T22:28:07.914Z"
+  "updatedAt": "2026-10-15T22:57:21.534Z"
 }
