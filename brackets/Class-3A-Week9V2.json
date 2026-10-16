@@ -30,43 +30,43 @@
     },
     {
       "seed": 4,
-      "name": "Chicago (UCCS/Woodlawn)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTOR3XOW3NFCNFHLESBKEQTGHQ.jpg"
-    },
-    {
-      "seed": 5,
       "name": "Kankakee (Bishop McNamara)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png"
     },
     {
+      "seed": 5,
+      "name": "Chicago (Phoenix)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/C4M3B66UTFDKJCF7RCXFFQY5WY.jpeg"
+    },
+    {
       "seed": 6,
+      "name": "Chicago (UCCS/Woodlawn)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTOR3XOW3NFCNFHLESBKEQTGHQ.jpg"
+    },
+    {
+      "seed": 7,
       "name": "Durand",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp"
     },
     {
-      "seed": 7,
+      "seed": 8,
       "name": "Johnsburg",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GTHAPAORKNGHRLWFEWA4EUAU6U.jpeg"
     },
     {
-      "seed": 8,
+      "seed": 9,
       "name": "Chicago (Hope Academy)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FE3CQADLVRB2RJHZ4DBBBB4IAU.jpeg"
     },
     {
-      "seed": 9,
+      "seed": 10,
       "name": "Manteno",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZFDK5KQOANEWVEFCWDEPDC4VC4.png"
     },
     {
-      "seed": 10,
+      "seed": 11,
       "name": "Chicago (Dyett)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7CCEUKTL4RHBNCBWZNP7IADVOM.png"
-    },
-    {
-      "seed": 11,
-      "name": "Chicago (Phoenix)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/C4M3B66UTFDKJCF7RCXFFQY5WY.jpeg"
     },
     {
       "seed": 12,
@@ -285,8 +285,8 @@
       "isBye": false,
       "team1": {
         "seed": 9,
-        "name": "Manteno",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZFDK5KQOANEWVEFCWDEPDC4VC4.png",
+        "name": "Chicago (Hope Academy)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FE3CQADLVRB2RJHZ4DBBBB4IAU.jpeg",
         "score": null
       },
       "team2": {
@@ -365,8 +365,8 @@
       "isBye": false,
       "team1": {
         "seed": 10,
-        "name": "Chicago (Dyett)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7CCEUKTL4RHBNCBWZNP7IADVOM.png",
+        "name": "Manteno",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZFDK5KQOANEWVEFCWDEPDC4VC4.png",
         "score": null
       },
       "team2": {
@@ -385,8 +385,8 @@
       "isBye": false,
       "team1": {
         "seed": 11,
-        "name": "Chicago (Phoenix)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/C4M3B66UTFDKJCF7RCXFFQY5WY.jpeg",
+        "name": "Chicago (Dyett)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7CCEUKTL4RHBNCBWZNP7IADVOM.png",
         "score": null
       },
       "team2": {
@@ -440,8 +440,8 @@
       "isBye": true,
       "team1": {
         "seed": 8,
-        "name": "Chicago (Hope Academy)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/FE3CQADLVRB2RJHZ4DBBBB4IAU.jpeg",
+        "name": "Johnsburg",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GTHAPAORKNGHRLWFEWA4EUAU6U.jpeg",
         "score": null
       },
       "team2": null,
@@ -455,8 +455,8 @@
       "isBye": true,
       "team1": {
         "seed": 5,
-        "name": "Kankakee (Bishop McNamara)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
+        "name": "Chicago (Phoenix)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/C4M3B66UTFDKJCF7RCXFFQY5WY.jpeg",
         "score": null
       },
       "team2": null,
@@ -470,8 +470,8 @@
       "isBye": true,
       "team1": {
         "seed": 4,
-        "name": "Chicago (UCCS/Woodlawn)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTOR3XOW3NFCNFHLESBKEQTGHQ.jpg",
+        "name": "Kankakee (Bishop McNamara)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/U6U5MKCK2NOMVK6TZVS2C7IH2M.png",
         "score": null
       },
       "team2": null,
@@ -500,8 +500,8 @@
       "isBye": true,
       "team1": {
         "seed": 7,
-        "name": "Johnsburg",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GTHAPAORKNGHRLWFEWA4EUAU6U.jpeg",
+        "name": "Durand",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp",
         "score": null
       },
       "team2": null,
@@ -515,8 +515,8 @@
       "isBye": true,
       "team1": {
         "seed": 6,
-        "name": "Durand",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5Q3UI5VBBHNZDP7AU63OMMQHI.webp",
+        "name": "Chicago (UCCS/Woodlawn)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YTOR3XOW3NFCNFHLESBKEQTGHQ.jpg",
         "score": null
       },
       "team2": null,
@@ -968,7 +968,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-10-12T19:22:59.293Z",
-  "updatedAt": "2026-10-12T19:22:59.293Z",
-  "editCode": "BT65-LVRG"
+  "createdAt": "2026-10-16T01:11:49.041Z",
+  "updatedAt": "2026-10-16T01:11:49.041Z",
+  "editCode": "VPUH-PQ9M"
 }
