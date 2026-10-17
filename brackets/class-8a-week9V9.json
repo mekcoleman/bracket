@@ -99,33 +99,33 @@
     },
     {
       "seed": 18,
+      "name": "Chicago (Lane)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AL3PKJHUDBHD3DPACLTBIPNWXM.png"
+    },
+    {
+      "seed": 19,
       "name": "Elmhurst (York)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PW2BFKFV6RF3LKJBISCKZKWR4E.jpg"
     },
     {
-      "seed": 19,
+      "seed": 20,
       "name": "Palatine (Fremd)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BPJIFSJRNNE4RARHXFMHMYIR54.webp"
     },
     {
-      "seed": 20,
+      "seed": 21,
       "name": "LaGrange (Lyons)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg"
     },
     {
-      "seed": 21,
+      "seed": 22,
       "name": "Aurora (West)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GP2DQQHW4NFAZGWWKSCMEJFXTI.png"
     },
     {
-      "seed": 22,
+      "seed": 23,
       "name": "Hoffman Estates (Conant)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YIWOPLVOCRCGJFQLG4X7YLSUH4.jpg"
-    },
-    {
-      "seed": 23,
-      "name": "Barrington",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5SZ2NP6USJHPPNQQ4FJNWYS4Z4.png"
     },
     {
       "seed": 24,
@@ -134,18 +134,18 @@
     },
     {
       "seed": 25,
+      "name": "Barrington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5SZ2NP6USJHPPNQQ4FJNWYS4Z4.png"
+    },
+    {
+      "seed": 26,
       "name": "Glenview (Glenbrook South)",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5T5D7QV6IZCQZBGLQXKPE22NMM.webp"
     },
     {
-      "seed": 26,
+      "seed": 27,
       "name": "O'Fallon",
       "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4IQDOHJ6YJAG3K4YGJEFNRSQWI.webp"
-    },
-    {
-      "seed": 27,
-      "name": "Chicago (Lane)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AL3PKJHUDBHD3DPACLTBIPNWXM.png"
     },
     {
       "seed": 28,
@@ -154,13 +154,13 @@
     },
     {
       "seed": 29,
-      "name": "Naperville (Central)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KC4IR72SNBD53PHV4AIDPIBOJM.png"
+      "name": "Evanston",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ETBI3EEBYRH5VBXS3MZWA6XQXA.webp"
     },
     {
       "seed": 30,
-      "name": "Evanston",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ETBI3EEBYRH5VBXS3MZWA6XQXA.webp"
+      "name": "Naperville (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KC4IR72SNBD53PHV4AIDPIBOJM.png"
     },
     {
       "seed": 31,
@@ -214,13 +214,13 @@
     },
     {
       "seed": 41,
-      "name": "Aurora (Waubonsie Valley)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q36OHMPMDRHRHMQGIQNH3JGQCA.png"
+      "name": "Carpentersville (Dundee-Crown)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHDMXVEFQNFAZM44AB3GG2TLC4.webp"
     },
     {
       "seed": 42,
-      "name": "Carpentersville (Dundee-Crown)",
-      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHDMXVEFQNFAZM44AB3GG2TLC4.webp"
+      "name": "Aurora (Waubonsie Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q36OHMPMDRHRHMQGIQNH3JGQCA.png"
     },
     {
       "seed": 43,
@@ -304,8 +304,8 @@
       "isBye": false,
       "team1": {
         "seed": 25,
-        "name": "Glenview (Glenbrook South)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5T5D7QV6IZCQZBGLQXKPE22NMM.webp",
+        "name": "Barrington",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5SZ2NP6USJHPPNQQ4FJNWYS4Z4.png",
         "score": null
       },
       "team2": {
@@ -330,8 +330,8 @@
       },
       "team2": {
         "seed": 41,
-        "name": "Aurora (Waubonsie Valley)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q36OHMPMDRHRHMQGIQNH3JGQCA.png",
+        "name": "Carpentersville (Dundee-Crown)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHDMXVEFQNFAZM44AB3GG2TLC4.webp",
         "score": null
       },
       "winner": null
@@ -344,8 +344,8 @@
       "isBye": false,
       "team1": {
         "seed": 29,
-        "name": "Naperville (Central)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KC4IR72SNBD53PHV4AIDPIBOJM.png",
+        "name": "Evanston",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ETBI3EEBYRH5VBXS3MZWA6XQXA.webp",
         "score": null
       },
       "team2": {
@@ -364,8 +364,8 @@
       "isBye": false,
       "team1": {
         "seed": 20,
-        "name": "LaGrange (Lyons)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg",
+        "name": "Palatine (Fremd)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BPJIFSJRNNE4RARHXFMHMYIR54.webp",
         "score": null
       },
       "team2": {
@@ -404,8 +404,8 @@
       "isBye": false,
       "team1": {
         "seed": 21,
-        "name": "Aurora (West)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GP2DQQHW4NFAZGWWKSCMEJFXTI.png",
+        "name": "LaGrange (Lyons)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JS3GQDEJCFFZZKHLLDGCYGVW2Q.jpg",
         "score": null
       },
       "team2": {
@@ -444,8 +444,8 @@
       "isBye": false,
       "team1": {
         "seed": 18,
-        "name": "Elmhurst (York)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PW2BFKFV6RF3LKJBISCKZKWR4E.jpg",
+        "name": "Chicago (Lane)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AL3PKJHUDBHD3DPACLTBIPNWXM.png",
         "score": null
       },
       "team2": {
@@ -464,8 +464,8 @@
       "isBye": false,
       "team1": {
         "seed": 26,
-        "name": "O'Fallon",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4IQDOHJ6YJAG3K4YGJEFNRSQWI.webp",
+        "name": "Glenview (Glenbrook South)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5T5D7QV6IZCQZBGLQXKPE22NMM.webp",
         "score": null
       },
       "team2": {
@@ -484,14 +484,14 @@
       "isBye": false,
       "team1": {
         "seed": 23,
-        "name": "Barrington",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5SZ2NP6USJHPPNQQ4FJNWYS4Z4.png",
+        "name": "Hoffman Estates (Conant)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YIWOPLVOCRCGJFQLG4X7YLSUH4.jpg",
         "score": null
       },
       "team2": {
         "seed": 42,
-        "name": "Carpentersville (Dundee-Crown)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IHDMXVEFQNFAZM44AB3GG2TLC4.webp",
+        "name": "Aurora (Waubonsie Valley)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q36OHMPMDRHRHMQGIQNH3JGQCA.png",
         "score": null
       },
       "winner": null
@@ -504,8 +504,8 @@
       "isBye": false,
       "team1": {
         "seed": 30,
-        "name": "Evanston",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ETBI3EEBYRH5VBXS3MZWA6XQXA.webp",
+        "name": "Naperville (Central)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/KC4IR72SNBD53PHV4AIDPIBOJM.png",
         "score": null
       },
       "team2": {
@@ -524,8 +524,8 @@
       "isBye": false,
       "team1": {
         "seed": 19,
-        "name": "Palatine (Fremd)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BPJIFSJRNNE4RARHXFMHMYIR54.webp",
+        "name": "Elmhurst (York)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PW2BFKFV6RF3LKJBISCKZKWR4E.jpg",
         "score": null
       },
       "team2": {
@@ -544,8 +544,8 @@
       "isBye": false,
       "team1": {
         "seed": 27,
-        "name": "Chicago (Lane)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AL3PKJHUDBHD3DPACLTBIPNWXM.png",
+        "name": "O'Fallon",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4IQDOHJ6YJAG3K4YGJEFNRSQWI.webp",
         "score": null
       },
       "team2": {
@@ -564,8 +564,8 @@
       "isBye": false,
       "team1": {
         "seed": 22,
-        "name": "Hoffman Estates (Conant)",
-        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YIWOPLVOCRCGJFQLG4X7YLSUH4.jpg",
+        "name": "Aurora (West)",
+        "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GP2DQQHW4NFAZGWWKSCMEJFXTI.png",
         "score": null
       },
       "team2": {
@@ -967,7 +967,7 @@
       "winner": null
     }
   ],
-  "createdAt": "2026-10-17T18:41:35.901Z",
-  "updatedAt": "2026-10-17T18:41:35.901Z",
-  "editCode": "RFRS-4AWM"
+  "createdAt": "2026-10-17T22:01:44.845Z",
+  "updatedAt": "2026-10-17T22:01:44.845Z",
+  "editCode": "FX3X-PK6T"
 }
