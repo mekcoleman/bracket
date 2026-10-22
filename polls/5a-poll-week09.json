@@ -1,0 +1,101 @@
+{
+  "class": "5A",
+  "title": "Class 5A Illinois Media Poll",
+  "week": 9,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "King 15, Crete-Monee 7, St. Francis 4",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Mahomet-Seymour",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CWLMV7OWMNDRDOAER3NUHE2AWM.webp",
+      "points": 134,
+      "firstPlace": 10,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Kankakee",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/WNOIKR3OJZAABFZRALWUW7UMIE.jpg",
+      "points": 114,
+      "firstPlace": 1,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Chicago (Morgan Park)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4HADLLCA2JECZCYP3H7H3BEMAA.png",
+      "points": 104,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "New Lenox (Providence)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/5NI3EYH6SJEU5IQWE47WDE7WXU.jpg",
+      "points": 95,
+      "firstPlace": 3,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Morton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6GW3ARBVVJGALF5XX7HFSDW27I.webp",
+      "points": 85,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Antioch",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AK6PHFIGJRGHXLXKXMEOTO2S4U.jpg",
+      "points": 72,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Troy (Triad)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VAWPCWWDTNFKVMGVUKESLINJK4.webp",
+      "points": 59,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Maple Park (Kaneland)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3WVD3MBV2NFJVC2UKYMK5SWXQI.jpg",
+      "points": 41,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Carbondale",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YWX3N4RHCJGQ7C6G57NO6WUTXU.jpg",
+      "points": 27,
+      "firstPlace": null,
+      "lastWeek": "NR",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Cary-Grove",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/XZHHYRWF6BGT3PTQ3N37PIRKZY.jpg",
+      "points": 20,
+      "firstPlace": null,
+      "lastWeek": "10T",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-10-22T18:38:14.822Z"
+}
