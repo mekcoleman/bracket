@@ -1,0 +1,101 @@
+{
+  "class": "1A",
+  "title": "Class 1A Illinois Media Poll",
+  "week": 9,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Oakwood 2, Tuscola 2, Fulton 1, Wethersfield 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Mount Sterling (Brown County)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/6VEOAXR66VDTDFCBSBFYLYDT6U.webp",
+      "points": 119,
+      "firstPlace": 11,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Stockton",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DADZFJZMIRBVRCTKGKJN5BVML4.webp",
+      "points": 97,
+      "firstPlace": 1,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Hardin (Calhoun)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ELA4EAM76ZHCBN7BADTDUZYGNM.webp",
+      "points": 95,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Heyworth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/3EEFX3VXGRCT7END2RJXSVBQ5E.webp",
+      "points": 94,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Camp Point (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/D5W7LNSHO5C5FONMPBBLWUJ3BY.png",
+      "points": 72,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Lena-Winslow",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ERNR5TZWMFCLPHLFHIIMHLAAHU.jpg",
+      "points": 51,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Taylor Ridge (Rockridge)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/JWVVUN3SNNEQXMPWV24B5JY2Z4.png",
+      "points": 44,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Clifton (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZRALPLZYORCD3AKCYJKS42L56A.jpeg",
+      "points": 37,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Forreston",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/VZF2NYKEBVHNBFYERNHOEZMVKA.jpg",
+      "points": 32,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Arthur",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/IKQR67HMEFAJ5CPZWW5PR6Z2WE.png",
+      "points": 13,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-10-22T18:38:20.047Z"
+}
