@@ -1,0 +1,101 @@
+{
+  "class": "4A",
+  "title": "Class 4A Illinois Media Poll",
+  "week": 9,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Metamora 11, MacArthur 2. Sterling 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Morris",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4FQX6X32HZFUDLRKLGA3E7KBIY.jpg",
+      "points": 116,
+      "firstPlace": 10,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Lombard (Montini)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/MMZJD4A4FRGXTMEJTCGRGGTKBQ.jpg",
+      "points": 96,
+      "firstPlace": 3,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Springfield (Sacred Heart Griffin)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/ZLOW7Z2SSJHT3LW6QOPSO2NVCU.gif",
+      "points": 90,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Rochester",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DI27VO7HVBEUFIGIRMXAWEC76Q.webp",
+      "points": 84,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Centralia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/NM3Y2DQNSRDE7GOFJBSY2FLB6U.jpeg",
+      "points": 76,
+      "firstPlace": 1,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Coal City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/M2JSO5RP2VELBCDL6R2BCBVWIM.jpg",
+      "points": 65,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Carterville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7LZ3OZTX65FZREV3RY5NTOHVRY.png",
+      "points": 45,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "Breese (Central)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/AW55MK45XZFHXCXKPITC7JD374.png",
+      "points": 43,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Cahokia",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/SRDH3LQ6ONCLVAGCZSQBCUIPDM.png",
+      "points": 16,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Jacksonville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/CDP6R43XRFGO3EDJRU3Z5XLCOM.webp",
+      "points": 15,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-10-22T18:38:15.815Z"
+}
