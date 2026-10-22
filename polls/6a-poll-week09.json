@@ -1,0 +1,101 @@
+{
+  "class": "6A",
+  "title": "Class 6A Illinois Media Poll",
+  "week": 9,
+  "suppressLastWeek": false,
+  "showOthers": true,
+  "others": "Joliet Catholic 21, Wheaton North 2, Grant 1",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "Geneva",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/Q3ZAQBU6IFGVHL3FCBZR36QP2E.jpg",
+      "points": 130,
+      "firstPlace": 13,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Machesney Park (Harlem)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/HD5JEEA52NAI7EL6UGLDLLAVBU.webp",
+      "points": 114,
+      "firstPlace": null,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Oak Park (Fenwick)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RXLA6QT4P5GL5NNBM5MLYFWI3Y.jpg",
+      "points": 93,
+      "firstPlace": null,
+      "lastWeek": "4T",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Dunlap",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/H5JO5QC6SFBZ7GHOJJFKUNPVZA.webp",
+      "points": 86,
+      "firstPlace": null,
+      "lastWeek": "4T",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Normal (Community West)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/PPLJOOUG7JEXFO7BW67G2G5UUY.webp",
+      "points": 86,
+      "firstPlace": null,
+      "lastWeek": "2",
+      "tied": true
+    },
+    {
+      "rank": 6,
+      "school": "Rockton (Hononegah)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/RV26BKUB6ZATJA5LGHD5KRSQSA.webp",
+      "points": 55,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Riverside-Brookfield",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/UXBZWRJ5YZC3ZAFJDWJ62UX2WM.webp",
+      "points": 39,
+      "firstPlace": null,
+      "lastWeek": "8",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "LaGrange Park (Nazareth)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/OY5LOIDJS5FHZKZME2VPPMWAOA.webp",
+      "points": 33,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Libertyville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/4YVDHHXXJRABTACNQ7NVFZLTSY.jpg",
+      "points": 18,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Wheaton (Warrenville South)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LPPMGAAPRRF6HO6ADAVDYAP3AE.jpg",
+      "points": 27,
+      "firstPlace": null,
+      "lastWeek": "10",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-10-22T18:38:13.778Z"
+}
