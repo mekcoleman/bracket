@@ -1,0 +1,101 @@
+{
+  "class": "2A",
+  "title": "Class 2A Illinois Media Poll",
+  "week": 9,
+  "suppressLastWeek": false,
+  "showOthers": false,
+  "others": "",
+  "rankings": [
+    {
+      "rank": 1,
+      "school": "El Paso-Gridley",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/GOC4O5UUYJDT7HM5EYQNVE23PI.webp",
+      "points": 121,
+      "firstPlace": 8,
+      "lastWeek": "2",
+      "tied": false
+    },
+    {
+      "rank": 2,
+      "school": "Wilmington",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/DN6EWWXFIBGGFE4C7HU7CO6QX4.jpg",
+      "points": 114,
+      "firstPlace": 4,
+      "lastWeek": "1",
+      "tied": false
+    },
+    {
+      "rank": 3,
+      "school": "Port Byron (Riverdale)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/K3J5RNHM7NFNZGAUMP5OLZ6VTA.webp",
+      "points": 97,
+      "firstPlace": null,
+      "lastWeek": "4",
+      "tied": false
+    },
+    {
+      "rank": 4,
+      "school": "Maroa-Forsyth",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/LGQRJVGBEVFX3KHUV4PQDUAHAQ.webp",
+      "points": 86,
+      "firstPlace": 1,
+      "lastWeek": "3",
+      "tied": false
+    },
+    {
+      "rank": 5,
+      "school": "Johnston City",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7ZFUGVLBORDSLH63WQMDK7KNFE.webp",
+      "points": 81,
+      "firstPlace": null,
+      "lastWeek": "6",
+      "tied": false
+    },
+    {
+      "rank": 6,
+      "school": "Downs (Tri-Valley)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/25DVZJNGYFCSJDSXC2KNM6JOBI.webp",
+      "points": 76,
+      "firstPlace": null,
+      "lastWeek": "5",
+      "tied": false
+    },
+    {
+      "rank": 7,
+      "school": "Aurora (Christian)",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/YP6CRWDH5NGULLNJYLIY7PKYKE.png",
+      "points": 45,
+      "firstPlace": null,
+      "lastWeek": "7",
+      "tied": false
+    },
+    {
+      "rank": 8,
+      "school": "West Frankfort",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/BSN7TDCHGFGKPLRLQTJWQLAW5I.webp",
+      "points": 40,
+      "firstPlace": null,
+      "lastWeek": "9",
+      "tied": false
+    },
+    {
+      "rank": 9,
+      "school": "Nashville",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/F2ROE6PYB5F77AGCWDZMR6DYJU.webp",
+      "points": 31,
+      "firstPlace": null,
+      "lastWeek": "10T",
+      "tied": false
+    },
+    {
+      "rank": 10,
+      "school": "Flora",
+      "logo": "https://cloudfront-us-east-1.images.arcpublishing.com/shawmedia/7FDIQ52ZJBAZVHQP4TG4R7AIAQ.webp",
+      "points": 14,
+      "firstPlace": null,
+      "lastWeek": "RV",
+      "tied": false
+    }
+  ],
+  "updatedAt": "2026-10-22T18:38:17.990Z"
+}
